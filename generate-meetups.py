@@ -11,9 +11,9 @@ REGION_ORDER = [
 ]
 
 MEETUP_FILE_CANDIDATES = [
+    'UK-Bitcoin-Meetups-Directory.md',
     '../bill-mission-control/UK-Bitcoin-Meetups-Directory.md',
     '../UK-Bitcoin-Meetups-Directory.md',
-    'UK-Bitcoin-Meetups-Directory.md',
 ]
 
 

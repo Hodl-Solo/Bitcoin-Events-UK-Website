@@ -1,1 +1,160 @@
-../bill-mission-control/UK-Bitcoin-Meetups-Directory.md
+---
+title: UK Bitcoin Meetups Directory
+type: directory
+last_updated: 2026-02-23
+---
+
+# UK Bitcoin Meetups Directory
+
+> Use this file to manage meetup details. Changes here will be reflected in the website.
+
+---
+
+## How to Edit
+
+- Edit meetup details below
+- Use the format: `| Name | Region | Day/Schedule | Venue | Status | Links |`
+- Status options: `Active` (default), `Paused`, `Remove`
+- Links format: `[Website](url)`, `[Twitter](url)`, `[Telegram](url)`, `[Nostr](npub)`
+
+---
+
+## London
+
+| Name                        | Day/Schedule                 | Venue                                | Status | Links                                                                                                                                                             |
+| --------------------------- | ---------------------------- | ------------------------------------ | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Battersea Bitcoiners        | Thursday · 18:00             | Pintus (Bitcoin accepted)            | Active | [Telegram](https://t.me/batterseabitcoiners)                                                                                                                      |
+| Cyphermunk House            | Weekly · 18:30               | 9 Northington Street WC1N 2JF        | Active | [Website](https://www.cyphermunkhouse.com/) · [Twitter](https://x.com/CyphermunkHouse) · [Nostr](npub1hvqhft3p5m9vrg9fez62cm4lmftvu5tqtsc4kxpyju9uya0hywdq3ny4jq) |
+| London Bitcoin Space        | Bi-weekly Wednesdays · 18:30 | Old Bank of England                  | Active | [Website](https://londonbitcoinspace.com/) · [Twitter](https://x.com/ldnbtcspace) · [Telegram](https://t.me/LondonBitcoinSpace)                                   |
+| Bitcoin Walk London         | Saturdays · 12:00            | Hyde Park                            | Active | [Website](https://bitcoinwalk.org/london/)                                                                                                                        |
+| City & Financial Bitcoiners | Quarterly · 17:30            | BRIX LDN                             | Active | [Eventbrite](https://www.eventbrite.co.uk/e/city-and-financial-bitcoiners-february-meetup-tickets-1980540528034)                                                  |
+| OPA Central London Bitcoin  | Monthly                      | Century Club, W1D 6LQ                | Active | [Twitter](https://x.com/atotheb1980)                                                                                                                              |
+| Faith and Bitcoin           | Monthly                      | St George the Martyr Church, Holborn | Active | [Twitter](https://x.com/faithandbitcoin) · [Telegram](https://t.me/FaithandBitcoin)                                                                               |
+| Women of Bitcoin UK         | Quarterly                    | London                               | Active | [Twitter](https://x.com/BitcoinWomen21) · [Telegram](https://t.me/WomenofBitcoinUK)                                                                               |
+| Tooting Market Bitcoin Hub  | Regular                      | Tooting Market, Mezzanine Bar        | Paused | [Telegram](https://t.me/TootingBitcoin) · [Twitter](https://x.com/jcastweet)                                                                                      |
+
+---
+
+## South
+
+| Name                        | Day/Schedule            | Venue                                  | Status | Links                                                                                                                         |
+| --------------------------- | ----------------------- | -------------------------------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| Brighton Bitcoin            | Last Wednesday · 20:00  | Indian Summer (Bitcoin accepted)       | Active | [Telegram](https://t.me/brighton_btc) · [Twitter](https://x.com/brighton_btc)                                                 |
+| Bitcoin Beach Bournemouth   | Thursday · 19:30        | Chaplins Cellar Bar (Bitcoin accepted) | Active | [Website](https://bournemouthbtc.com/) · [Twitter](https://x.com/BtcBeachBmouth) · [Telegram](https://t.me/+vNXGbIGBTcxjMmRk) |
+| Berkshire Bitcoiners        | Monthly · 19:00         | The Volunteer, Theale                  | Active | [Twitter](https://x.com/bitcoinshire) · [Telegram](https://t.me/berkshirebitcoiners)                                          |
+| Chilterns Bitcoin Hub       | Monthly · 19:00         | Various venues                         | Active | [Website](https://www.chilternsbitcoinhub.co.uk/) · [Telegram](https://t.me/ChilternsBTC)                                     |
+| Kent Bitcoin                | Monthly                 | Various venues                         | Active | [Website](http://kentbitcoin.com)                                                                                             |
+| Suffolk Bitcoin             | Last Sunday · 11:00     | Suffolk Jungle Room                    | Remove | [Twitter](https://x.com/SuffolkBitcoin) · [Linktree](https://linktr.ee/suffolkbitcoin)                                        |
+| Cambridge Bitcoin           | Second Thursday · 19:00 | Cambridge                              | Active | [Twitter](https://x.com/CambridgeBTC) · [Meetup](https://www.meetup.com/cambridge-bitcoin/)                                   |
+| Cambs Bitcoin               | Monthly                 | Cambridge                              | Active | [Twitter](https://x.com/cambsbtc) · [Telegram](https://t.me/CambsBitcoin)                                                     |
+| Canterbury Bitcoin          | Monthly · 19:00         | Millers Arms                           | Active | [Meetup](https://www.meetup.com/canterbury-bitcoin-meetup-group) · [Telegram](https://t.me/+7q8u-X1eaSQ5NjRk)                 |
+| Cornish Bitcoiners          | Monthly                 | Cornwall                               | Active | [Telegram](https://t.me/CornishBitcoiners)                                                                                    |
+| Devon Bitcoiners            | Ad-hoc                  | Devon                                  | Active | [Telegram](https://t.me/devonbitcoiners)                                                                                      |
+| Bitcoin Surrey              | Monthly                 | Various                                | Active | [Twitter](https://x.com/bitcoinsurrey) · [Telegram](https://t.me/bitcoinsurrey)                                               |
+| Portsmouth Bitcoin          | Monthly                 | The One Eyed Dog, Southsea             | Active | [Twitter](https://x.com/portsmouth_btc) · [Telegram](https://t.me/portsmouth_btc)                                             |
+| Wiltshire Bitcoin           | Monthly                 | Salisbury area                         | Active | [Twitter](https://x.com/WiltshireBTC) · [Telegram](https://t.me/WiltshireBTC)                                                 |
+| Southampton Satoshi Society | Monthly                 | Southampton                            | Active | [Twitter](https://x.com/SatsSociety) · [Telegram](https://t.me/TheSatoshiSociety)                                             |
+
+---
+
+## Midlands
+
+| Name | Day/Schedule | Venue | Status | Links |
+|------|--------------|-------|--------|-------|
+| Brum Bitcoin & Beer | Third Thursday · 19:00 | The Anchor/The Wellington, Digbeth | Active | [Twitter](https://x.com/brumbitcoin) |
+| Bitcoin Nottingham | Monthly · 18:30 | Carlton Town Football Club | Active | [Website](https://bitcoinnottingham.org/notts-bitcoin-meetups/) · [Twitter](https://x.com/NottmBitcoin) · [Telegram](https://t.me/bitcoin_nottingham) |
+| Shropshire Bitcoiners | Third Wednesday · 19:00 | Tap n Can, Shrewsbury | Active | [Twitter](https://x.com/shropsbitcoin) |
+| Lincolnshire Bitcoin | First Thursday · 19:30 | Treaty of Commerce, Lincoln | Active | [Twitter](https://x.com/lincsbitcoin) · [Telegram](https://t.me/LincsBitcoin) |
+| Northamptonshire Bitcoin Network | Monthly · 19:30 | Various venues | Active | [Website](http://northantsbitcoin.com) · [Twitter](https://x.com/NorthantsBTC) |
+| Leamington Spa Bitcoin | Last Wednesday · 19:00 | The Star & Garter | Active | [Twitter](https://x.com/leambitcoin) · [Telegram](https://t.me/leambitcoin) |
+| Leicester Bitcoin Network | Monthly | Various venues | Active | [Twitter](https://x.com/leicester_btc) · [Telegram](https://t.me/LeicesterBitcoin) |
+| Sutton Coldfield Bitcoin | Monthly | Sutton Coldfield | Active | [Telegram](https://t.me/SuttonColdBTC) · [Twitter](https://x.com/BitcoinBoomer12) |
+| BTC Gloucestershire | Monthly | The Tall Ship pub | Active | [Twitter](https://x.com/BTCGlos) · [Telegram](https://t.me/btcGlos) |
+| Oxford Bitcoin (OxBit) | Quarterly | Oxford | Active | [Twitter](https://x.com/OxBitMeetUp) |
+
+---
+
+## North
+
+| Name | Day/Schedule | Venue | Status | Links |
+|------|--------------|-------|--------|-------|
+| Leeds Bitcoin Network | First Sunday · 13:00 | Global Tribe Cafe | Active | [Twitter](https://x.com/leedsbtc) · [Telegram](https://t.me/LeedsBTC) · [Meetup](https://www.meetup.com/leeds-bitcoin-network/) |
+| Newcastle Bitcoin Coffee | Friday · 10:00-12:00 | Pumphreys Coffee Centre | Active | [Meetup](https://meetu.ps/e/PqtTh/v822r/i) · [Twitter](https://x.com/bitcoinncl) |
+| Manchester Bitcoin | Monthly · 19:00 | Joshua Brooks | Active | [Website](https://www.bitcoinmanchester.org.uk/) · [Twitter](https://x.com/bitcoin_mcr) · [Telegram](https://telegram.me/joinchat/C-JzxAqUBzsuN5MCNxV4dQ) |
+| Preston Bitcoin | Monthly · 19:00 | Various venues | Active | [Website](https://prestonbtc.co.uk) · [Twitter](https://x.com/prestonbtcmeet) · [Telegram](https://t.me/+a4lufYtIwwBmOGE0) |
+| Liverpool Bitcoin | Monthly · 18:30 | The Railway Pub | Active | [Twitter](https://x.com/bitcoinlpool) · [Telegram](https://t.me/BitcoinLiverpoolUK) |
+| Sheffield Bitcoin | Monthly · 13:00 | The Deli, Kelham | Active | [Website](https://sheffieldbitcoin.org/events/) · [Twitter](https://x.com/btcsheffield21) · [Telegram](https://t.me/BitcoinSheffield) |
+| The Northern Bitcoin Collective | Monthly | Stoke-on-Trent area | Active | [Twitter](https://x.com/northernBTC) · [Telegram](https://t.me/northernBTC) |
+| Bitcoin Derby | Monthly | Ye Olde Dolphin | Active | [Twitter](https://x.com/BTCDerby) · [Telegram](https://t.me/+Wv-hARcM3jExYjU0) |
+| Bitcoin Wirral | Monthly | West Kirby | Active | [Website](https://www.bitcoinwirral.org/) · [Twitter](https://x.com/BitcoinWirral21) · [Telegram](https://t.me/BitcoinWirral) |
+| Norfolk Bitcoin | Monthly | Norfolk | Active | [Twitter](https://x.com/norfolkbitcoin) |
+
+---
+
+## Scotland
+
+| Name | Day/Schedule | Venue | Status | Links |
+|------|--------------|-------|--------|-------|
+| Bitcoin Walk Edinburgh | Saturday · 12:00 | Arthur's Seat | Active | [Website](https://bitcoinwalk.org/) · [Twitter](https://x.com/bitcoinwalkorg) · [Telegram](https://t.me/+Av2MVsJqA802NzQ0) |
+| Bitcoin Edinburgh | Monthly | Edinburgh | Active | [Website](https://bitcoinedinburgh.com) · [Twitter](https://x.com/BTCedinburgh) · [Telegram](https://t.co/5chDMKtuV4) |
+| Glasgow Bitcoin | Monthly · 18:00 | The Piper Bar | Active | [Twitter](https://x.com/glasgowbitcoin) · [Telegram](https://t.me/+WTZQBjGXdME0MmJk) |
+| Glasgow Bitcoin Group | Monthly | + Bitcoin Power workshop | Active | [Twitter](https://x.com/glasgow_bitcoin) · [Telegram](https://t.me/+bx0VvoucPIpjNTY0) · [Meetup](https://meetu.ps/c/3zlZY/v822r/a) |
+| Dundee Bitcoin | Second Monday · 17:30 | The Wine Press | Active | [Twitter](https://x.com/dundeebitcoin) |
+| Aberdeen Bitcoin | Monthly | Aberdeen | Active | [Twitter](https://x.com/aberdeenbitcoin) |
+| Bitcoin Power - Ayrshire | Monthly | Ayr | Active | [Twitter](https://x.com/ayrshirebitcoin) · [Meetup](https://www.meetup.com/bitcoin-power/events/311034050/) |
+
+---
+
+## Wales
+
+| Name | Day/Schedule | Venue | Status | Links |
+|------|--------------|-------|--------|-------|
+| Bitcoin Wales | Monthly · 18:00 | ZeroDegrees Bar, Cardiff | Active | [Twitter](https://x.com/bitcoinwales) · [Meetup](https://www.meetup.com/all-about-bitcoin-meetup-group-wales/) · [Telegram](https://t.me/+vGLkDDEST2k1NWJk) |
+
+---
+
+## Northern Ireland
+
+| Name | Day/Schedule | Venue | Status | Links |
+|------|--------------|-------|--------|-------|
+| Belfast Bitcoin Meetup | First Tuesday · 19:00 | The John Hewitt, Belfast | Active | [Website](https://nibitcoin.com) · [Twitter](https://x.com/nibitcoinnews) · [Telegram](https://t.me/joinchat/1q2NbDYB2qMxNmQ0) |
+| IOM Bitcoin Community | - | Isle of Man | Active | [Twitter](https://x.com/coincornermolly) · [Telegram](https://t.me/IOMBitcoiners) |
+
+---
+
+## Ireland
+
+| Name | Day/Schedule | Venue | Status | Links |
+|------|--------------|-------|--------|-------|
+| Dublin Bitcoiners | Second Saturday · 19:00 | The International Bar / Palace Bar | Active | [Website](https://www.dublinbitcoiners.com) · [Twitter](https://x.com/dairebtc) |
+| Limerick Bitcoin | Monthly | Limerick | Active | [Twitter](https://x.com/LimerickBitcoin) · [Telegram](https://t.me/LimerickBitcoin) |
+| Bitcoin Hideaway | - | County Offaly | Active | [Website](http://bitcoinhideaway.com) · [Twitter](https://x.com/bitcoinhideaway) · [Telegram](https://t.me/cultof21) |
+| North West Bitcoin Hub | - | County Derry/Tyrone/Donegal | Active | [Twitter](https://x.com/nw_bitcoinhub) |
+
+---
+
+## Special Events
+
+| Name | Day/Schedule | Venue | Status | Links |
+|------|--------------|-------|--------|-------|
+| Real Bedford FC | Home games (Saturdays) | McMullen Park, Bedford | Active | [Website](https://www.realbedford.com/) · [Telegram](https://t.me/realbedford) · [Twitter](https://x.com/realbedford) |
+| Bitcoinology | Monthly | Cyphermunk House | Active | [Meetup](https://www.meetup.com/Bitcoinology/) · [Twitter](https://x.com/bitcoinology271) |
+| Lake District BTC | Adventures | Lake District | Active | [Twitter](https://x.com/lakedistrictbtc) · [Telegram](https://t.me/LakeDistrict_BTC) |
+| Bitcoin Bristol Beer Social | 21st of month | Rotating venues | Active | [Twitter](https://x.com/BitcoinBRS) · [Nostr](npub103a6vk43crw497dlaptwfmhctxqu22mwepshjcvvp29fzwrhtx4q675n6p) |
+
+---
+
+## Tags for Filtering
+
+```obsidian
+#meetup/london #meetup/south #meetup/midlands #meetup/north #meetup/scotland #meetup/wales #meetup/northern-ireland #meetup/ireland
+```
+
+---
+
+## Notes
+
+- Total: 64 meetup groups
+- Status options: Active (default), Paused, Remove
+- Last updated: 2026-02-23
+- Source: `/notes/meetups/*.md`
