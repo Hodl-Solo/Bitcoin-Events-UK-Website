@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Generate Bitcoin Events UK directory HTML from Obsidian master list."""
 
-import os
 import re
 import sys
 from pathlib import Path
@@ -42,18 +41,22 @@ def parse_table_markdown(text: str):
                 continue
 
             name, schedule, venue, status = cols[:4]
-            links = cols[4] if len(cols) > 4 else ''
-            status_value = status.lower()
+            links_cell = cols[4] if len(cols) > 4 else ''
+            status_value = status.strip().lower()
 
             if status_value != 'active':
                 continue
 
-            description = schedule
-            if venue and venue not in schedule:
-                description = f"{schedule} · {venue}" if schedule else venue
+            description = schedule.strip()
+            venue = venue.strip()
+            if venue and venue not in description:
+                description = f"{description} · {venue}" if description else venue
+
+            link_matches = re.findall(r'\[([^\]]+)\]\(([^)]+)\)', links_cell)
+            links = [{'label': label, 'url': url} for label, url in link_matches]
 
             meetups.append({
-                'name': name,
+                'name': name.strip(),
                 'description': description,
                 'links': links,
             })
@@ -80,10 +83,18 @@ def build_directory_html(regions: dict[str, list[dict]]):
             <ul class="meetup-list">''')
 
         for meetup in meetups:
+            links_html = ''
+            if meetup['links']:
+                chips = ''.join(
+                    f"<a href=\"{link['url']}\" target=\"_blank\" rel=\"noopener\" class=\"link-chip\">{link['label']}</a>"
+                    for link in meetup['links']
+                )
+                links_html = f"\n                    <div class=\"meetup-links\">{chips}</div>"
+
             html_parts.append(f'''
                 <li class="meetup-item">
                     <div class="meetup-name">{meetup['name']}<span class="status-tag status-active">Active</span></div>
-                    <div class="meetup-schedule">{meetup['description']}</div>
+                    <div class="meetup-schedule">{meetup['description']}</div>{links_html}
                 </li>''')
 
         html_parts.append('''
@@ -97,7 +108,6 @@ def update_index_html(generated_html: str, active_total: int):
     index_path = Path('index.html')
     index_html = index_path.read_text()
 
-    # Replace directory grid
     index_html = re.sub(
         r'<div class="directory-grid">.*?</div>\s*</main>',
         f'<div class="directory-grid">\n{generated_html}\n        </div>\n    </main>',
@@ -105,7 +115,6 @@ def update_index_html(generated_html: str, active_total: int):
         flags=re.DOTALL
     )
 
-    # Update stats number (first occurrence)
     index_html = re.sub(
         r'<div class="stats-number">\d+</div>',
         f'<div class="stats-number">{active_total}</div>',
