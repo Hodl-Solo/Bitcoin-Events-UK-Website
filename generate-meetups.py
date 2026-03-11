@@ -6,8 +6,15 @@ import sys
 from pathlib import Path
 
 REGION_ORDER = [
-    'London', 'South', 'Midlands', 'North',
-    'Scotland', 'Wales', 'Northern Ireland', 'Ireland'
+    'London',
+    'South',
+    'Midlands',
+    'North',
+    'Scotland',
+    'Wales',
+    'Northern Ireland',
+    'Ireland',
+    'Special Events',
 ]
 
 MEETUP_FILE_CANDIDATES = [
