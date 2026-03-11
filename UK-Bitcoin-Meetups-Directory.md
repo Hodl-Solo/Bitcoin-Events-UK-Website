@@ -25,10 +25,10 @@ last_updated: 2026-02-23
 | --------------------------- | ---------------------------- | ------------------------------------ | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Battersea Bitcoiners        | Thursday · 18:00             | Pintus (Bitcoin accepted)            | Active | [Telegram](https://t.me/batterseabitcoiners)                                                                                                                      |
 | Cyphermunk House            | Weekly · 18:30               | 9 Northington Street WC1N 2JF        | Active | [Website](https://www.cyphermunkhouse.com/) · [Twitter](https://x.com/CyphermunkHouse) · [Nostr](npub1hvqhft3p5m9vrg9fez62cm4lmftvu5tqtsc4kxpyju9uya0hywdq3ny4jq) |
-| London Bitcoin Space        | Bi-weekly Wednesdays · 18:30 | Old Bank of England                  | Active | [Website](https://londonbitcoinspace.com/) · [Twitter](https://x.com/ldnbtcspace) · [Telegram](https://t.me/LondonBitcoinSpace)                                   |
+| London Bitcoin Space        | Bi-weekly Wednesdays · 18:30 | Old Bank of England                  | Paused | [Website](https://londonbitcoinspace.com/) · [Twitter](https://x.com/ldnbtcspace) · [Telegram](https://t.me/LondonBitcoinSpace)                                   |
 | Bitcoin Walk London         | Saturdays · 12:00            | Hyde Park                            | Active | [Website](https://bitcoinwalk.org/london/)                                                                                                                        |
 | City & Financial Bitcoiners | Quarterly · 17:30            | BRIX LDN                             | Active | [Eventbrite](https://www.eventbrite.co.uk/e/city-and-financial-bitcoiners-february-meetup-tickets-1980540528034)                                                  |
-| OPA Central London Bitcoin  | Monthly                      | Century Club, W1D 6LQ                | Active | [Twitter](https://x.com/atotheb1980)                                                                                                                              |
+| OPA Central London Bitcoin  | Monthly                      | Century Club, W1D 6LQ                | Paused | [Twitter](https://x.com/atotheb1980)                                                                                                                              |
 | Faith and Bitcoin           | Monthly                      | St George the Martyr Church, Holborn | Active | [Twitter](https://x.com/faithandbitcoin) · [Telegram](https://t.me/FaithandBitcoin)                                                                               |
 | Women of Bitcoin UK         | Quarterly                    | London                               | Active | [Twitter](https://x.com/BitcoinWomen21) · [Telegram](https://t.me/WomenofBitcoinUK)                                                                               |
 | Tooting Market Bitcoin Hub  | Regular                      | Tooting Market, Mezzanine Bar        | Paused | [Telegram](https://t.me/TootingBitcoin) · [Twitter](https://x.com/jcastweet)                                                                                      |
@@ -44,14 +44,14 @@ last_updated: 2026-02-23
 | Berkshire Bitcoiners        | Monthly · 19:00         | The Volunteer, Theale                  | Active | [Twitter](https://x.com/bitcoinshire) · [Telegram](https://t.me/berkshirebitcoiners)                                          |
 | Chilterns Bitcoin Hub       | Monthly · 19:00         | Various venues                         | Active | [Website](https://www.chilternsbitcoinhub.co.uk/) · [Telegram](https://t.me/ChilternsBTC)                                     |
 | Kent Bitcoin                | Monthly                 | Various venues                         | Active | [Website](http://kentbitcoin.com)                                                                                             |
-| Suffolk Bitcoin             | Last Sunday · 11:00     | Suffolk Jungle Room                    | Remove | [Twitter](https://x.com/SuffolkBitcoin) · [Linktree](https://linktr.ee/suffolkbitcoin)                                        |
+| Suffolk Bitcoin             | Last Sunday · 11:00     | Suffolk Jungle Room                    | Delete | [Twitter](https://x.com/SuffolkBitcoin) · [Linktree](https://linktr.ee/suffolkbitcoin)                                        |
 | Cambridge Bitcoin           | Second Thursday · 19:00 | Cambridge                              | Active | [Twitter](https://x.com/CambridgeBTC) · [Meetup](https://www.meetup.com/cambridge-bitcoin/)                                   |
 | Cambs Bitcoin               | Monthly                 | Cambridge                              | Active | [Twitter](https://x.com/cambsbtc) · [Telegram](https://t.me/CambsBitcoin)                                                     |
 | Canterbury Bitcoin          | Monthly · 19:00         | Millers Arms                           | Active | [Meetup](https://www.meetup.com/canterbury-bitcoin-meetup-group) · [Telegram](https://t.me/+7q8u-X1eaSQ5NjRk)                 |
-| Cornish Bitcoiners          | Monthly                 | Cornwall                               | Active | [Telegram](https://t.me/CornishBitcoiners)                                                                                    |
-| Devon Bitcoiners            | Ad-hoc                  | Devon                                  | Active | [Telegram](https://t.me/devonbitcoiners)                                                                                      |
+| Cornish Bitcoiners          | Monthly                 | Cornwall                               | Paused | [Telegram](https://t.me/CornishBitcoiners)                                                                                    |
+| Devon Bitcoiners            | Ad-hoc                  | Devon                                  | Paused | [Telegram](https://t.me/devonbitcoiners)                                                                                      |
 | Bitcoin Surrey              | Monthly                 | Various                                | Active | [Twitter](https://x.com/bitcoinsurrey) · [Telegram](https://t.me/bitcoinsurrey)                                               |
-| Portsmouth Bitcoin          | Monthly                 | The One Eyed Dog, Southsea             | Active | [Twitter](https://x.com/portsmouth_btc) · [Telegram](https://t.me/portsmouth_btc)                                             |
+| Portsmouth Bitcoin          | Monthly                 | Panero Lounge                          | Active | [Twitter](https://x.com/btc_portsmouth) · [Telegram](https://t.me/+6bm49ocvWU5hNGM8))                                             |
 | Wiltshire Bitcoin           | Monthly                 | Salisbury area                         | Active | [Twitter](https://x.com/WiltshireBTC) · [Telegram](https://t.me/WiltshireBTC)                                                 |
 | Southampton Satoshi Society | Monthly                 | Southampton                            | Active | [Twitter](https://x.com/SatsSociety) · [Telegram](https://t.me/TheSatoshiSociety)                                             |
 
@@ -76,18 +76,18 @@ last_updated: 2026-02-23
 
 ## North
 
-| Name | Day/Schedule | Venue | Status | Links |
-|------|--------------|-------|--------|-------|
-| Leeds Bitcoin Network | First Sunday · 13:00 | Global Tribe Cafe | Active | [Twitter](https://x.com/leedsbtc) · [Telegram](https://t.me/LeedsBTC) · [Meetup](https://www.meetup.com/leeds-bitcoin-network/) |
-| Newcastle Bitcoin Coffee | Friday · 10:00-12:00 | Pumphreys Coffee Centre | Active | [Meetup](https://meetu.ps/e/PqtTh/v822r/i) · [Twitter](https://x.com/bitcoinncl) |
-| Manchester Bitcoin | Monthly · 19:00 | Joshua Brooks | Active | [Website](https://www.bitcoinmanchester.org.uk/) · [Twitter](https://x.com/bitcoin_mcr) · [Telegram](https://telegram.me/joinchat/C-JzxAqUBzsuN5MCNxV4dQ) |
-| Preston Bitcoin | Monthly · 19:00 | Various venues | Active | [Website](https://prestonbtc.co.uk) · [Twitter](https://x.com/prestonbtcmeet) · [Telegram](https://t.me/+a4lufYtIwwBmOGE0) |
-| Liverpool Bitcoin | Monthly · 18:30 | The Railway Pub | Active | [Twitter](https://x.com/bitcoinlpool) · [Telegram](https://t.me/BitcoinLiverpoolUK) |
-| Sheffield Bitcoin | Monthly · 13:00 | The Deli, Kelham | Active | [Website](https://sheffieldbitcoin.org/events/) · [Twitter](https://x.com/btcsheffield21) · [Telegram](https://t.me/BitcoinSheffield) |
-| The Northern Bitcoin Collective | Monthly | Stoke-on-Trent area | Active | [Twitter](https://x.com/northernBTC) · [Telegram](https://t.me/northernBTC) |
-| Bitcoin Derby | Monthly | Ye Olde Dolphin | Active | [Twitter](https://x.com/BTCDerby) · [Telegram](https://t.me/+Wv-hARcM3jExYjU0) |
-| Bitcoin Wirral | Monthly | West Kirby | Active | [Website](https://www.bitcoinwirral.org/) · [Twitter](https://x.com/BitcoinWirral21) · [Telegram](https://t.me/BitcoinWirral) |
-| Norfolk Bitcoin | Monthly | Norfolk | Active | [Twitter](https://x.com/norfolkbitcoin) |
+| Name                            | Day/Schedule         | Venue                   | Status | Links                                                                                                                                                     |
+| ------------------------------- | -------------------- | ----------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Leeds Bitcoin Network           | First Sunday · 13:00 | Global Tribe Cafe       | Active | [Twitter](https://x.com/leedsbtc) · [Telegram](https://t.me/LeedsBTC) · [Meetup](https://www.meetup.com/leeds-bitcoin-network/)                           |
+| Newcastle Bitcoin Coffee        | Friday · 10:00-12:00 | Pumphreys Coffee Centre | Active | [Meetup](https://meetu.ps/e/PqtTh/v822r/i) · [Twitter](https://x.com/bitcoinncl)                                                                          |
+| Manchester Bitcoin              | Monthly · 19:00      | Joshua Brooks           | Active | [Website](https://www.bitcoinmanchester.org.uk/) · [Twitter](https://x.com/bitcoin_mcr) · [Telegram](https://telegram.me/joinchat/C-JzxAqUBzsuN5MCNxV4dQ) |
+| Preston Bitcoin                 | Monthly · 19:00      | Various venues          | Active | [Website](https://prestonbtc.co.uk) · [Twitter](https://x.com/prestonbtcmeet) · [Telegram](https://t.me/+a4lufYtIwwBmOGE0)                                |
+| Liverpool Bitcoin               | Monthly · 18:30      | The Railway Pub         | Active | [Twitter](https://x.com/bitcoinlpool) · [Telegram](https://t.me/BitcoinLiverpoolUK)                                                                       |
+| Sheffield Bitcoin               | Monthly · 13:00      | The Deli, Kelham        | Active | [Website](https://sheffieldbitcoin.org/events/) · [Twitter](https://x.com/btcsheffield21) · [Telegram](https://t.me/BitcoinSheffield)                     |
+| The Northern Bitcoin Collective | Monthly              | Stoke-on-Trent area     | Paused | [Twitter](https://x.com/northernBTC) · [Telegram](https://t.me/northernBTC)                                                                               |
+| Bitcoin Derby                   | Monthly              | Ye Olde Dolphin         | Active | [Twitter](https://x.com/BTCDerby) · [Telegram](https://t.me/+Wv-hARcM3jExYjU0)                                                                            |
+| Bitcoin Wirral                  | Monthly              | West Kirby              | Paused | [Website](https://www.bitcoinwirral.org/) · [Twitter](https://x.com/BitcoinWirral21) · [Telegram](https://t.me/BitcoinWirral)                             |
+| Norfolk Bitcoin                 | Monthly              | Norfolk                 | Delete | [Twitter](https://x.com/norfolkbitcoin)                                                                                                                   |
 
 ---
 
