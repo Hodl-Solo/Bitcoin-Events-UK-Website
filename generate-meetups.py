@@ -6,6 +6,7 @@ import sys
 from pathlib import Path
 
 REGION_ORDER = [
+    'Special Events',
     'London', 'South', 'Midlands', 'North',
     'Scotland', 'Wales', 'Northern Ireland', 'Ireland'
 ]
