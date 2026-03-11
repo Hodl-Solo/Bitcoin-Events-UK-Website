@@ -54,6 +54,7 @@ last_updated: 2026-02-23
 | Portsmouth Bitcoin          | Monthly                 | Panero Lounge                          | Active | [Twitter](https://x.com/btc_portsmouth) · [Telegram](https://t.me/+6bm49ocvWU5hNGM8))                                             |
 | Wiltshire Bitcoin           | Monthly                 | Salisbury area                         | Active | [Twitter](https://x.com/WiltshireBTC) · [Telegram](https://t.me/WiltshireBTC)                                                 |
 | Southampton Satoshi Society | Monthly                 | Southampton                            | Active | [Twitter](https://x.com/SatsSociety) · [Telegram](https://t.me/TheSatoshiSociety)                                             |
+| Bitcoin Bristol Beer Social | 21st of month | Rotating venues | Active | [Twitter](https://x.com/BitcoinBRS) · [Nostr](npub103a6vk43crw497dlaptwfmhctxqu22mwepshjcvvp29fzwrhtx4q675n6p) |
 
 ---
 
@@ -140,7 +141,6 @@ last_updated: 2026-02-23
 | Real Bedford FC | Home games (Saturdays) | McMullen Park, Bedford | Active | [Website](https://www.realbedford.com/) · [Telegram](https://t.me/realbedford) · [Twitter](https://x.com/realbedford) |
 | Bitcoinology | Monthly | Cyphermunk House | Active | [Meetup](https://www.meetup.com/Bitcoinology/) · [Twitter](https://x.com/bitcoinology271) |
 | Lake District BTC | Adventures | Lake District | Active | [Twitter](https://x.com/lakedistrictbtc) · [Telegram](https://t.me/LakeDistrict_BTC) |
-| Bitcoin Bristol Beer Social | 21st of month | Rotating venues | Active | [Twitter](https://x.com/BitcoinBRS) · [Nostr](npub103a6vk43crw497dlaptwfmhctxqu22mwepshjcvvp29fzwrhtx4q675n6p) |
 
 ---
 
