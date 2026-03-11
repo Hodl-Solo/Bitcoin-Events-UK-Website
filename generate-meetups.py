@@ -46,7 +46,7 @@ def parse_markdown_tables(filename):
                 links = cols[4] if len(cols) > 4 else ''
                 
                 # Skip removed/deleted
-                if status in ['remove', 'deleted']:
+                if status.lower() in ['remove', 'deleted']:
                     continue
                 
                 meetups.append({
@@ -80,8 +80,8 @@ def generate_html(regions_data):
             <ul class="meetup-list">''')
                 
                 for m in meetups:
-                    status_class = 'status-active' if m['status'] == 'active' else 'status-paused'
-                    status_text = 'Active' if m['status'] == 'active' else 'Paused'
+                    status_class = 'status-active' if m['status'].lower() == 'active' else 'status-paused'
+                    status_text = 'Active' if m['status'].lower() == 'active' else 'Paused'
                     
                     html_parts.append(f'''
                 <li class="meetup-item">
