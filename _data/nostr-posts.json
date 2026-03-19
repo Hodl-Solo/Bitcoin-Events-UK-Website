@@ -3,33 +3,21 @@
   "posts": [
     {
       "id": "demo1",
-      "content": "Latest posts will appear here once the GitHub Actions workflow runs and fetches from Nostr relays. The workflow runs hourly.",
+      "content": "Latest posts will appear here once the GitHub Actions workflow runs and fetches from Nostr relays.",
       "created_at": 1710883680,
       "created_human": "Just now"
     },
     {
       "id": "demo2",
-      "content": "Make sure to check the Actions tab on GitHub to see if the workflow ran successfully.",
+      "content": "You can manually trigger the workflow from the Actions tab to fetch posts immediately.",
       "created_at": 1710880080,
       "created_human": "1h ago"
     },
     {
       "id": "demo3",
-      "content": "You can manually trigger the workflow from the Actions tab to fetch posts immediately.",
+      "content": "Once working, this section will show your latest 3 Nostr posts.",
       "created_at": 1710876480,
       "created_human": "2h ago"
-    },
-    {
-      "id": "demo4",
-      "content": "Once working, this section will show your latest 5 Nostr posts from npub1g8ag22auywa5c5de6w9ujenpyhrrp9qq8sjzram02xldttmmwurqfd0hqk",
-      "created_at": 1710872880,
-      "created_human": "3h ago"
-    },
-    {
-      "id": "demo5",
-      "content": "Check the GitHub repository workflow logs if posts aren't showing after a few minutes.",
-      "created_at": 1710869280,
-      "created_human": "4h ago"
     }
   ]
 }

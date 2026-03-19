@@ -32,7 +32,7 @@ jobs:
               "wss://nos.lol",
               "wss://relay.damus.io"
           ]
-          COUNT = 5
+          COUNT = 3
           
           def npub_to_hex(npub):
               """Convert npub to hex pubkey using base32 decoding"""

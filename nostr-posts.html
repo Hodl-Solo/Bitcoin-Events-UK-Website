@@ -1,8 +1,8 @@
 <!-- BEUK Nostr Posts Section -->
 <section id="nostr-posts" class="nostr-section">
   <h2>📣 Latest from BEUK</h2>
-  <div id="nostr-posts-container" class="nostr-posts-grid">
-    <p class="nostr-loading">Loading posts...</p>
+  <div id="nostr-posts-container" class="nostr-posts-list">
+    <p class="nostr-loading">Loading...</p>
   </div>
   <p class="nostr-powered-by">
     Powered by <a href="https://nostr.com" target="_blank" rel="noopener">Nostr</a>
@@ -14,44 +14,50 @@
 .nostr-section {
   background: #f8f9fa;
   border-radius: 12px;
-  padding: 24px;
-  margin: 24px 0;
+  padding: 20px;
+  margin: 16px 0;
 }
 .nostr-section h2 {
-  margin: 0 0 16px 0;
+  margin: 0 0 12px 0;
   color: #1a1a2e;
+  font-size: 1.2rem;
+  text-align: center;
 }
-.nostr-posts-grid {
-  display: grid;
-  gap: 16px;
+.nostr-posts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 .nostr-post-card {
   background: white;
   border-radius: 8px;
-  padding: 16px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 14px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
   border-left: 4px solid #f7931a;
 }
 .nostr-post-content {
   margin: 0 0 8px 0;
-  line-height: 1.6;
+  line-height: 1.5;
   color: #333;
+  font-size: 0.95rem;
   word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 .nostr-post-meta {
-  font-size: 12px;
+  font-size: 11px;
   color: #888;
 }
 .nostr-post-link {
   color: #f7931a;
   text-decoration: none;
+  font-weight: 500;
 }
 .nostr-post-link:hover {
   text-decoration: underline;
 }
 .nostr-powered-by {
-  margin: 16px 0 0 0;
-  font-size: 12px;
+  margin: 12px 0 0 0;
+  font-size: 11px;
   color: #888;
   text-align: center;
 }
@@ -61,63 +67,60 @@
 .nostr-error {
   color: #dc3545;
   text-align: center;
-  padding: 16px;
+  padding: 12px;
+  font-size: 0.9rem;
 }
 </style>
 
 <script>
 (function() {
-  const CONTAINER = document.getElementById('nostr-posts-container');
-  const DATA_URL = '_data/nostr-posts.json';
-  const NPUB = 'npub1g8ag22auywa5c5de6w9ujenpyhrrp9qq8sjzram02xldttmmwurqfd0hqk';
+  var CONTAINER = document.getElementById('nostr-posts-container');
+  var DATA_URL = '_data/nostr-posts.json';
   
-  function timeAgo(timestamp) {
-    const seconds = Math.floor(Date.now() / 1000) - timestamp;
+  function timeAgo(ts) {
+    var seconds = Math.floor(Date.now() / 1000) - ts;
     if (seconds < 60) return 'just now';
-    const minutes = Math.floor(seconds / 60);
-    if (minutes < 60) return minutes + 'm ago';
-    const hours = Math.floor(minutes / 60);
-    if (hours < 24) return hours + 'h ago';
-    const days = Math.floor(hours / 24);
-    return days + 'd ago';
-  }
-  
-  function renderPost(post) {
-    const link = `https://njump.me/${post.id}`;
-    const time = post.created_at ? timeAgo(post.created_at) : '';
-    return `
-      <article class="nostr-post-card">
-        <p class="nostr-post-content">${escapeHtml(post.content)}</p>
-        <div class="nostr-post-meta">
-          <a href="${link}" target="_blank" rel="noopener" class="nostr-post-link">${time}</a>
-        </div>
-      </article>
-    `;
+    var mins = Math.floor(seconds / 60);
+    if (mins < 60) return mins + 'm ago';
+    var hrs = Math.floor(mins / 60);
+    if (hrs < 24) return hrs + 'h ago';
+    return Math.floor(hrs / 24) + 'd ago';
   }
   
   function escapeHtml(text) {
-    const div = document.createElement('div');
+    var div = document.createElement('div');
     div.textContent = text;
     return div.innerHTML;
   }
   
+  function renderPost(post) {
+    var link = 'https://njump.me/' + post.id;
+    var time = post.created_at ? timeAgo(post.created_at) : '';
+    return '<article class="nostr-post-card">' +
+      '<p class="nostr-post-content">' + escapeHtml(post.content) + '</p>' +
+      '<div class="nostr-post-meta">' +
+      '<a href="' + link + '" target="_blank" rel="noopener" class="nostr-post-link">' + time + '</a>' +
+      '</div></article>';
+  }
+  
   function loadPosts() {
     fetch(DATA_URL + '?t=' + Date.now())
-      .then(res => res.json())
-      .then(data => {
-        if (data.posts && data.posts.length > 0) {
-          CONTAINER.innerHTML = data.posts.map(renderPost).join('');
+      .then(function(res) { return res.json(); })
+      .then(function(data) {
+        var posts = data.posts || [];
+        if (posts.length > 0) {
+          // Limit to 3 posts
+          posts = posts.slice(0, 3);
+          CONTAINER.innerHTML = posts.map(renderPost).join('');
         } else {
           CONTAINER.innerHTML = '<p class="nostr-loading">No posts found</p>';
         }
       })
-      .catch(err => {
+      .catch(function(err) {
         CONTAINER.innerHTML = '<p class="nostr-error">Unable to load posts</p>';
-        console.error('Nostr posts error:', err);
       });
   }
   
-  // Load on page ready
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', loadPosts);
   } else {
