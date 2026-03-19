@@ -2,8 +2,8 @@ name: Fetch BEUK Nostr Posts
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Every hour
-  workflow_dispatch:  # Manual trigger
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
   fetch-posts:
@@ -12,38 +12,29 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Set up Python and install websocket-client
-        run: |
-          python3 -m venv venv
-          venv/bin/pip install websocket-client requests
+      - name: Set up Python
+        run: python3 -v
+
+      - name: Install dependencies
+        run: pip3 install websocket-client requests
 
       - name: Fetch Nostr posts
         run: |
-          venv/bin/python << 'PY'
+          python3 << 'PY'
           import json
           import time
-          import requests
           import websocket
           
           NPUB = "npub1g8ag22auywa5c5de6w9ujenpyhrrp9qq8sjzram02xldttmmwurqfd0hqk"
-          RELAYS = [
-              "wss://relay.ditto.pub",
-              "wss://relay.primal.net", 
-              "wss://nos.lol",
-              "wss://relay.damus.io"
-          ]
+          RELAYS = ["wss://relay.ditto.pub", "wss://relay.primal.net", "wss://nos.lol"]
           COUNT = 3
           
           def npub_to_hex(npub):
-              """Convert npub to hex pubkey using base32 decoding"""
               import base64
               try:
-                  # Remove npub prefix and decode
                   key = npub.replace('npub1', '')
-                  # Add padding
                   key += '=' * (4 - len(key) % 4) if len(key) % 4 else ''
-                  decoded = base64.b32decode(key, casefold=True)
-                  return decoded.hex()
+                  return base64.b32decode(key, casefold=True).hex()
               except:
                   return None
           
@@ -52,106 +43,70 @@ jobs:
               print("Failed to convert npub to hex")
               exit(1)
           
-          print(f"Fetching posts for pubkey: {pubkey_hex}")
+          print(f"Pubkey: {pubkey_hex}")
           
-          def fetch_from_relay(relay_url, pubkey, limit):
-              """Fetch posts from a single relay using websocket"""
+          def fetch_relay(relay_url, pubkey, limit):
               try:
-                  ws = websocket.create_connection(relay_url, timeout=10)
-                  
-                  # Send subscription request for kind 1 notes
-                  subscription_id = "sub1"
-                  request = json.dumps([
-                      "REQ", subscription_id, {
-                          "authors": [pubkey],
-                          "kinds": [1],
-                          "limit": limit
-                      }
-                  ])
-                  ws.send(request)
-                  
+                  ws = websocket.create_connection(relay_url, timeout=8)
+                  req = json.dumps(["REQ", "sub1", {"authors": [pubkey], "kinds": [1], "limit": limit}])
+                  ws.send(req)
                   posts = []
-                  start_time = time.time()
-                  
-                  while time.time() - start_time < 8:
+                  start = time.time()
+                  while time.time() - start < 7:
                       try:
                           msg = ws.recv()
                           if msg:
                               data = json.loads(msg)
-                              if data[0] == "EVENT" and data[1] == subscription_id:
-                                  event = data[2]
-                                  posts.append({
-                                      'id': event.get('id', ''),
-                                      'content': event.get('content', ''),
-                                      'created_at': event.get('created_at', 0),
-                                  })
+                              if data[0] == "EVENT" and data[1] == "sub1":
+                                  posts.append({'id': data[2].get('id',''), 'content': data[2].get('content',''), 'created_at': data[2].get('created_at', 0)})
                                   if len(posts) >= limit:
                                       break
                               elif data[0] == "EOSE":
                                   break
                       except:
-                          continue
-                  
+                          pass
                   ws.close()
                   return posts
               except Exception as e:
-                  print(f"Error with {relay_url}: {e}")
+                  print(f"Error {relay_url}: {e}")
                   return []
           
           all_posts = []
-          seen_ids = set()
-          
+          seen = set()
           for relay in RELAYS:
               if len(all_posts) >= COUNT:
                   break
               print(f"Trying {relay}...")
-              posts = fetch_from_relay(relay, pubkey_hex, COUNT)
+              posts = fetch_relay(relay, pubkey_hex, COUNT)
               for p in posts:
-                  if p['id'] not in seen_ids:
-                      seen_ids.add(p['id'])
+                  if p['id'] not in seen:
+                      seen.add(p['id'])
                       all_posts.append(p)
-              print(f"Got {len(posts)} posts from {relay}, total unique: {len(all_posts)}")
+              print(f"Got {len(posts)} from {relay}")
           
-          # Convert timestamps to human readable
           for p in all_posts:
-              ts = p.get('created_at', 0)
-              if ts:
-                  age = int(time.time()) - ts
-                  if age < 3600:
-                      p['created_human'] = f"{age // 60}m ago"
-                  elif age < 86400:
-                      p['created_human'] = f"{age // 3600}h ago"
-                  else:
-                      p['created_human'] = f"{age // 86400}d ago"
+              age = int(time.time()) - p.get('created_at', 0)
+              if age < 3600:
+                  p['created_human'] = f"{age//60}m ago"
+              elif age < 86400:
+                  p['created_human'] = f"{age//3600}h ago"
+              else:
+                  p['created_human'] = f"{age//86400}d ago"
           
-          # Sort by created_at descending
           all_posts.sort(key=lambda x: x.get('created_at', 0), reverse=True)
           all_posts = all_posts[:COUNT]
           
           if not all_posts:
-              all_posts = [{
-                  'id': 'demo',
-                  'content': 'No posts found yet. Check back soon!',
-                  'created_at': int(time.time()),
-                  'created_human': 'Just now'
-              }]
-          
-          result = {
-              'last_updated': int(time.time()),
-              'posts': all_posts
-          }
+              all_posts = [{'id': 'demo', 'content': 'No posts yet. Check back soon!', 'created_at': int(time.time()), 'created_human': 'Just now'}]
           
           with open('_data/nostr-posts.json', 'w') as f:
-              json.dump(result, f, indent=2)
-          
+              json.dump({'last_updated': int(time.time()), 'posts': all_posts}, f, indent=2)
           print(f"Saved {len(all_posts)} posts")
-          
           PY
 
-      - name: Commit posts data
+      - name: Commit and push
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "GitHub Actions"
           git add _data/nostr-posts.json
-          git diff --cached --quiet || git commit -m "Update Nostr posts data"
-          git push
+          git diff --cached --quiet || git commit -m "Update Nostr posts" && git push
