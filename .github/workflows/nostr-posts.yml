@@ -1,4 +1,4 @@
-name: Fetch BEUK Nostr Posts v2
+name: Fetch BEUK Nostr Posts v3
 
 on:
   schedule:
@@ -6,14 +6,15 @@ on:
   workflow_dispatch:
 
 jobs:
-  fetch-posts-v2:
+  fetch-posts-v3:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Install deps
-        run: pip3 install websocket-client bech32 --break-system-packages
+        run: |
+          pip3 install websocket-client bech32 --no-cache-dir --break-system-packages
 
       - name: Fetch posts
         run: python3 << 'PY'
