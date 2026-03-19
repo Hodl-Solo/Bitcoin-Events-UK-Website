@@ -12,11 +12,8 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        run: python3 -v
-
       - name: Install dependencies
-        run: pip3 install websocket-client requests
+        run: pip3 install websocket-client bech32
 
       - name: Fetch Nostr posts
         run: |
@@ -24,27 +21,28 @@ jobs:
           import json
           import time
           import websocket
-          
+          import bech32
+
           NPUB = "npub1g8ag22auywa5c5de6w9ujenpyhrrp9qq8sjzram02xldttmmwurqfd0hqk"
           RELAYS = ["wss://relay.ditto.pub", "wss://relay.primal.net", "wss://nos.lol"]
           COUNT = 3
-          
+
           def npub_to_hex(npub):
-              import base64
               try:
-                  key = npub.replace('npub1', '')
-                  key += '=' * (4 - len(key) % 4) if len(key) % 4 else ''
-                  return base64.b32decode(key, casefold=True).hex()
+                  data = npub[5:]
+                  CHARSET = "qpzry9x8gf2tvdw0s3jn54khce6mua7l"
+                  values = [CHARSET.find(c.lower()) for c in data]
+                  words = bech32.convertbits(values, 5, 8, pad=True)
+                  return bytes(words).hex()
               except:
                   return None
-          
+
           pubkey_hex = npub_to_hex(NPUB)
           if not pubkey_hex:
-              print("Failed to convert npub to hex")
+              print("Failed to convert npub")
               exit(1)
-          
           print(f"Pubkey: {pubkey_hex}")
-          
+
           def fetch_relay(relay_url, pubkey, limit):
               try:
                   ws = websocket.create_connection(relay_url, timeout=8)
@@ -70,7 +68,7 @@ jobs:
               except Exception as e:
                   print(f"Error {relay_url}: {e}")
                   return []
-          
+
           all_posts = []
           seen = set()
           for relay in RELAYS:
@@ -83,7 +81,7 @@ jobs:
                       seen.add(p['id'])
                       all_posts.append(p)
               print(f"Got {len(posts)} from {relay}")
-          
+
           for p in all_posts:
               age = int(time.time()) - p.get('created_at', 0)
               if age < 3600:
@@ -92,13 +90,13 @@ jobs:
                   p['created_human'] = f"{age//3600}h ago"
               else:
                   p['created_human'] = f"{age//86400}d ago"
-          
+
           all_posts.sort(key=lambda x: x.get('created_at', 0), reverse=True)
           all_posts = all_posts[:COUNT]
-          
+
           if not all_posts:
               all_posts = [{'id': 'demo', 'content': 'No posts yet. Check back soon!', 'created_at': int(time.time()), 'created_human': 'Just now'}]
-          
+
           with open('_data/nostr-posts.json', 'w') as f:
               json.dump({'last_updated': int(time.time()), 'posts': all_posts}, f, indent=2)
           print(f"Saved {len(all_posts)} posts")
