@@ -1,0 +1,125 @@
+name: Fetch BEUK Nostr Posts
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Run every hour
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  fetch-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch Nostr posts
+        run: |
+          pip install nostr-requests requests 2>/dev/null || pip3 install nostr-requests requests 2>/dev/null
+          
+          python3 << 'PY'
+          import json
+          import time
+          import requests
+          
+          NPUB = "npub1g8ag22auywa5c5de6w9ujenpyhrrp9qq8sjzram02xldttmmwurqfd0hqk"
+          RELAYS = [
+              "wss://relay.ditto.pub",
+              "wss://relay.primal.net",
+              "wss://nos.lol",
+              "wss://relay.damus.io"
+          ]
+          COUNT = 5
+          
+          # Convert npub to hex (simplified - using direct hex for now)
+          # For production, use nostr-sdk or py-pubkey
+          
+          def fetch_posts():
+              posts = []
+              seen_ids = set()
+              
+              # Use a simple relay query via WebSocket-like approach
+              # Since we can't do full WebSocket in GitHub Actions easily,
+              # we'll use a public API approach
+              
+              try:
+                  # Try using a public Nostr gateway
+                  url = f"https://api.nostr.band/v0/publications/{NPUB}"
+                  resp = requests.get(url, timeout=10)
+                  if resp.status_code == 200:
+                      data = resp.json()
+                      for item in data.get('publications', [])[:COUNT]:
+                          note_id = item.get('note_id', '')
+                          if note_id and note_id not in seen_ids:
+                              seen_ids.add(note_id)
+                              posts.append({
+                                  'id': note_id,
+                                  'content': item.get('content', ''),
+                                  'created_at': item.get('created_at', 0),
+                                  'created_human': item.get('created_at_human', '')
+                              })
+              except Exception as e:
+                  print(f"Error with nostr.band: {e}")
+              
+              # Fallback: query relay directly if API fails
+              if len(posts) < COUNT:
+                  try:
+                      # Simple HTTP relay query
+                      for relay in RELAYS:
+                          if len(posts) >= COUNT:
+                              break
+                          try:
+                              relay_url = relay.replace('wss://', 'https://').replace('ws://', 'http://')
+                              url = f"{relay_url}/npub/{NPUB}"
+                              resp = requests.get(url, timeout=5)
+                              if resp.status_code == 200:
+                                  data = resp.json()
+                                  for item in data if isinstance(data, list) else data.get('notes', []):
+                                      note_id = item.get('id', '')
+                                      if note_id and note_id not in seen_ids:
+                                          seen_ids.add(note_id)
+                                          posts.append({
+                                              'id': note_id,
+                                              'content': item.get('content', ''),
+                                              'created_at': item.get('created_at', 0),
+                                              'created_human': item.get('created_at_human', '')
+                                          })
+                                      if len(posts) >= COUNT:
+                                          break
+                          except:
+                              continue
+                  except Exception as e:
+                      print(f"Relay query error: {e}")
+              
+              # If still no posts, create a placeholder for demo
+              if not posts:
+                  posts = [{
+                      'id': 'demo',
+                      'content': 'Latest posts will appear here once the Nostr feed is connected.',
+                      'created_at': int(time.time()),
+                      'created_human': 'Just now'
+                  }]
+              
+              return posts[:COUNT]
+          
+          posts = fetch_posts()
+          
+          with open('_data/nostr-posts.json', 'w') as f:
+              json.dump({
+                  'last_updated': int(time.time()),
+                  'posts': posts
+              }, f, indent=2)
+          
+          print(f"Fetched {len(posts)} posts")
+          
+          PY
+
+      - name: Commit posts data
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions"
+          git add _data/nostr-posts.json
+          git diff --cached --quiet || git commit -m "Update Nostr posts data"
+          git push
+
+  env:
+    ACTIONS_RUNNER_CONTRACTION_DISABLED: true
