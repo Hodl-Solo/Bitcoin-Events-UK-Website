@@ -1,4 +1,4 @@
-name: Fetch BEUK Nostr Posts v3
+name: Fetch BEUK Nostr Posts v4
 
 on:
   schedule:
@@ -6,15 +6,21 @@ on:
   workflow_dispatch:
 
 jobs:
-  fetch-posts-v3:
+  fetch-posts-v4:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: '.github/workflows/*.yml'
+
       - name: Install deps
-        run: |
-          pip3 install websocket-client bech32 --no-cache-dir --break-system-packages
+        run: pip3 install websocket-client bech32 --break-system-packages --no-cache-dir
 
       - name: Fetch posts
         run: python3 << 'PY'
