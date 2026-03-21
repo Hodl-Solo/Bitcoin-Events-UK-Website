@@ -1,7 +1,12 @@
 import json, time, websocket, bech32
 
 BEUK_NPUB = "npub1g8ag22auywa5c5de6w9ujenpyhrrp9qq8sjzram02xldttmmwurqfd0hqk"
-RELAYS = ["wss://relay.ditto.pub", "wss://relay.primal.net", "wss://nos.lol", "wss://relay.damus.io"]
+RELAYS = [
+    "wss://atlas.nostr.land",
+    "wss://bitcoiner.social",
+    "wss://eden.nostr.land",
+    "wss://nos.lol"
+]
 COUNT = 5
 
 def npub_hex(npub):
@@ -13,31 +18,29 @@ def npub_hex(npub):
 
 def fetch(relay, pk, kinds, lim):
     try:
-        ws = websocket.create_connection(relay, timeout=12)
+        ws = websocket.create_connection(relay, timeout=15)
         ws.send(json.dumps(["REQ","p",{"authors":[pk],"kinds":kinds,"limit":lim}]))
         posts = []
         t = time.time()
-        while time.time()-t < 10:
+        while time.time()-t < 12:
             try:
                 m = ws.recv()
                 if m:
                     d = json.loads(m)
                     if d[0]=="EVENT" and d[1]=="p":
-                        content = d[2].get('content','')
-                        # For reposts (kind 6), content is the original note id
-                        posts.append({'id':d[2].get('id',''),'content':content,'created_at':d[2].get('created_at',0),'kind':d[2].get('kind',1)})
+                        posts.append({'id':d[2].get('id',''),'content':d[2].get('content',''),'created_at':d[2].get('created_at',0),'kind':d[2].get('kind',1)})
                         if len(posts)>=lim: break
                     elif d[0]=="EOSE": break
             except: pass
         ws.close()
         return posts
     except Exception as e:
+        print(f"    Error: {str(e)[:50]}")
         return []
 
 pk = npub_hex(BEUK_NPUB)
 print(f"Pubkey: {pk[:20]}...")
 
-# Fetch both kind 1 (notes) AND kind 6 (reposts)
 all_p = []
 seen = set()
 for kind in [1, 6]:
@@ -55,14 +58,12 @@ for kind in [1, 6]:
 for p in all_p:
     a = int(time.time())-p.get('created_at',0)
     p['created_human'] = f"{a//60}m ago" if a<3600 else f"{a//3600}h ago" if a<86400 else f"{a//86400}d ago"
-    if p.get('kind') == 6:
-        p['content'] = f"[Repost] {p['content'][:30]}..."
 
 all_p.sort(key=lambda x:x.get('created_at',0), reverse=True)
 all_p = all_p[:COUNT]
 
 if not all_p:
-    all_p = [{'id':'demo','content':'No posts found. Make sure your account has posted or reposted recently.','created_at':int(time.time()),'created_human':'Just now'}]
+    all_p = [{'id':'demo','content':'No posts found from BEUK relays.','created_at':int(time.time()),'created_human':'Just now'}]
 
 with open('_data/nostr-posts.json','w') as f:
     json.dump({'last_updated':int(time.time()),'posts':all_p}, f, indent=2)
