@@ -190,69 +190,75 @@
 <!-- BEUK Nostr Posts Section -->
 <section id="nostr-posts" class="nostr-section">
   <h2>📣 Latest from BEUK</h2>
-  <div id="nostr-posts-container" class="nostr-posts-grid">
-    <p class="nostr-loading">Loading posts...</p>
+  <div id="nostr-posts-list">
+    <div class="nostr-post" id="note1"></div>
+    <div class="nostr-post" id="note2"></div>
+    <div class="nostr-post" id="note3"></div>
   </div>
   <p class="nostr-powered-by">
     Powered by <a href="https://nostr.com" target="_blank" rel="noopener">Nostr</a>
-    · <a href="https://njump.me/${NPUB}" target="_blank" rel="noopener">View Profile</a>
+    · <a href="https://primal.net/npub1g8ag22auywa5c5de6w9ujenpyhrrp9qq8sjzram02xldttmmwurqfd0hqk" target="_blank" rel="noopener">View Profile</a>
   </p>
 </section>
+
+<script src="https://cdn.jsdelivr.net/gh/nostrband/nostr-embed@0.1.16/dist/nostr-embed.js"></script>
+<script>
+(function() {
+  const notes = [
+    'nevent1qqsgand4g2hkaqzskhh2wyp6utu2scuh4wy9chcl928rt8rt55g42kc6k9w63',
+    'nevent1qqs28y7atjk7ae92hwtqg4cl27g644u332g3rtpk0c9gcq3lfrttg4czkm6we',
+    'nevent1qqszvlcx544w3ysjavgxfdug3tt999kyp5kdxxhlp677vuj7kwya59g0rac92'
+  ];
+  
+  notes.forEach(function(noteId, i) {
+    nostrEmbed.init(
+      noteId,
+      '#note' + (i + 1),
+      'wss://relay.primal.net',
+      { showZaps: false, showCopyAddr: false, hideNostrich: true }
+    );
+  });
+})();
+</script>
 
 <style>
 .nostr-section {
   background: #f8f9fa;
   border-radius: 12px;
-  padding: 24px;
-  margin: 24px 0;
+  padding: 20px;
+  margin: 16px 0;
 }
 .nostr-section h2 {
-  margin: 0 0 16px 0;
+  margin: 0 0 12px 0;
   color: #1a1a2e;
+  font-size: 1.2rem;
+  text-align: center;
 }
-.nostr-posts-grid {
-  display: grid;
-  gap: 16px;
-}
-.nostr-post-card {
+.nostr-post {
   background: white;
   border-radius: 8px;
-  padding: 16px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 14px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
   border-left: 4px solid #f7931a;
 }
-.nostr-post-content {
+.nostr-post p {
   margin: 0 0 8px 0;
-  line-height: 1.6;
+  line-height: 1.5;
   color: #333;
-  word-wrap: break-word;
-}
-.nostr-post-meta {
-  font-size: 12px;
-  color: #888;
-}
-.nostr-post-link {
-  color: #f7931a;
-  text-decoration: none;
-}
-.nostr-post-link:hover {
-  text-decoration: underline;
+  font-size: 0.95rem;
 }
 .nostr-powered-by {
-  margin: 16px 0 0 0;
-  font-size: 12px;
+  margin: 12px 0 0 0;
+  font-size: 11px;
   color: #888;
   text-align: center;
 }
 .nostr-powered-by a {
   color: #f7931a;
 }
-.nostr-error {
-  color: #dc3545;
-  text-align: center;
-  padding: 16px;
-}
 </style>
+
 
 <script>
 (function() {
