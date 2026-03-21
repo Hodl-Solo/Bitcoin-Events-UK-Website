@@ -190,36 +190,21 @@
 <!-- BEUK Nostr Posts Section -->
 <section id="nostr-posts" class="nostr-section">
   <h2>📣 Latest from BEUK</h2>
-  <div id="nostr-posts-list">
-    <div class="nostr-post" id="nostr-note-1"></div>
-    <div class="nostr-post" id="nostr-note-2"></div>
-    <div class="nostr-post" id="nostr-note-3"></div>
+  <div class="nostr-posts-list">
+    <div class="nostr-post-card">
+      <p>Check out our latest updates on Nostr:</p>
+      <ul class="nostr-links">
+        <li><a href="https://primal.net/e/nevent1qqsgand4g2hkaqzskhh2wyp6utu2scuh4wy9chcl928rt8rt55g42kc6k9w63" target="_blank">📝 Post 1</a></li>
+        <li><a href="https://primal.net/e/nevent1qqs28y7atjk7ae92hwtqg4cl27g644u332g3rtpk0c9gcq3lfrttg4czkm6we" target="_blank">📝 Post 2</a></li>
+        <li><a href="https://primal.net/e/nevent1qqszvlcx544w3ysjavgxfdug3tt999kyp5kdxxhlp677vuj7kwya59g0rac92" target="_blank">📝 Post 3</a></li>
+      </ul>
+    </div>
   </div>
   <p class="nostr-powered-by">
     Powered by <a href="https://nostr.com" target="_blank" rel="noopener">Nostr</a>
     · <a href="https://primal.net/npub1g8ag22auywa5c5de6w9ujenpyhrrp9qq8sjzram02xldttmmwurqfd0hqk" target="_blank" rel="noopener">View Profile</a>
   </p>
 </section>
-
-<script>
-(function () {
-  const noteMap = [
-    { id: '8ecdb542af6e8050b5eea7103ae2f8a86397ab885c5f1f2a8e359c6ba511555b', target: '#nostr-note-1' },
-    { id: 'a393dd5cadeee4aabb9604571f5791aad7918a9111ac367e0a8c023f48d6b457', target: '#nostr-note-2' },
-    { id: '267f06a56ae89212eb1064b7888ad65296c40d2cd31aff0ebde6725eb389da15', target: '#nostr-note-3' }
-  ];
-
-  const script = document.createElement('script');
-  script.src = 'https://cdn.jsdelivr.net/gh/nostrband/nostr-embed@latest/dist/nostr-embed.js';
-  script.async = true;
-  script.onload = function () {
-    noteMap.forEach(function (item) {
-      nostrEmbed.init(item.id, item.target, 'wss://relay.nostr.band');
-    });
-  };
-  document.body.appendChild(script);
-})();
-</script>
 
 <style>
 .nostr-section {
@@ -234,13 +219,37 @@
   font-size: 1.2rem;
   text-align: center;
 }
-.nostr-post {
+.nostr-posts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.nostr-post-card {
   background: white;
   border-radius: 8px;
   padding: 14px;
-  margin-bottom: 12px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
   border-left: 4px solid #f7931a;
+}
+.nostr-post-card p {
+  margin: 0 0 8px 0;
+  color: #333;
+}
+.nostr-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nostr-links li {
+  padding: 6px 0;
+}
+.nostr-links a {
+  color: #f7931a;
+  text-decoration: none;
+  font-weight: 500;
+}
+.nostr-links a:hover {
+  text-decoration: underline;
 }
 .nostr-powered-by {
   margin: 12px 0 0 0;
@@ -252,6 +261,7 @@
   color: #f7931a;
 }
 </style>
+
 
 
 
