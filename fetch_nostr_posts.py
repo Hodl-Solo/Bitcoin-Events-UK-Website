@@ -1,0 +1,66 @@
+import json, time, websocket, bech32
+
+NPUB = "npub1g8ag22auywa5c5de6w9ujenpyhrrp9qq8sjzram02xldttmmwurqfd0hqk"
+RELAYS = ["wss://relay.ditto.pub", "wss://relay.primal.net", "wss://nos.lol"]
+COUNT = 3
+
+def npub_hex(npub):
+    d = npub[5:]
+    C = "qpzry9x8gf2tvdw0s3jn54khce6mua7l"
+    v = [C.find(c.lower()) for c in d]
+    w = bech32.convertbits(v, 5, 8, pad=True)
+    return bytes(w).hex()
+
+pk = npub_hex(NPUB)
+print(f"Pubkey: {pk}")
+if not pk:
+    print("ERROR: bad npub")
+    exit(1)
+
+def fetch(relay, pk, lim):
+    try:
+        ws = websocket.create_connection(relay, timeout=10)
+        ws.send(json.dumps(["REQ","s",{"authors":[pk],"kinds":[1],"limit":lim}]))
+        posts = []
+        t = time.time()
+        while time.time()-t < 8:
+            try:
+                m = ws.recv()
+                if m:
+                    d = json.loads(m)
+                    if d[0]=="EVENT" and d[1]=="s":
+                        posts.append({'id':d[2].get('id',''),'content':d[2].get('content',''),'created_at':d[2].get('created_at',0)})
+                        print(f"Got post from {relay}")
+                        if len(posts)>=lim: break
+                    elif d[0]=="EOSE": break
+            except: pass
+        ws.close()
+        return posts
+    except Exception as e:
+        print(f"Error {relay}: {e}")
+        return []
+
+all_p = []
+seen = set()
+for r in RELAYS:
+    if len(all_p)>=COUNT: break
+    print(f"Trying {r}...")
+    ps = fetch(r, pk, COUNT)
+    for p in ps:
+        if p['id'] not in seen:
+            seen.add(p['id'])
+            all_p.append(p)
+    print(f"Got {len(ps)} from {r}")
+
+for p in all_p:
+    a = int(time.time())-p.get('created_at',0)
+    p['created_human'] = f"{a//60}m ago" if a<3600 else f"{a//3600}h ago" if a<86400 else f"{a//86400}d ago"
+
+all_p.sort(key=lambda x:x.get('created_at',0), reverse=True)
+all_p = all_p[:COUNT]
+if not all_p:
+    all_p = [{'id':'demo','content':'No posts yet. Check back soon!','created_at':int(time.time()),'created_human':'Just now'}]
+
+with open('_data/nostr-posts.json','w') as f:
+    json.dump({'last_updated':int(time.time()),'posts':all_p}, f, indent=2)
+print(f"Saved {len(all_p)} posts")
