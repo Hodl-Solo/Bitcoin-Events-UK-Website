@@ -16,16 +16,18 @@
 <script>
 (function() {
   const notes = [
-    'nevent1qqsgand4g2hkaqzskhh2wyp6utu2scuh4wy9chcl928rt8rt55g42kc6k9w63',
-    'nevent1qqs28y7atjk7ae92hwtqg4cl27g644u332g3rtpk0c9gcq3lfrttg4czkm6we',
-    'nevent1qqszvlcx544w3ysjavgxfdug3tt999kyp5kdxxhlp677vuj7kwya59g0rac92'
+    'note100208ecdb542af6e8050b5eea7103ae2f8a86397ab885c5f1f2a8e359c6ba511',
+    'note10020a393dd5cadeee4aabb9604571f5791aad7918a9111ac367e0a8c023f48d6',
+    'note10020267f06a56ae89212eb1064b7888ad65296c40d2cd31aff0ebde6725eb389'
   ];
+  
+  const relays = ['wss://nos.lol', 'wss://relay.damus.io', 'wss://relay.primal.net'];
   
   notes.forEach(function(noteId, i) {
     nostrEmbed.init(
       noteId,
       '#note' + (i + 1),
-      'wss://relay.primal.net',
+      relays,
       { showZaps: false, showCopyAddr: false, hideNostrich: true }
     );
   });
