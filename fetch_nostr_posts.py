@@ -2,6 +2,7 @@ import json, time, websocket, bech32
 
 BEUK_NPUB = "npub1g8ag22auywa5c5de6w9ujenpyhrrp9qq8sjzram02xldttmmwurqfd0hqk"
 RELAYS = [
+    "wss://relay.primal.net",
     "wss://atlas.nostr.land",
     "wss://bitcoiner.social",
     "wss://eden.nostr.land",
