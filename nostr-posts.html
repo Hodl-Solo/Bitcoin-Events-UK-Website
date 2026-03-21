@@ -1,14 +1,36 @@
 <!-- BEUK Nostr Posts Section -->
 <section id="nostr-posts" class="nostr-section">
   <h2>📣 Latest from BEUK</h2>
-  <div id="nostr-posts-container" class="nostr-posts-list">
-    <p class="nostr-loading">Loading...</p>
+  <div id="nostr-posts-list">
+    <div class="nostr-post" id="note1"></div>
+    <div class="nostr-post" id="note2"></div>
+    <div class="nostr-post" id="note3"></div>
   </div>
   <p class="nostr-powered-by">
     Powered by <a href="https://nostr.com" target="_blank" rel="noopener">Nostr</a>
-    · <a href="https://njump.me/npub1g8ag22auywa5c5de6w9ujenpyhrrp9qq8sjzram02xldttmmwurqfd0hqk" target="_blank" rel="noopener">View Profile</a>
+    · <a href="https://primal.net/npub1g8ag22auywa5c5de6w9ujenpyhrrp9qq8sjzram02xldttmmwurqfd0hqk" target="_blank" rel="noopener">View Profile</a>
   </p>
 </section>
+
+<script src="https://cdn.jsdelivr.net/gh/nostrband/nostr-embed@0.1.16/dist/nostr-embed.js"></script>
+<script>
+(function() {
+  const notes = [
+    'nevent1qqsgand4g2hkaqzskhh2wyp6utu2scuh4wy9chcl928rt8rt55g42kc6k9w63',
+    'nevent1qqs28y7atjk7ae92hwtqg4cl27g644u332g3rtpk0c9gcq3lfrttg4czkm6we',
+    'nevent1qqszvlcx544w3ysjavgxfdug3tt999kyp5kdxxhlp677vuj7kwya59g0rac92'
+  ];
+  
+  notes.forEach(function(noteId, i) {
+    nostrEmbed.init(
+      noteId,
+      '#note' + (i + 1),
+      'wss://relay.primal.net',
+      { showZaps: false, showCopyAddr: false, hideNostrich: true }
+    );
+  });
+})();
+</script>
 
 <style>
 .nostr-section {
@@ -23,37 +45,19 @@
   font-size: 1.2rem;
   text-align: center;
 }
-.nostr-posts-list {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-.nostr-post-card {
+.nostr-post {
   background: white;
   border-radius: 8px;
   padding: 14px;
+  margin-bottom: 12px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.06);
   border-left: 4px solid #f7931a;
 }
-.nostr-post-content {
+.nostr-post p {
   margin: 0 0 8px 0;
   line-height: 1.5;
   color: #333;
   font-size: 0.95rem;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-}
-.nostr-post-meta {
-  font-size: 11px;
-  color: #888;
-}
-.nostr-post-link {
-  color: #f7931a;
-  text-decoration: none;
-  font-weight: 500;
-}
-.nostr-post-link:hover {
-  text-decoration: underline;
 }
 .nostr-powered-by {
   margin: 12px 0 0 0;
@@ -64,67 +68,4 @@
 .nostr-powered-by a {
   color: #f7931a;
 }
-.nostr-error {
-  color: #dc3545;
-  text-align: center;
-  padding: 12px;
-  font-size: 0.9rem;
-}
 </style>
-
-<script>
-(function() {
-  var CONTAINER = document.getElementById('nostr-posts-container');
-  var DATA_URL = '_data/nostr-posts.json';
-  
-  function timeAgo(ts) {
-    var seconds = Math.floor(Date.now() / 1000) - ts;
-    if (seconds < 60) return 'just now';
-    var mins = Math.floor(seconds / 60);
-    if (mins < 60) return mins + 'm ago';
-    var hrs = Math.floor(mins / 60);
-    if (hrs < 24) return hrs + 'h ago';
-    return Math.floor(hrs / 24) + 'd ago';
-  }
-  
-  function escapeHtml(text) {
-    var div = document.createElement('div');
-    div.textContent = text;
-    return div.innerHTML;
-  }
-  
-  function renderPost(post) {
-    var link = 'https://njump.me/' + post.id;
-    var time = post.created_at ? timeAgo(post.created_at) : '';
-    return '<article class="nostr-post-card">' +
-      '<p class="nostr-post-content">' + escapeHtml(post.content) + '</p>' +
-      '<div class="nostr-post-meta">' +
-      '<a href="' + link + '" target="_blank" rel="noopener" class="nostr-post-link">' + time + '</a>' +
-      '</div></article>';
-  }
-  
-  function loadPosts() {
-    fetch(DATA_URL + '?t=' + Date.now())
-      .then(function(res) { return res.json(); })
-      .then(function(data) {
-        var posts = data.posts || [];
-        if (posts.length > 0) {
-          // Limit to 3 posts
-          posts = posts.slice(0, 3);
-          CONTAINER.innerHTML = posts.map(renderPost).join('');
-        } else {
-          CONTAINER.innerHTML = '<p class="nostr-loading">No posts found</p>';
-        }
-      })
-      .catch(function(err) {
-        CONTAINER.innerHTML = '<p class="nostr-error">Unable to load posts</p>';
-      });
-  }
-  
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', loadPosts);
-  } else {
-    loadPosts();
-  }
-})();
-</script>
