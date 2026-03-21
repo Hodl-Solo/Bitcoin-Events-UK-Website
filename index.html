@@ -191,9 +191,9 @@
 <section id="nostr-posts" class="nostr-section">
   <h2>📣 Latest from BEUK</h2>
   <div id="nostr-posts-list">
-    <div class="nostr-post" id="note1"></div>
-    <div class="nostr-post" id="note2"></div>
-    <div class="nostr-post" id="note3"></div>
+    <div class="nostr-post" id="nostr-note-1"></div>
+    <div class="nostr-post" id="nostr-note-2"></div>
+    <div class="nostr-post" id="nostr-note-3"></div>
   </div>
   <p class="nostr-powered-by">
     Powered by <a href="https://nostr.com" target="_blank" rel="noopener">Nostr</a>
@@ -201,25 +201,23 @@
   </p>
 </section>
 
-<script src="https://cdn.jsdelivr.net/gh/nostrband/nostr-embed@0.1.16/dist/nostr-embed.js"></script>
 <script>
-(function() {
-  const notes = [
-    'note100208ecdb542af6e8050b5eea7103ae2f8a86397ab885c5f1f2a8e359c6ba511',
-    'note10020a393dd5cadeee4aabb9604571f5791aad7918a9111ac367e0a8c023f48d6',
-    'note10020267f06a56ae89212eb1064b7888ad65296c40d2cd31aff0ebde6725eb389'
+(function () {
+  const noteMap = [
+    { id: '8ecdb542af6e8050b5eea7103ae2f8a86397ab885c5f1f2a8e359c6ba511555b', target: '#nostr-note-1' },
+    { id: 'a393dd5cadeee4aabb9604571f5791aad7918a9111ac367e0a8c023f48d6b457', target: '#nostr-note-2' },
+    { id: '267f06a56ae89212eb1064b7888ad65296c40d2cd31aff0ebde6725eb389da15', target: '#nostr-note-3' }
   ];
-  
-  const relays = ['wss://nos.lol', 'wss://relay.damus.io', 'wss://relay.primal.net'];
-  
-  notes.forEach(function(noteId, i) {
-    nostrEmbed.init(
-      noteId,
-      '#note' + (i + 1),
-      relays,
-      { showZaps: false, showCopyAddr: false, hideNostrich: true }
-    );
-  });
+
+  const script = document.createElement('script');
+  script.src = 'https://cdn.jsdelivr.net/gh/nostrband/nostr-embed@latest/dist/nostr-embed.js';
+  script.async = true;
+  script.onload = function () {
+    noteMap.forEach(function (item) {
+      nostrEmbed.init(item.id, item.target, 'wss://relay.nostr.band');
+    });
+  };
+  document.body.appendChild(script);
 })();
 </script>
 
@@ -241,14 +239,8 @@
   border-radius: 8px;
   padding: 14px;
   margin-bottom: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
   border-left: 4px solid #f7931a;
-}
-.nostr-post p {
-  margin: 0 0 8px 0;
-  line-height: 1.5;
-  color: #333;
-  font-size: 0.95rem;
 }
 .nostr-powered-by {
   margin: 12px 0 0 0;
@@ -260,6 +252,7 @@
   color: #f7931a;
 }
 </style>
+
 
 
 
