@@ -33,6 +33,7 @@ last_updated: 2026-02-23
 | Women of Bitcoin UK         | Quarterly                    | London                               | Active | [Twitter](https://x.com/BitcoinWomen21) · [Telegram](https://t.me/WomenofBitcoinUK)                                                                               |
 | Tooting Market Bitcoin Hub  | Regular                      | Tooting Market, Mezzanine Bar        | Paused | [Telegram](https://t.me/TootingBitcoin) · [Twitter](https://x.com/jcastweet)                                                                                      |
 | West Hampstead Bitcoin Meetup | Monthly                      | West Hampstead                       | Active | [Telegram](https://t.me/+eaek12WRhug1NzQ0)                                                                                                                    |
+| Bitcoinology | Monthly | Cyphermunk House | Active | [Meetup](https://www.meetup.com/Bitcoinology/) · [Twitter](https://x.com/bitcoinology271) · [Nostr](nostr:npub18cngxzyjtjw38mrcwlghmj5sdjzt4am4ezra23jlheafsjtt8duq6ld82l) |
 
 ---
 
@@ -56,6 +57,7 @@ last_updated: 2026-02-23
 | Wiltshire Bitcoin           | Monthly                 | Salisbury area                         | Active | [Twitter](https://x.com/WiltshireBTC) · [Telegram](https://t.me/WiltshireBTC)                                                 |
 |Southampton Satoshi Society|Monthly|Southampton|Active|[Twitter](https://x.com/SatsSociety) · [Telegram](https://t.me/TheSatoshiSociety) · [Nostr](nostr:npub1t8k7fql0s4ced2nvkndg0gvax0yxnww6tu4yph7cwm92k305umcqgwuc36)|
 | Bitcoin Bristol Beer Social | 21st of month | Rotating venues | Active | [Twitter](https://x.com/BitcoinBRS) · [Nostr](npub103a6vk43crw497dlaptwfmhctxqu22mwepshjcvvp29fzwrhtx4q675n6p) |
+| Purbeck Bitcoin | Monthly | Purbeck | Active | [Twitter](https://x.com/purbeckbitcoin) · [Nostr](https://njump.me/npub1x6cjcaxjls4n968zmkz30pnaap434hqqqle6lndwzj4v0v9588ns2r67l3) · [Telegram](https://t.me/purbeckbitcoin) |
 
 ---
 
@@ -141,7 +143,7 @@ last_updated: 2026-02-23
 | Name | Day/Schedule | Venue | Status | Links |
 |------|--------------|-------|--------|-------|
 | Real Bedford FC | Home games (Saturdays) | McMullen Park, Bedford | Active | [Website](https://www.realbedford.com/) · [Telegram](https://t.me/realbedford) · [Twitter](https://x.com/realbedford) |
-|Bitcoinology|Monthly|Cyphermunk House|Active|[Meetup](https://www.meetup.com/Bitcoinology/) · [Twitter](https://x.com/bitcoinology271) · [Nostr](nostr:npub18cngxzyjtjw38mrcwlghmj5sdjzt4am4ezra23jlheafsjtt8duq6ld82l)|
+
 |Lake District BTC|Adventures|Lake District|Active|[Twitter](https://x.com/lakedistrictbtc) · [Telegram](https://t.me/LakeDistrict_BTC) · [Nostr](nostr:npub1uhznqctvmwgmtue5l5qz7e238kpy0d80k75gk4hp60kfuu5wd75qzw45dp)|
 
 ---
