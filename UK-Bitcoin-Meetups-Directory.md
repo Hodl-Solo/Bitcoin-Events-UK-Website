@@ -31,7 +31,6 @@ last_updated: 2026-02-23
 | OPA Central London Bitcoin  | Monthly                      | Century Club, W1D 6LQ                | Paused | [Twitter](https://x.com/atotheb1980)                                                                                                                              |
 | Faith and Bitcoin           | Monthly                      | St George the Martyr Church, Holborn | Active | [Twitter](https://x.com/faithandbitcoin) · [Telegram](https://t.me/FaithandBitcoin)                                                                               |
 | Women of Bitcoin UK         | Quarterly                    | London                               | Active | [Twitter](https://x.com/BitcoinWomen21) · [Telegram](https://t.me/WomenofBitcoinUK)                                                                               |
-| Bitcoinology              | Monthly                      | Cyphermunk House                      | Active | [Meetup](https://www.meetup.com/Bitcoinology/) · [Twitter](https://x.com/bitcoinology271) · [Nostr](nostr:npub18cngxzyjtjw38mrcwlghmj5sdjzt4am4ezra23jlheafsjtt8duq6ld82l)|
 | Tooting Market Bitcoin Hub  | Regular                      | Tooting Market, Mezzanine Bar        | Paused | [Telegram](https://t.me/TootingBitcoin) · [Twitter](https://x.com/jcastweet)                                                                                      |
 
 ---
@@ -140,6 +139,7 @@ last_updated: 2026-02-23
 | Name | Day/Schedule | Venue | Status | Links |
 |------|--------------|-------|--------|-------|
 | Real Bedford FC | Home games (Saturdays) | McMullen Park, Bedford | Active | [Website](https://www.realbedford.com/) · [Telegram](https://t.me/realbedford) · [Twitter](https://x.com/realbedford) |
+|Bitcoinology|Monthly|Cyphermunk House|Active|[Meetup](https://www.meetup.com/Bitcoinology/) · [Twitter](https://x.com/bitcoinology271) · [Nostr](nostr:npub18cngxzyjtjw38mrcwlghmj5sdjzt4am4ezra23jlheafsjtt8duq6ld82l)|
 |Lake District BTC|Adventures|Lake District|Active|[Twitter](https://x.com/lakedistrictbtc) · [Telegram](https://t.me/LakeDistrict_BTC) · [Nostr](nostr:npub1uhznqctvmwgmtue5l5qz7e238kpy0d80k75gk4hp60kfuu5wd75qzw45dp)|
 
 ---
