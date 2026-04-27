@@ -32,6 +32,7 @@ last_updated: 2026-02-23
 | Faith and Bitcoin           | Monthly                      | St George the Martyr Church, Holborn | Active | [Twitter](https://x.com/faithandbitcoin) · [Telegram](https://t.me/FaithandBitcoin)                                                                               |
 | Women of Bitcoin UK         | Quarterly                    | London                               | Active | [Twitter](https://x.com/BitcoinWomen21) · [Telegram](https://t.me/WomenofBitcoinUK)                                                                               |
 | Tooting Market Bitcoin Hub  | Regular                      | Tooting Market, Mezzanine Bar        | Paused | [Telegram](https://t.me/TootingBitcoin) · [Twitter](https://x.com/jcastweet)                                                                                      |
+| West Hampstead Bitcoin Meetup | Monthly                      | West Hampstead                       | Active | [Telegram](https://t.me/+eaek12WRhug1NzQ0)                                                                                                                    |
 
 ---
 
