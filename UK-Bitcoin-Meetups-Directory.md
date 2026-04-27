@@ -132,6 +132,7 @@ last_updated: 2026-02-23
 | Limerick Bitcoin | Monthly | Limerick | Active | [Twitter](https://x.com/LimerickBitcoin) · [Telegram](https://t.me/LimerickBitcoin) |
 | Bitcoin Hideaway | - | County Offaly | Active | [Website](http://bitcoinhideaway.com) · [Twitter](https://x.com/bitcoinhideaway) · [Telegram](https://t.me/cultof21) |
 | North West Bitcoin Hub | - | County Derry/Tyrone/Donegal | Active | [Twitter](https://x.com/nw_bitcoinhub) |
+| Galway Bitcoin Meetup | Monthly | Galway | Active | [Twitter](https://x.com/bnireland) · [Telegram](https://t.me/Irishbitcoincommunity) |
 
 ---
 
