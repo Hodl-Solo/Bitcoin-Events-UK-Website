@@ -1,7 +1,7 @@
 ---
 title: UK Bitcoin Meetups Directory
 type: directory
-last_updated: 2026-02-23
+last_updated: 2026-06-20
 ---
 
 # UK Bitcoin Meetups Directory
@@ -23,7 +23,7 @@ last_updated: 2026-02-23
 
 | Name                        | Day/Schedule                 | Venue                                | Status | Links                                                                                                                                                             |
 | --------------------------- | ---------------------------- | ------------------------------------ | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Battersea Bitcoiners        | Thursday · 18:00             | Pintus (Bitcoin accepted)            | Active | [Telegram](https://t.me/batterseabitcoiners)                                                                                                                      |
+| Battersea Bitcoiners        | Monthly · 18:30 | Little Bianca, SW11 6QZ (Bitcoin accepted)            | Active | [Website](https://batterseabitcoiners.co.uk/)·[Telegram](https://t.me/batterseabitcoiners)                                                                                                                               |
 | Cyphermunk House            | Weekly · 18:30               | 9 Northington Street WC1N 2JF        | Active | [Website](https://www.cyphermunkhouse.com/) · [Twitter](https://x.com/CyphermunkHouse) · [Nostr](nostr:npub1hvqhft3p5m9vrg9fez62cm4lmftvu5tqtsc4kxpyju9uya0hywdq3ny4jq) |
 |London Bitcoin Space|Bi-weekly Wednesdays · 18:30|Old Bank of England|Paused|[Website](https://londonbitcoinspace.com/) · [Twitter](https://x.com/ldnbtcspace) · [Telegram](https://t.me/LondonBitcoinSpace) · [Nostr](nostr:npub17mzfuxmmwyrty75gy493dlhqmq6lezk2rkmcu2svhx3l0zwyrtysal50aq)|
 | Bitcoin Walk London         | Saturdays · 12:00            | Hyde Park                            | Active | [Website](https://bitcoinwalk.org/london/)                                                                                                                        |
