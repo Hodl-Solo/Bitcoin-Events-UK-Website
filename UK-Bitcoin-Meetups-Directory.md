@@ -43,7 +43,7 @@ last_updated: 2026-06-20
 | Bitcoin Beach Bournemouth   | Thursday · 19:30        | Chaplins Cellar Bar (Bitcoin accepted) | Active | [Website](https://bournemouthbtc.com/) · [Twitter](https://x.com/BtcBeachBmouth) · [Telegram](https://t.me/+vNXGbIGBTcxjMmRk) |
 |Berkshire Bitcoiners|Monthly · 19:00|The Volunteer, Theale|Active|[Twitter](https://x.com/bitcoinshire) · [Telegram](https://t.me/berkshirebitcoiners) · [Nostr](nostr:npub1l6mrna9fkchzpl82aa23ruus9z8wtgnqdv7pyjkezd85wgk7vg9s752fka)|
 | Chilterns Bitcoin Hub       | Monthly · 19:00         | Various venues                         | Active | [Website](https://www.chilternsbitcoinhub.co.uk/) · [Telegram](https://t.me/ChilternsBTC)                                     |
-|Kent Bitcoin|Monthly|Various venues|Active|[Website](http://kentbitcoin.com) · [Nostr](nostr:npub1mmp6r97caxqc6n749kkek820efry78xzrs5pe4vlxazup75zwzfslgc9xh)|
+|Kent Bitcoin|Monthly|Various venues|Paused|[Website](http://kentbitcoin.com) · [Nostr](nostr:npub1mmp6r97caxqc6n749kkek820efry78xzrs5pe4vlxazup75zwzfslgc9xh)|
 |Suffolk Bitcoin|Last Sunday · 11:00|Suffolk Jungle Room|Delete|[Twitter](https://x.com/SuffolkBitcoin) · [Linktree](https://linktr.ee/suffolkbitcoin) · [Nostr](nostr:npub1d0q8t3zw4g8fayc6j9ga6ejuzn7dw5kyjkzuyzs289qdfvm2envq4ctlcw)|
 |Cambridge Bitcoin|Second Thursday · 19:00|Cambridge|Active|[Twitter](https://x.com/CambridgeBTC) · [Meetup](https://www.meetup.com/cambridge-bitcoin/) · [Nostr](nostr:npub1cfuu8p6wqqkvepuhzcxj484qc8xvx55vjuj6fk6u4fneesknjjesz6uhv9)|
 | Cambs Bitcoin               | Monthly                 | Cambridge                              | Active | [Twitter](https://x.com/cambsbtc) · [Telegram](https://t.me/CambsBitcoin)                                                     |
@@ -110,7 +110,7 @@ last_updated: 2026-06-20
 
 | Name | Day/Schedule | Venue | Status | Links |
 |------|--------------|-------|--------|-------|
-| Bitcoin Wales | Monthly · 18:00 | ZeroDegrees Bar, Cardiff | Active | [Twitter](https://x.com/bitcoinwales) · [Meetup](https://www.meetup.com/all-about-bitcoin-meetup-group-wales/) · [Telegram](https://t.me/+vGLkDDEST2k1NWJk) |
+| Bitcoin Wales | Monthly · 18:00 | ZeroDegrees Bar, Cardiff | Paused | [Twitter](https://x.com/bitcoinwales) · [Meetup](https://www.meetup.com/all-about-bitcoin-meetup-group-wales/) · [Telegram](https://t.me/+vGLkDDEST2k1NWJk) |
 
 ---
 
@@ -127,7 +127,7 @@ last_updated: 2026-06-20
 
 | Name | Day/Schedule | Venue | Status | Links |
 |------|--------------|-------|--------|-------|
-|Dublin Bitcoiners|Second Saturday · 19:00|The International Bar / Palace Bar|Active|[Website](https://www.dublinbitcoiners.com) · [Twitter](https://x.com/dairebtc) · [Nostr](nostr:npub1vhkkpayerx8vuyp36l6y4w07753xr6efgw8w3a4jg4kz0t4d2kqqd7cvxj)|
+|Dublin Bitcoiners|Second Saturday · 19:00|The International Bar / Palace Bar|Paused|[Website](https://www.dublinbitcoiners.com) · [Twitter](https://x.com/dairebtc) · [Nostr](nostr:npub1vhkkpayerx8vuyp36l6y4w07753xr6efgw8w3a4jg4kz0t4d2kqqd7cvxj)|
 | Limerick Bitcoin | Monthly | Limerick | Active | [Twitter](https://x.com/LimerickBitcoin) · [Telegram](https://t.me/LimerickBitcoin) |
 | Bitcoin Hideaway | - | County Offaly | Active | [Website](http://bitcoinhideaway.com) · [Twitter](https://x.com/bitcoinhideaway) · [Telegram](https://t.me/cultof21) |
 | North West Bitcoin Hub | - | County Derry/Tyrone/Donegal | Active | [Twitter](https://x.com/nw_bitcoinhub) |
