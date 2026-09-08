@@ -1,0 +1,50 @@
+name: Keep meetup counter dynamic
+
+on:
+  push:
+    paths:
+      - '.github/workflows/dynamic-meetup-counter.yml'
+      - 'index.html'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  ensure-dynamic-counter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Ensure dynamic meetup counter is present
+        shell: python
+        run: |
+          from pathlib import Path
+
+          path = Path('index.html')
+          html = path.read_text()
+          marker = 'dynamic-meetup-counter'
+
+          if marker not in html:
+              script = '''
+    <script id="dynamic-meetup-counter">
+        document.addEventListener('DOMContentLoaded', () => {
+            const meetupCount = document.querySelectorAll('.meetup-item').length;
+            const counter = document.querySelector('.stats-number');
+            if (counter) counter.textContent = meetupCount;
+        });
+    </script>
+'''
+              html = html.replace('</body>', script + '</body>', 1)
+              path.write_text(html)
+
+      - name: Commit change if needed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          if ! git diff --cached --quiet; then
+            git commit -m "Make meetup counter dynamic"
+            git push
+          fi
