@@ -620,6 +620,13 @@
         </div>
     </footer>
     <div class="bottom-strip"></div>
+    <script id="dynamic-meetup-counter">
+        document.addEventListener('DOMContentLoaded', () => {
+            const meetupCount = document.querySelectorAll('.meetup-item').length;
+            const counter = document.querySelector('.stats-number');
+            if (counter) counter.textContent = meetupCount;
+        });
+    </script>
 </body>
 </html>
 <!-- force rebuild -->
