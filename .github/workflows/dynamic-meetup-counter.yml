@@ -18,8 +18,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Ensure dynamic meetup counter is present
-        shell: python
         run: |
+          python - <<'PY'
           from pathlib import Path
 
           path = Path('index.html')
@@ -27,17 +27,18 @@ jobs:
           marker = 'dynamic-meetup-counter'
 
           if marker not in html:
-              script = '''
-    <script id="dynamic-meetup-counter">
-        document.addEventListener('DOMContentLoaded', () => {
-            const meetupCount = document.querySelectorAll('.meetup-item').length;
-            const counter = document.querySelector('.stats-number');
-            if (counter) counter.textContent = meetupCount;
-        });
-    </script>
-'''
+              script = (
+                  '    <script id="dynamic-meetup-counter">\n'
+                  "        document.addEventListener('DOMContentLoaded', () => {\n"
+                  "            const meetupCount = document.querySelectorAll('.meetup-item').length;\n"
+                  "            const counter = document.querySelector('.stats-number');\n"
+                  "            if (counter) counter.textContent = meetupCount;\n"
+                  '        });\n'
+                  '    </script>\n'
+              )
               html = html.replace('</body>', script + '</body>', 1)
               path.write_text(html)
+          PY
 
       - name: Commit change if needed
         run: |
