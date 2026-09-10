@@ -28,6 +28,20 @@ def find_meetup_file() -> Path:
     raise FileNotFoundError('Could not locate UK-Bitcoin-Meetups-Directory.md')
 
 
+def parse_map_coordinates(value: str):
+    match = re.match(r'^\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*$', value or '')
+    if not match:
+        return None, None
+    lat, lon = match.groups()
+    try:
+        lat_num, lon_num = float(lat), float(lon)
+    except ValueError:
+        return None, None
+    if not (-90 <= lat_num <= 90 and -180 <= lon_num <= 180):
+        return None, None
+    return lat, lon
+
+
 def parse_table_markdown(text: str):
     sections = re.split(r'^##\s+', text, flags=re.MULTILINE)[1:]
     regions = {}
@@ -49,6 +63,7 @@ def parse_table_markdown(text: str):
 
             name, schedule, venue, status = cols[:4]
             links_cell = cols[4] if len(cols) > 4 else ''
+            map_cell = cols[5] if len(cols) > 5 else ''
             status_value = status.strip().lower()
 
             if status_value in {'delete', 'remove'}:
@@ -63,6 +78,7 @@ def parse_table_markdown(text: str):
 
             links = re.findall(r'\[([^\]]+)\]\(([^)]+)\)', links_cell)
             plain_text = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', '', links_cell).strip(' ·')
+            lat, lon = parse_map_coordinates(map_cell)
 
             meetups.append({
                 'name': name.strip(),
@@ -70,6 +86,8 @@ def parse_table_markdown(text: str):
                 'status': status.strip().title(),
                 'links': links,
                 'plain_text': plain_text,
+                'lat': lat,
+                'lon': lon,
             })
 
         if meetups:
@@ -101,8 +119,11 @@ def build_source(regions):
             if status.lower() == 'active':
                 active_total += 1
             status_class = 'status-active' if status.lower() == 'active' else 'status-paused'
+            map_attrs = ''
+            if meetup['lat'] is not None and meetup['lon'] is not None:
+                map_attrs = f' data-lat="{html.escape(meetup["lat"], quote=True)}" data-lon="{html.escape(meetup["lon"], quote=True)}"'
 
-            parts.append('<li class="meetup-item">')
+            parts.append(f'<li class="meetup-item"{map_attrs}>')
             parts.append(
                 f'<div class="meetup-name">{html.escape(meetup["name"])}'
                 f'<span class="status-tag {status_class}">{html.escape(status)}</span></div>'
