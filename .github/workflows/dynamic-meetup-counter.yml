@@ -1,51 +1,32 @@
-name: Keep meetup counter dynamic
+name: Rebuild meetup directory data
 
 on:
   push:
     paths:
+      - 'UK-Bitcoin-Meetups-Directory.md'
+      - 'generate-meetups.py'
       - '.github/workflows/dynamic-meetup-counter.yml'
-      - 'index.html'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  ensure-dynamic-counter:
+  rebuild-meetup-data:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Ensure dynamic meetup counter is present
-        run: |
-          python - <<'PY'
-          from pathlib import Path
+      - name: Generate website meetup data
+        run: python generate-meetups.py
 
-          path = Path('index.html')
-          html = path.read_text()
-          marker = 'dynamic-meetup-counter'
-
-          if marker not in html:
-              script = (
-                  '    <script id="dynamic-meetup-counter">\n'
-                  "        document.addEventListener('DOMContentLoaded', () => {\n"
-                  "            const meetupCount = document.querySelectorAll('.meetup-item').length;\n"
-                  "            const counter = document.querySelector('.stats-number');\n"
-                  "            if (counter) counter.textContent = meetupCount;\n"
-                  '        });\n'
-                  '    </script>\n'
-              )
-              html = html.replace('</body>', script + '</body>', 1)
-              path.write_text(html)
-          PY
-
-      - name: Commit change if needed
+      - name: Commit generated meetup data if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html
+          git add meetups-source.html
           if ! git diff --cached --quiet; then
-            git commit -m "Make meetup counter dynamic"
+            git commit -m "Update meetup data from Markdown directory"
             git push
           fi
