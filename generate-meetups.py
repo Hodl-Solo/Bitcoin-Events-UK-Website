@@ -1,20 +1,14 @@
 #!/usr/bin/env python3
-"""Generate Bitcoin Events UK directory HTML from Obsidian master list."""
+"""Generate the Bitcoin Events UK meetup data source from the Markdown master list."""
 
+import html
 import re
 import sys
 from pathlib import Path
 
 REGION_ORDER = [
-    'London',
-    'South',
-    'Midlands',
-    'North',
-    'Scotland',
-    'Wales',
-    'Northern Ireland',
-    'Ireland',
-    'Special Events',
+    'London', 'South', 'Midlands', 'North', 'Scotland', 'Wales',
+    'Northern Ireland', 'Ireland', 'Special Events',
 ]
 
 MEETUP_FILE_CANDIDATES = [
@@ -22,6 +16,8 @@ MEETUP_FILE_CANDIDATES = [
     '../bill-mission-control/UK-Bitcoin-Meetups-Directory.md',
     '../UK-Bitcoin-Meetups-Directory.md',
 ]
+
+OUTPUT_PATH = Path('meetups-source.html')
 
 
 def find_meetup_file() -> Path:
@@ -34,117 +30,99 @@ def find_meetup_file() -> Path:
 
 def parse_table_markdown(text: str):
     sections = re.split(r'^##\s+', text, flags=re.MULTILINE)[1:]
-    regions: dict[str, list[dict]] = {}
+    regions = {}
 
     for section in sections:
         lines = section.strip().split('\n')
         region = lines[0].strip()
-        table_rows = [line for line in lines if line.startswith('|') and '---' not in line]
+        if region not in REGION_ORDER:
+            continue
 
         meetups = []
-        for row in table_rows:
+        for row in lines[1:]:
+            if not row.startswith('|') or re.match(r'^\|\s*-+', row):
+                continue
+
             cols = [col.strip() for col in row.split('|')[1:-1]]
-            if len(cols) < 4 or cols[0] in ('Name', ''):
+            if len(cols) < 4 or cols[0].lower() == 'name':
                 continue
 
             name, schedule, venue, status = cols[:4]
             links_cell = cols[4] if len(cols) > 4 else ''
             status_value = status.strip().lower()
 
-            if status_value != 'active':
+            if status_value in {'delete', 'remove'}:
                 continue
+            if status_value not in {'active', 'paused'}:
+                status = 'Active'
 
             description = schedule.strip()
             venue = venue.strip()
-            if venue and venue not in description:
-                description = f"{description} · {venue}" if description else venue
+            if venue and venue != '-' and venue not in description:
+                description = f'{description} · {venue}' if description and description != '-' else venue
 
-            link_matches = re.findall(r'\[([^\]]+)\]\(([^)]+)\)', links_cell)
-            links = [{'label': label, 'url': url} for label, url in link_matches]
+            links = re.findall(r'\[([^\]]+)\]\(([^)]+)\)', links_cell)
+            plain_text = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', '', links_cell).strip(' ·')
 
             meetups.append({
                 'name': name.strip(),
                 'description': description,
+                'status': status.strip().title(),
                 'links': links,
+                'plain_text': plain_text,
             })
 
-        regions[region] = meetups
+        if meetups:
+            regions[region] = meetups
 
     return regions
 
 
-def build_directory_html(regions: dict[str, list[dict]]):
-    html_parts = []
+def build_source(regions):
+    parts = ['<!DOCTYPE html>', '<html lang="en"><head><meta charset="UTF-8"><title>Bitcoin Events UK meetup data</title></head><body>']
     active_total = 0
+    total = 0
 
     for region in REGION_ORDER:
         meetups = regions.get(region, [])
         if not meetups:
             continue
 
-        active_total += len(meetups)
-        html_parts.append(f'''
-        <!-- {region} -->
-        <div class="region-section">
-            <div class="region-header">{region}</div>
-            <ul class="meetup-list">''')
-
+        parts.append(f'<div class="region-section"><div class="region-header">{html.escape(region)}</div><ul class="meetup-list">')
         for meetup in meetups:
-            links_html = ''
-            if meetup['links']:
-                chips = ''.join(
-                    f"<a href=\"{link['url']}\" target=\"_blank\" rel=\"noopener\" class=\"link-chip\">{link['label']}</a>"
-                    for link in meetup['links']
+            total += 1
+            status = meetup['status']
+            if status.lower() == 'active':
+                active_total += 1
+            status_class = 'status-active' if status.lower() == 'active' else 'status-paused'
+            parts.append('<li class="meetup-item">')
+            parts.append(f'<div class="meetup-name">{html.escape(meetup["name"])}<span class="status-tag {status_class}">{html.escape(status)}</span></div>')
+            parts.append(f'<div class="meetup-schedule">{html.escape(meetup["description"])}</div>')
+            if meetup['links'] or meetup['plain_text']:
+                links_html = ''.join(
+                    f'<a href="{html.escape(url, quote=True)}" target="_blank" rel="noopener" class="link-chip">{html.escape(label)}</a>'
+                    for label, url in meetup['links']
                 )
-                links_html = f"\n                    <div class=\"meetup-links\">{chips}</div>"
+                links_html += html.escape(meetup['plain_text'])
+                parts.append(f'<div class="meetup-links">{links_html}</div>')
+            parts.append('</li>')
+        parts.append('</ul></div>')
 
-            html_parts.append(f'''
-                <li class="meetup-item">
-                    <div class="meetup-name">{meetup['name']}<span class="status-tag status-active">Active</span></div>
-                    <div class="meetup-schedule">{meetup['description']}</div>{links_html}
-                </li>''')
-
-        html_parts.append('''
-            </ul>
-        </div>''')
-
-    return '\n'.join(html_parts), active_total
-
-
-def update_index_html(generated_html: str, active_total: int):
-    index_path = Path('index.html')
-    index_html = index_path.read_text()
-
-    index_html = re.sub(
-        r'<div class="directory-grid">.*?</div>\s*</main>',
-        f'<div class="directory-grid">\n{generated_html}\n        </div>\n    </main>',
-        index_html,
-        flags=re.DOTALL
-    )
-
-    index_html = re.sub(
-        r'<div class="stats-number">\d+</div>',
-        f'<div class="stats-number">{active_total}</div>',
-        index_html,
-        count=1
-    )
-
-    index_path.write_text(index_html)
+    parts.append('</body></html>')
+    return '\n'.join(parts), active_total, total
 
 
 def main():
     try:
         meetup_file = find_meetup_file()
     except FileNotFoundError as exc:
-        print(f"ERROR: {exc}")
+        print(f'ERROR: {exc}')
         sys.exit(1)
 
-    print(f"Reading from: {meetup_file}")
     regions = parse_table_markdown(meetup_file.read_text())
-    directory_html, active_total = build_directory_html(regions)
-    update_index_html(directory_html, active_total)
-
-    print(f"✓ Generated HTML for {active_total} active meetups")
+    source_html, active_total, total = build_source(regions)
+    OUTPUT_PATH.write_text(source_html)
+    print(f'✓ Generated {total} meetup listings ({active_total} active) in {OUTPUT_PATH}')
 
 
 if __name__ == '__main__':
