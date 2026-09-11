@@ -36,6 +36,12 @@ function escapeHtml(v=''){
 }
 function escapeAttr(v=''){return escapeHtml(v);}
 
+function cardTone(name=''){
+  let hash=0;
+  for(let i=0;i<name.length;i++)hash=((hash<<5)-hash+name.charCodeAt(i))|0;
+  return Math.abs(hash)%6;
+}
+
 function extract(){
   fetch('meetups-source.html',{cache:'no-store'})
     .then(r=>{if(!r.ok)throw new Error('Meetup source unavailable');return r.text();})
@@ -56,7 +62,8 @@ function extract(){
           const linkText=$('.meetup-links',item)?.textContent.trim()||'';
           const lat=Number.parseFloat(item.dataset.lat);
           const lon=Number.parseFloat(item.dataset.lon);
-          meetups.push({name,region,status,schedule,links,linkText,lat,lon});
+          const logo=item.dataset.logo||'';
+          meetups.push({name,region,status,schedule,links,linkText,lat,lon,logo});
         });
       });
       const activeCount=meetups.filter(m=>m.status.trim().toLowerCase()==='active').length;
@@ -78,7 +85,11 @@ function card(m){
   const links=m.links.length
     ?m.links.map(l=>`<a href="${escapeAttr(l.href)}" target="_blank" rel="noopener">${escapeHtml(l.label)}</a>`).join('')
     :(m.linkText?`<span class="region-tag">${escapeHtml(m.linkText)}</span>`:'');
-  return `<article class="meetup-card"><div class="card-top"><h3>${escapeHtml(m.name)}</h3><span class="region-tag">${escapeHtml(m.region)}</span></div><div class="status ${paused?'paused':''}">${escapeHtml(m.status)}</div><p class="schedule">${escapeHtml(m.schedule)}</p>${next?`<p class="next-date">Next expected: <strong>${formatDate(next)}</strong></p>`:''}<div class="card-links">${links}</div></article>`;
+  const logo=m.logo
+    ?`<div class="meetup-logo"><img src="${escapeAttr(m.logo)}" alt="${escapeAttr(m.name)} logo" loading="lazy"></div>`
+    :`<div class="meetup-logo meetup-logo-fallback" aria-hidden="true"><span>₿</span></div>`;
+  const tone=cardTone(m.name);
+  return `<article class="meetup-card tone-${tone}"><div class="card-identity">${logo}<div class="card-title-block"><div class="card-top"><h3>${escapeHtml(m.name)}</h3><span class="region-tag">${escapeHtml(m.region)}</span></div><div class="status ${paused?'paused':''}">${escapeHtml(m.status)}</div></div></div><p class="schedule">${escapeHtml(m.schedule)}</p>${next?`<p class="next-date">Next expected: <strong>${formatDate(next)}</strong></p>`:''}<div class="card-links">${links}</div></article>`;
 }
 
 function render(){
