@@ -21,17 +21,17 @@ OUTPUT_PATH = Path('meetups-source.html')
 
 LOGO_BY_NAME = {
     'Battersea Bitcoiners': 'assets/meetup-logos/battersea-bitcoiners.webp',
-    'Berkshire Bitcoiners': 'assets/meetup-logos/berkshire-bitcoiners.webp',
+    'Berkshire Bitcoiners': 'assets/meetup-logos/berkshire-bitcoiners.jpg',
     'Bitcoin Beach Bournemouth': 'assets/meetup-logos/bitcoin-beach-bournemouth.webp',
     'Chilterns Bitcoin Hub': 'assets/meetup-logos/chilterns-bitcoin-hub.webp',
     'City & Financial Bitcoiners': 'assets/meetup-logos/city-financial-bitcoiners.webp',
     'Cyphermunk House': 'assets/meetup-logos/cyphermunk-house.webp',
-    'Leamington Spa Bitcoin': 'assets/meetup-logos/leamington-spa-bitcoin.webp',
+    'Leamington Spa Bitcoin': 'assets/meetup-logos/leamington-spa-bitcoin.jpg',
     'Northamptonshire Bitcoin Network': 'assets/meetup-logos/northamptonshire-bitcoin-network.webp',
-    'Bitcoin Surrey': 'assets/meetup-logos/bitcoin-surrey.webp',
+    'Bitcoin Surrey': 'assets/meetup-logos/surrey-bitcoin.jpg',
     'Sutton Coldfield Bitcoin': 'assets/meetup-logos/sutton-coldfield-bitcoin.webp',
     'Sheffield Bitcoin': 'assets/meetup-logos/sheffield-bitcoin.webp',
-    'Bitcoin Wales': 'assets/meetup-logos/bitcoin-wales.webp',
+    'Bitcoin Wales': 'assets/meetup-logos/wales-bitcoin.webp',
     'Bitcoin Power - Ayrshire': 'assets/meetup-logos/bitcoin-power-ayrshire.webp',
     'Bitcoin Derby': 'assets/meetup-logos/bitcoin-derby.webp',
     'Dundee Bitcoin': 'assets/meetup-logos/dundee-bitcoin.webp',
@@ -44,6 +44,16 @@ LOGO_BY_NAME = {
     'Preston Bitcoin': 'assets/meetup-logos/preston-bitcoin.webp',
     'Real Bedford FC': 'assets/meetup-logos/real-bedford-fc.webp',
     'Women of Bitcoin UK': 'assets/meetup-logos/women-of-bitcoin-uk.webp',
+    'Brighton Bitcoin': 'assets/meetup-logos/brighton-bitcoin.jpg',
+    'Bitcoin Essex': 'assets/meetup-logos/essex-bitcoin.png',
+    'Lincolnshire Bitcoin': 'assets/meetup-logos/lincolnshire-bitcoin.jpg',
+    'Bitcoin Nottingham': 'assets/meetup-logos/nottingham-bitcoin.jpg',
+    'Wiltshire Bitcoin': 'assets/meetup-logos/wiltshire-bitcoin.jpg',
+    'Leeds Bitcoin Network': 'assets/meetup-logos/leeds-bitcoin.jpg',
+    'North West Bitcoin Hub': 'assets/meetup-logos/north-west-ireland-bitcoin.jpg',
+    'Belfast Bitcoin Meetup': 'assets/meetup-logos/northern-ireland-bitcoin.jpg',
+    'Bitcoin Walk London': 'assets/meetup-logos/bitcoinwalk.png',
+    'Bitcoin Walk Edinburgh': 'assets/meetup-logos/bitcoinwalk.png',
 }
 
 
