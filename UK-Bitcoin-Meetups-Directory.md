@@ -27,7 +27,7 @@ last_updated: 2026-09-10
 
 | Name | Day/Schedule | Venue | Status | Links | Map |
 |---|---|---|---|---|---|
-| Battersea Bitcoiners | Monthly · 18:30 | Little Bianca, SW11 6QZ (Bitcoin accepted) | Active | [Website](https://batterseabitcoiners.co.uk/) · [Telegram](https://t.me/batterseabitcoiners) | 51.4648,-0.1666 |
+| Battersea Bitcoiners | Monthly · 18:30 | Little Bianca, SW11 6QZ (Bitcoin accepted) | Active | [Website](https://batterseabitcoiners.co.uk/) | 51.4648,-0.1666 |
 | Cyphermunk House | Weekly · 18:30 | 9 Northington Street WC1N 2JF | Active | [Website](https://www.cyphermunkhouse.com/) · [Twitter](https://x.com/CyphermunkHouse) · [Nostr](nostr:npub1hvqhft3p5m9vrg9fez62cm4lmftvu5tqtsc4kxpyju9uya0hywdq3ny4jq) | 51.5219,-0.1178 |
 | Bitcoin Walk London | Saturdays · 12:00 | Hyde Park | Active | [Website](https://bitcoinwalk.org/london/) | 51.5073,-0.1657 |
 | City & Financial Bitcoiners | Quarterly · 17:30 | BRIX LDN | Active | [Eventbrite](https://www.eventbrite.co.uk/e/city-and-financial-bitcoiners-february-meetup-tickets-1980540528034) | 51.5036,-0.0967 |
