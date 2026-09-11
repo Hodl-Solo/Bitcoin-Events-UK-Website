@@ -54,6 +54,23 @@ LOGO_BY_NAME = {
     'Belfast Bitcoin Meetup': 'assets/meetup-logos/northern-ireland-bitcoin.jpg',
     'Bitcoin Walk London': 'assets/meetup-logos/bitcoinwalk.png',
     'Bitcoin Walk Edinburgh': 'assets/meetup-logos/bitcoinwalk.png',
+    '2140Art': 'assets/meetup-logos/2140art.png',
+    '2140.wtf': 'assets/meetup-logos/2140wtf.png',
+    'Aberdeen Bitcoin': 'assets/meetup-logos/aberdeen-bitcoin.jpg',
+    'Bitcoin Edinburgh': 'assets/meetup-logos/bitcoin-edinburgh.jpg',
+    'Bitcoinology': 'assets/meetup-logos/bitcoinology.jpg',
+    'Bitcoin Bristol Beer Social': 'assets/meetup-logos/bristol-bitcoin.png',
+    'Brum Bitcoin & Beer': 'assets/meetup-logos/brum-bitcoin-beer.jpg',
+    'BTC Gloucestershire': 'assets/meetup-logos/btc-gloucestershire.jpg',
+    'Cambridge Bitcoin': 'assets/meetup-logos/cambridge-bitcoin.jpg',
+    'Cambs Bitcoin': 'assets/meetup-logos/cambs-bitcoin.jpg',
+    'Faith and Bitcoin': 'assets/meetup-logos/faith-and-bitcoin.jpg',
+    'Glasgow Bitcoin Group': 'assets/meetup-logos/glasgow-bitcoin-group.jpg',
+    'Manchester Bitcoin': 'assets/meetup-logos/manchester-bitcoin.png',
+    'Oxford Bitcoin (OxBit)': 'assets/meetup-logos/oxford-bitcoin.jpg',
+    'Portsmouth Bitcoin': 'assets/meetup-logos/portsmouth-bitcoin.jpg',
+    'Shropshire Bitcoiners': 'assets/meetup-logos/shropshire-bitcoiners.jpg',
+    'Southampton Satoshi Society': 'assets/meetup-logos/southampton-satoshi.jpg',
 }
 
 
