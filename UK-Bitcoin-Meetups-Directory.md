@@ -69,7 +69,7 @@ last_updated: 2026-09-10
 | Lincolnshire Bitcoin | First Thursday · 19:30 | Treaty of Commerce, Lincoln | Active | [Twitter](https://x.com/lincsbitcoin) · [Telegram](https://t.me/LincsBitcoin) | 53.2263,-0.5407 |
 | Northamptonshire Bitcoin Network | Monthly · 19:30 | Various venues | Active | [Website](http://northantsbitcoin.com) · [Twitter](https://x.com/BTCNorthants) · [Nostr](nostr:npub1d6cnmzg9m4kpfxxnzvcgljg4jwk09tu2et3e72yx6ddgrkgmm7sj4jpwn) | 52.2405,-0.9027 |
 | Leamington Spa Bitcoin | Last Wednesday · 19:00 | The Star & Garter | Active | [Twitter](https://x.com/leambitcoin) · [Telegram](https://t.me/leambitcoin) | 52.2926,-1.5352 |
-| Leicester Bitcoin Network | Monthly | Various venues | Active | [Twitter](https://x.com/leicester_btc) · [Telegram](https://t.me/LeicesterBitcoin) | 52.6369,-1.1398 |
+| Leicester Bitcoin Network | Monthly | Various venues | Paused | [Twitter](https://x.com/leicester_btc) · [Telegram](https://t.me/LeicesterBitcoin) | 52.6369,-1.1398 |
 | Sutton Coldfield Bitcoin | Monthly | Sutton Coldfield | Active | [Telegram](https://t.me/SuttonColdBTC) · [Twitter](https://x.com/BitcoinBoomer12) · [Nostr](nostr:npub1xmrl750a2deqehyu4zr8g6a75vwmgssdlcpx22gznp5vukuw48zs3c7yn6) | 52.5704,-1.8240 |
 | BTC Gloucestershire | Monthly | The Tall Ship pub | Active | [Twitter](https://x.com/BTCGlos) · [Telegram](https://t.me/btcGlos) | 51.8648,-2.2486 |
 | Oxford Bitcoin (OxBit) | Quarterly | Oxford | Active | [Twitter](https://x.com/OxBitMeetUp) | 51.7520,-1.2577 |
