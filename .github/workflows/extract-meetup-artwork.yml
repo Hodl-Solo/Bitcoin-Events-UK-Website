@@ -1,0 +1,36 @@
+name: Extract meetup artwork
+
+on:
+  push:
+    paths:
+      - 'All meetup artwork.zip'
+      - '.github/workflows/extract-meetup-artwork.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Extract artwork
+        run: |
+          rm -rf assets/meetup-artwork
+          mkdir -p assets/meetup-artwork
+          unzip -q -o "All meetup artwork.zip" -d assets/meetup-artwork
+          find assets/meetup-artwork -type d -name '__MACOSX' -prune -exec rm -rf {} + || true
+          find assets/meetup-artwork -type f -name '.DS_Store' -delete || true
+
+      - name: Commit extracted artwork
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/meetup-artwork
+          if ! git diff --cached --quiet; then
+            git commit -m "Extract meetup artwork assets"
+            git push
+          fi
