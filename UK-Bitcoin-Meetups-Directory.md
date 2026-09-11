@@ -66,11 +66,11 @@ last_updated: 2026-09-10
 | Brum Bitcoin & Beer | Third Thursday · 19:00 | The Anchor/The Wellington, Digbeth | Active | [Twitter](https://x.com/brumbitcoin) | 52.4749,-1.8849 |
 | Bitcoin Nottingham | Monthly · 18:30 | Carlton Town Football Club | Active | [Website](https://bitcoinnottingham.org/notts-bitcoin-meetups/) · [Twitter](https://x.com/NottmBitcoin) · [Telegram](https://t.me/bitcoin_nottingham) · [Nostr](nostr:npub1w4as69ddnfr8x5lul5nqzz9pf45073p4cdgdvlhcmzn8jk7szrdqlgzqm5) | 52.9767,-1.0528 |
 | Shropshire Bitcoiners | Third Wednesday · 19:00 | Tap n Can, Shrewsbury | Active | [Twitter](https://x.com/shropsbitcoin) · [Nostr](nostr:npub1u445qrpas8y58szt2unzu7wsvgsfg0llgf7y6sjz7pn76967mn5snh6mul) | 52.7100,-2.7495 |
-| Lincolnshire Bitcoin | First Thursday · 19:30 | Treaty of Commerce, Lincoln | Active | [Twitter](https://x.com/lincsbitcoin) · [Telegram](https://t.me/LincsBitcoin) | 53.2263,-0.5407 |
+| Lincs Bitcoin | Third Monday · 19:30 | Treaty of Commerce, Lincoln | Active | [Twitter](https://x.com/lincsbitcoin) · [Website](https://lincsbitcoin.com) - [Nostr](nostr:npub149yj20k9l2f23rzs4sp3qluuxxw86v4faumpaqk8k5f4zgqye54qc200n5) | 53.2263,-0.5407 |
 | Northamptonshire Bitcoin Network | Monthly · 19:30 | Various venues | Active | [Website](http://northantsbitcoin.com) · [Twitter](https://x.com/BTCNorthants) · [Nostr](nostr:npub1d6cnmzg9m4kpfxxnzvcgljg4jwk09tu2et3e72yx6ddgrkgmm7sj4jpwn) | 52.2405,-0.9027 |
 | Leamington Spa Bitcoin | Last Wednesday · 19:00 | The Star & Garter | Active | [Twitter](https://x.com/leambitcoin) · [Telegram](https://t.me/leambitcoin) | 52.2926,-1.5352 |
-| Leicester Bitcoin Network | Monthly | Various venues | Paused | [Twitter](https://x.com/leicester_btc) · [Telegram](https://t.me/LeicesterBitcoin) | 52.6369,-1.1398 |
-| Sutton Coldfield Bitcoin | Monthly | Sutton Coldfield | Active | [Telegram](https://t.me/SuttonColdBTC) · [Twitter](https://x.com/BitcoinBoomer12) · [Nostr](nostr:npub1xmrl750a2deqehyu4zr8g6a75vwmgssdlcpx22gznp5vukuw48zs3c7yn6) | 52.5704,-1.8240 |
+| Leicester Bitcoin Network | Monthly | Various venues | Remove | [Twitter](https://x.com/leicester_btc) · [Telegram](https://t.me/LeicesterBitcoin) | 52.6369,-1.1398 |
+| Sutton Coldfield Bitcoin | Monthly | Sutton Coldfield | Remove | [Telegram](https://t.me/SuttonColdBTC) · [Twitter](https://x.com/BitcoinBoomer12) · [Nostr](nostr:npub1xmrl750a2deqehyu4zr8g6a75vwmgssdlcpx22gznp5vukuw48zs3c7yn6) | 52.5704,-1.8240 |
 | BTC Gloucestershire | Monthly | The Tall Ship pub | Active | [Twitter](https://x.com/BTCGlos) · [Telegram](https://t.me/btcGlos) | 51.8648,-2.2486 |
 | Oxford Bitcoin (OxBit) | Quarterly | Oxford | Active | [Twitter](https://x.com/OxBitMeetUp) | 51.7520,-1.2577 |
 
@@ -128,7 +128,7 @@ last_updated: 2026-09-10
 |---|---|---|---|---|---|
 | Dublin Bitcoiners | Second Saturday · 19:00 | The International Bar / Palace Bar | Paused | [Twitter](https://x.com/dairebtc) · [Nostr](nostr:npub1vhkkpayerx8vuyp36l6y4w07753xr6efgw8w3a4jg4kz0t4d2kqqd7cvxj) | 53.3450,-6.2640 |
 | Limerick Bitcoin | Monthly | Limerick | Active | [Twitter](https://x.com/LimerickBitcoin) · [Telegram](https://t.me/LimerickBitcoin) | 52.6638,-8.6267 |
-| Bitcoin Hideaway | - | County Offaly | Active | [Website](http://bitcoinhideaway.com) · [Twitter](https://x.com/bitcoinhideaway) · [Telegram](https://t.me/cultof21) | 53.2734,-7.4889 |
+| Bitcoin Hideaway | - | County Offaly | Remove | [Website](http://bitcoinhideaway.com) · [Twitter](https://x.com/bitcoinhideaway) · [Telegram](https://t.me/cultof21) | 53.2734,-7.4889 |
 | North West Bitcoin Hub | - | County Derry/Tyrone/Donegal | Active | [Twitter](https://x.com/nw_bitcoinhub) | 54.8274,-7.4633 |
 | Bitcoin Wexford | Monthly, last Thursday | Apt 7, St Peter's Square, Wexford, Y35 ER2F | Active | Find them on Club Orange | 52.3365,-6.4605 |
 
