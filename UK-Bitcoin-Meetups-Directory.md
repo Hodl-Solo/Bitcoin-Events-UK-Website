@@ -118,7 +118,7 @@ last_updated: 2026-09-10
 | Name | Day/Schedule | Venue | Status | Links | Map |
 |---|---|---|---|---|---|
 | Belfast Bitcoin Meetup | First Tuesday · 19:00 | The John Hewitt, Belfast | Active | [Website](https://nibitcoin.com) · [Twitter](https://x.com/nibitcoinnews) · [Telegram](https://t.me/joinchat/1q2NbDYB2qMxNmQ0) | 54.6015,-5.9270 |
-| IOM Bitcoin Community | - | Isle of Man | Active | [Twitter](https://x.com/coincornermolly) · [Telegram](https://t.me/IOMBitcoiners) | 54.1508,-4.4818 |
+| IOM Bitcoin Community | - | Isle of Man | Active | [Twitter](https://x.com/CoinCorner) · [Telegram](https://t.me/IOMBitcoiners) | 54.1508,-4.4818 |
 
 ---
 
