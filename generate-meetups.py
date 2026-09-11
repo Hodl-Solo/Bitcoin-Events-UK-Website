@@ -72,6 +72,12 @@ LOGO_BY_NAME = {
     'Shropshire Bitcoiners': 'assets/meetup-logos/shropshire-bitcoiners.jpg',
     'Southampton Satoshi Society': 'assets/meetup-logos/southampton-satoshi.jpg',
     'Cardiff Bitcoin': 'assets/meetup-logos/cardiff-bitcoin.jpg',
+    'Dublin Bitcoiners': 'assets/meetup-logos/dublin-bitcoin.jpg',
+    'Bitcoin Hideaway': 'assets/meetup-logos/hideaway-bitcoin.jpg',
+    'IOM Bitcoin Community': 'assets/meetup-logos/isle-of-man-bitcoin.jpg',
+    'Leicester Bitcoin Network': 'assets/meetup-logos/leicester-bitcoin.png',
+    'Canterbury Bitcoin': 'assets/meetup-logos/canterbury-bitcoin.png',
+    'Bitcoin Wexford': 'assets/meetup-logos/wexford-bitcoin.png',
 }
 
 
