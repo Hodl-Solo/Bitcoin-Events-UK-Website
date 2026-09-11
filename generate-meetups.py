@@ -19,6 +19,33 @@ MEETUP_FILE_CANDIDATES = [
 
 OUTPUT_PATH = Path('meetups-source.html')
 
+LOGO_BY_NAME = {
+    'Battersea Bitcoiners': 'assets/meetup-logos/battersea-bitcoiners.webp',
+    'Berkshire Bitcoiners': 'assets/meetup-logos/berkshire-bitcoiners.webp',
+    'Bitcoin Beach Bournemouth': 'assets/meetup-logos/bitcoin-beach-bournemouth.webp',
+    'Chilterns Bitcoin Hub': 'assets/meetup-logos/chilterns-bitcoin-hub.webp',
+    'City & Financial Bitcoiners': 'assets/meetup-logos/city-financial-bitcoiners.webp',
+    'Cyphermunk House': 'assets/meetup-logos/cyphermunk-house.webp',
+    'Leamington Spa Bitcoin': 'assets/meetup-logos/leamington-spa-bitcoin.webp',
+    'Northamptonshire Bitcoin Network': 'assets/meetup-logos/northamptonshire-bitcoin-network.webp',
+    'Bitcoin Surrey': 'assets/meetup-logos/bitcoin-surrey.webp',
+    'Sutton Coldfield Bitcoin': 'assets/meetup-logos/sutton-coldfield-bitcoin.webp',
+    'Sheffield Bitcoin': 'assets/meetup-logos/sheffield-bitcoin.webp',
+    'Bitcoin Wales': 'assets/meetup-logos/bitcoin-wales.webp',
+    'Bitcoin Power - Ayrshire': 'assets/meetup-logos/bitcoin-power-ayrshire.webp',
+    'Bitcoin Derby': 'assets/meetup-logos/bitcoin-derby.webp',
+    'Dundee Bitcoin': 'assets/meetup-logos/dundee-bitcoin.webp',
+    'Glasgow Bitcoin': 'assets/meetup-logos/glasgow-bitcoin.webp',
+    'Kent Bitcoin': 'assets/meetup-logos/kent-bitcoin.webp',
+    'Lake District BTC': 'assets/meetup-logos/lake-district-btc.webp',
+    'Limerick Bitcoin': 'assets/meetup-logos/limerick-bitcoin.webp',
+    'Liverpool Bitcoin': 'assets/meetup-logos/liverpool-bitcoin.webp',
+    'Newcastle Bitcoin Coffee': 'assets/meetup-logos/newcastle-bitcoin-coffee.webp',
+    'Preston Bitcoin': 'assets/meetup-logos/preston-bitcoin.webp',
+    'Real Bedford FC': 'assets/meetup-logos/real-bedford-fc.webp',
+    'Women of Bitcoin UK': 'assets/meetup-logos/women-of-bitcoin-uk.webp',
+}
+
 
 def find_meetup_file() -> Path:
     for candidate in MEETUP_FILE_CANDIDATES:
@@ -64,6 +91,7 @@ def parse_table_markdown(text: str):
             name, schedule, venue, status = cols[:4]
             links_cell = cols[4] if len(cols) > 4 else ''
             map_cell = cols[5] if len(cols) > 5 else ''
+            logo_cell = cols[6] if len(cols) > 6 else ''
             status_value = status.strip().lower()
 
             if status_value in {'delete', 'remove'}:
@@ -79,15 +107,18 @@ def parse_table_markdown(text: str):
             links = re.findall(r'\[([^\]]+)\]\(([^)]+)\)', links_cell)
             plain_text = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', '', links_cell).strip(' ·')
             lat, lon = parse_map_coordinates(map_cell)
+            meetup_name = name.strip()
+            logo = logo_cell.strip() or LOGO_BY_NAME.get(meetup_name, '')
 
             meetups.append({
-                'name': name.strip(),
+                'name': meetup_name,
                 'description': description,
                 'status': status.strip().title(),
                 'links': links,
                 'plain_text': plain_text,
                 'lat': lat,
                 'lon': lon,
+                'logo': logo,
             })
 
         if meetups:
@@ -119,11 +150,15 @@ def build_source(regions):
             if status.lower() == 'active':
                 active_total += 1
             status_class = 'status-active' if status.lower() == 'active' else 'status-paused'
-            map_attrs = ''
+            attrs = []
             if meetup['lat'] is not None and meetup['lon'] is not None:
-                map_attrs = f' data-lat="{html.escape(meetup["lat"], quote=True)}" data-lon="{html.escape(meetup["lon"], quote=True)}"'
+                attrs.append(f'data-lat="{html.escape(meetup["lat"], quote=True)}"')
+                attrs.append(f'data-lon="{html.escape(meetup["lon"], quote=True)}"')
+            if meetup['logo']:
+                attrs.append(f'data-logo="{html.escape(meetup["logo"], quote=True)}"')
+            attr_text = (' ' + ' '.join(attrs)) if attrs else ''
 
-            parts.append(f'<li class="meetup-item"{map_attrs}>')
+            parts.append(f'<li class="meetup-item"{attr_text}>')
             parts.append(
                 f'<div class="meetup-name">{html.escape(meetup["name"])}'
                 f'<span class="status-tag {status_class}">{html.escape(status)}</span></div>'
