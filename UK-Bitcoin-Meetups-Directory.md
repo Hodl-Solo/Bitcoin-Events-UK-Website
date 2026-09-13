@@ -94,7 +94,7 @@ last_updated: 2026-09-10
 
 | Name | Day/Schedule | Venue | Status | Links | Map |
 |---|---|---|---|---|---|
-| Bitcoin Walk Edinburgh | Saturday · 12:00 | Arthur's Seat | Active | [Website](https://bitcoinwalk.org/) · [Twitter](https://x.com/bitcoinwalkorg) · [Telegram](https://t.me/+Av2MVsJqA802NzQ0) · [Nostr](nostr:npub1lqhpnuk64s35gaqr6hun7uwlxrhw3v7ys4wn32st33w58akskxfssclwed) | 55.9441,-3.1618 |
+| Bitcoin Walk Edinburgh | Saturday · 12:00 | Arthur's Seat | Paused | [Website](https://bitcoinwalk.org/) · [Twitter](https://x.com/bitcoinwalkorg) · [Telegram](https://t.me/+Av2MVsJqA802NzQ0) · [Nostr](nostr:npub1lqhpnuk64s35gaqr6hun7uwlxrhw3v7ys4wn32st33w58akskxfssclwed) | 55.9441,-3.1618 |
 | Bitcoin Edinburgh | Monthly | Edinburgh | Active | [Website](https://bitcoinedinburgh.com) · [Twitter](https://x.com/BTCedinburgh) · [Telegram](https://t.co/5chDMKtuV4) · [Nostr](nostr:npub1lqhpnuk64s35gaqr6hun7uwlxrhw3v7ys4wn32st33w58akskxfssclwed) | 55.9533,-3.1883 |
 | Glasgow Bitcoin | Monthly · 18:00 | The Piper Bar | Active | [Twitter](https://x.com/glasgowbitcoin) · [Telegram](https://t.me/+WTZQBjGXdME0MmJk) | 55.8612,-4.2501 |
 | Glasgow Bitcoin Group | Monthly | + Bitcoin Power workshop | Active | [Twitter](https://x.com/glasgow_bitcoin) · [Telegram](https://t.me/+bx0VvoucPIpjNTY0) · [Meetup](https://meetu.ps/c/3zlZY/v822r/a) | 55.8642,-4.2518 |
