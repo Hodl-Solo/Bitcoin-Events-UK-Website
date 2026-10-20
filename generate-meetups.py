@@ -65,7 +65,7 @@ LOGO_BY_NAME = {
     'Cambridge Bitcoin': 'assets/meetup-logos/cambridge-bitcoin.jpg',
     'Cambs Bitcoin': 'assets/meetup-logos/cambs-bitcoin.jpg',
     'Faith and Bitcoin': 'assets/meetup-logos/faith-and-bitcoin.jpg',
-    'Glasgow Bitcoin Group': 'assets/meetup-logos/glasgow-bitcoin-group.jpg',
+    'Bitcoin Glasgow': 'assets/meetup-logos/glasgow-bitcoin-group.jpg',
     'Manchester Bitcoin': 'assets/meetup-logos/manchester-bitcoin.png',
     'Oxford Bitcoin (OxBit)': 'assets/meetup-logos/oxford-bitcoin.jpg',
     'Portsmouth Bitcoin': 'assets/meetup-logos/portsmouth-bitcoin.jpg',
