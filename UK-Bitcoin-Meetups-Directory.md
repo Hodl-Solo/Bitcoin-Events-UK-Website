@@ -64,7 +64,7 @@ last_updated: 2026-09-10
 | Name | Day/Schedule | Venue | Status | Links | Map |
 |---|---|---|---|---|---|
 | Brum Bitcoin & Beer | Third Thursday · 19:00 | The Anchor/The Wellington, Digbeth | Active | [Twitter](https://x.com/brumbitcoin) | 52.4749,-1.8849 |
-| Bitcoin Nottingham | Monthly · 18:30 | Carlton Town Football Club | Active | [Website](https://bitcoinnottingham.org/notts-bitcoin-meetups/) · [Twitter](https://x.com/NottmBitcoin) · [Telegram](https://t.me/bitcoin_nottingham) · [Nostr](nostr:npub1w4as69ddnfr8x5lul5nqzz9pf45073p4cdgdvlhcmzn8jk7szrdqlgzqm5) | 52.9767,-1.0528 |
+| Bitcoin Nottingham | Monthly · 18:30 | O'Connors Irish Bar, 33 Central Avenue, West Bridgford, Nottingham NG2 5GQ | Active | [Website](https://bitcoinnottingham.org/notts-bitcoin-meetups/) · [Twitter](https://x.com/NottmBitcoin) · [Nostr](nostr:npub1w4as69ddnfr8x5lul5nqzz9pf45073p4cdgdvlhcmzn8jk7szrdqlgzqm5) | 52.931657,-1.126167 |
 | Shropshire Bitcoiners | Third Wednesday · 19:00 | Tap n Can, Shrewsbury | Active | [Twitter](https://x.com/shropsbitcoin) · [Nostr](nostr:npub1u445qrpas8y58szt2unzu7wsvgsfg0llgf7y6sjz7pn76967mn5snh6mul) | 52.7100,-2.7495 |
 | Lincs Bitcoin | Third Monday · 19:30 | Treaty of Commerce, Lincoln | Active | [Twitter](https://x.com/lincsbitcoin) · [Website](https://lincsbitcoin.com) - [Nostr](nostr:npub149yj20k9l2f23rzs4sp3qluuxxw86v4faumpaqk8k5f4zgqye54qc200n5) | 53.2263,-0.5407 |
 | Northamptonshire Bitcoin Network | Monthly · 19:30 | Various venues | Active | [Website](http://northantsbitcoin.com) · [Twitter](https://x.com/BTCNorthants) · [Nostr](nostr:npub1d6cnmzg9m4kpfxxnzvcgljg4jwk09tu2et3e72yx6ddgrkgmm7sj4jpwn) | 52.2405,-0.9027 |
