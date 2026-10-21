@@ -1,7 +1,7 @@
 ---
 title: UK Bitcoin Meetups Directory
 type: directory
-last_updated: 2026-09-10
+last_updated: 2026-10-22
 ---
 
 # UK Bitcoin Meetups Directory
@@ -53,7 +53,7 @@ last_updated: 2026-09-10
 | Canterbury Bitcoin | Monthly · 19:00 | Millers Arms | Active | [Meetup](https://www.meetup.com/canterbury-bitcoin-meetup-group) · [Telegram](https://t.me/+7q8u-X1eaSQ5NjRk) | 51.2817,1.0780 |
 | Bitcoin Surrey | Monthly | Various | Active | [Twitter](https://x.com/bitcoinsurrey) · [Telegram](https://t.me/bitcoinsurrey) | 51.2362,-0.5704 |
 | Portsmouth Bitcoin | Monthly | Panero Lounge | Active | [Twitter](https://x.com/btc_portsmouth) · [Telegram](https://t.me/+6bm49ocvWU5hNGM8) | 50.7848,-1.0892 |
-| Wiltshire Bitcoin | Monthly | Salisbury area | Active | [Twitter](https://x.com/WiltshireBTC) · [Telegram](https://t.me/WiltshireBTC) | 51.0688,-1.7945 |
+| Wiltshire Bitcoin | Monthly | Salisbury area | Active | [Twitter](https://x.com/WiltsBtc) · [Telegram](https://t.me/WiltshireBTC) | 51.0688,-1.7945 |
 | Southampton Satoshi Society | Monthly | Southampton | Active | [Twitter](https://x.com/SatsSociety) · [Telegram](https://t.me/TheSatoshiSociety) · [Nostr](nostr:npub1t8k7fql0s4ced2nvkndg0gvax0yxnww6tu4yph7cwm92k305umcqgwuc36) | 50.9097,-1.4044 |
 | Bitcoin Bristol Beer Social | 21st of month | Rotating venues | Active | [Twitter](https://x.com/BitcoinBRS) · [Nostr](npub103a6vk43crw497dlaptwfmhctxqu22mwepshjcvvp29fzwrhtx4q675n6p) | 51.4545,-2.5879 |
 
@@ -83,9 +83,9 @@ last_updated: 2026-09-10
 | Leeds Bitcoin Network | First Sunday · 13:00 | Global Tribe Cafe | Active | [Twitter](https://x.com/leedsbtc) · [Telegram](https://t.me/LeedsBTC) · [Meetup](https://www.meetup.com/leeds-bitcoin-network/) · [Nostr](nostr:npub1rs38wtz4x4fh63ny079ltvneg46xyyjf5qt3qknparn4a8rlj8jq2gdzf6) | 53.7995,-1.5417 |
 | Newcastle Bitcoin Coffee | Friday · 10:00-12:00 | Pumphreys Coffee Centre | Active | [Meetup](https://meetu.ps/e/PqtTh/v822r/i) · [Twitter](https://x.com/bitcoinncl) · [Nostr](nostr:npub17ar5py60qggd7m6hkxn93le6uxhx5nqdfj82ahlup7sd2u635kqs0qas6a) | 54.9737,-1.6138 |
 | Manchester Bitcoin | Monthly · 19:00 | Joshua Brooks | Active | [Website](https://www.bitcoinmanchester.org.uk/) · [Twitter](https://x.com/bitcoin_mcr) · [Telegram](https://telegram.me/joinchat/C-JzxAqUBzsuN5MCNxV4dQ) · [Nostr](nostr:npub1w2d0xngltuuak23sty9xwnu6kwudswp86yn0jfdrhtxydwnhjslq60jesu) | 53.4741,-2.2378 |
-| Preston Bitcoin | Monthly · 19:00 | Various venues | Active | [Website](https://prestonbtc.co.uk) · [Twitter](https://x.com/prestonbtcmeet) · [Telegram](https://t.me/+a4lufYtIwwBmOGE0) · [Nostr](nostr:npub16pxqu5dll5zjk5xezg40tmvcfz5t77p9czs50z9dwgpnn9m4fs9sxdftfe) | 53.7632,-2.7031 |
+| Preston Bitcoin | Monthly · 19:00 | Various venues | Active | [Website](https://prestonbtc.co.uk) · [Telegram](https://t.me/+a4lufYtIwwBmOGE0) · [Nostr](nostr:npub16pxqu5dll5zjk5xezg40tmvcfz5t77p9czs50z9dwgpnn9m4fs9sxdftfe) | 53.7632,-2.7031 |
 | Liverpool Bitcoin | Monthly · 18:30 | The Railway Pub | Active | [Twitter](https://x.com/bitcoinlpool) · [Telegram](https://t.me/BitcoinLiverpoolUK) | 53.4084,-2.9916 |
-| Sheffield Bitcoin | Monthly · 13:00 | The Deli, Kelham | Active | [Twitter](https://x.com/btcsheffield21) · [Telegram](https://t.me/BitcoinSheffield) · [Nostr](nostr:npub13np9hssuwcl292aksayly9nutdfrsxpm0dwt8w85tdfd7mwpy5fsjp0lgp) | 53.3890,-1.4728 |
+| Sheffield Bitcoin | Monthly · 13:00 | The Deli, Kelham | Active | [Telegram](https://t.me/BitcoinSheffield) · [Nostr](nostr:npub13np9hssuwcl292aksayly9nutdfrsxpm0dwt8w85tdfd7mwpy5fsjp0lgp) | 53.3890,-1.4728 |
 | Bitcoin Derby | Monthly | Ye Olde Dolphin | Active | [Twitter](https://x.com/BTCDerby) · [Telegram](https://t.me/+Wv-hARcM3jExYjU0) · [Nostr](nostr:npub1f8vnjrtpc67yn3mj5fw3dpmnmselv8jgzysktpt60gsjs5h7wsvqqs5xev) | 52.9251,-1.4755 |
 
 ---
@@ -100,7 +100,7 @@ last_updated: 2026-09-10
 | Bitcoin Glasgow | Third Wednesday · 18:00 | Hope & Vincent, 140 St Vincent St, Glasgow G2 5LA (the Snug) | Active | [Twitter](https://x.com/glasgow_bitcoin) · [Telegram](https://t.me/+bx0VvoucPIpjNTY0) · [Meetup](https://meetu.ps/c/3zlZY/v822r/a) | 55.8619,-4.2586 |
 | Dundee Bitcoin | Second Monday · 17:30 | The Wine Press | Active | [Twitter](https://x.com/dundeebitcoin) | 56.4602,-2.9689 |
 | Aberdeen Bitcoin | Monthly | Aberdeen | Active | [Twitter](https://x.com/aberdeenbitcoin) | 57.1497,-2.0943 |
-| Bitcoin Power - Ayrshire | Monthly | Ayr | Active | [Twitter](https://x.com/ayrshirebitcoin) · [Meetup](https://www.meetup.com/bitcoin-power/events/311034050/) | 55.4586,-4.6292 |
+| Bitcoin Power - Ayrshire | Monthly | Ayr | Active | [Meetup](https://www.meetup.com/bitcoin-power/events/311034050/) | 55.4586,-4.6292 |
 
 ---
 
