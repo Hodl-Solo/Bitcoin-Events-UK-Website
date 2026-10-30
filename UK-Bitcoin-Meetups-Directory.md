@@ -29,7 +29,7 @@ last_updated: 2026-10-22
 |---|---|---|---|---|---|
 | Battersea Bitcoiners | Monthly · 18:30 | Little Bianca, SW11 6QZ (Bitcoin accepted) | Active | [Website](https://batterseabitcoiners.co.uk/) | 51.4648,-0.1666 |
 | Cyphermunk House | Weekly · 18:30 | 9 Northington Street WC1N 2JF | Active | [Website](https://www.cyphermunkhouse.com/) · [Twitter](https://x.com/CyphermunkHouse) · [Nostr](nostr:npub1hvqhft3p5m9vrg9fez62cm4lmftvu5tqtsc4kxpyju9uya0hywdq3ny4jq) | 51.5219,-0.1178 |
-| Bitcoin Walk London | Saturdays · 12:00 | Hyde Park | Active | [Website](https://bitcoinwalk.org/london/) | 51.5073,-0.1657 |
+| Bitcoin Walk London | Saturdays · 11:00 | Hyde Park | Active | [Website](https://bitcoinwalk.org/london/) | 51.5073,-0.1657 |
 | City & Financial Bitcoiners | Quarterly · 17:30 | BRIX LDN | Active | [Eventbrite](https://www.eventbrite.co.uk/e/city-and-financial-bitcoiners-february-meetup-tickets-1980540528034) | 51.5036,-0.0967 |
 | Faith and Bitcoin | Monthly | St George the Martyr Church, Holborn | Active | [Twitter](https://x.com/faithandbitcoin) · [Telegram](https://t.me/FaithandBitcoin) | 51.5208,-0.1211 |
 | Women of Bitcoin UK | Quarterly | London | Active | [Twitter](https://x.com/BitcoinWomen21) · [Telegram](https://t.me/WomenofBitcoinUK) | 51.5074,-0.1278 |
@@ -126,7 +126,7 @@ last_updated: 2026-10-22
 
 | Name | Day/Schedule | Venue | Status | Links | Map |
 |---|---|---|---|---|---|
-| Dublin Bitcoiners | Second Saturday · 19:00 | The International Bar / Palace Bar | Paused | [Twitter](https://x.com/dairebtc) · [Nostr](nostr:npub1vhkkpayerx8vuyp36l6y4w07753xr6efgw8w3a4jg4kz0t4d2kqqd7cvxj) | 53.3450,-6.2640 |
+| Dublin Bitcoiners | Second Saturday · 19:00 | The International Bar / Palace Bar | Paused | [Twitter](https://x.com/DublinBitcoiner) · [Nostr](nostr:npub1vhkkpayerx8vuyp36l6y4w07753xr6efgw8w3a4jg4kz0t4d2kqqd7cvxj) | 53.3450,-6.2640 |
 | Limerick Bitcoin | Monthly | Limerick | Active | [Twitter](https://x.com/LimerickBitcoin) · [Telegram](https://t.me/LimerickBitcoin) | 52.6638,-8.6267 |
 | Bitcoin Hideaway | - | County Offaly | Remove | [Website](http://bitcoinhideaway.com) · [Twitter](https://x.com/bitcoinhideaway) · [Telegram](https://t.me/cultof21) | 53.2734,-7.4889 |
 | North West Bitcoin Hub | - | County Derry/Tyrone/Donegal | Active | [Twitter](https://x.com/nw_bitcoinhub) | 54.8274,-7.4633 |
