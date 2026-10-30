@@ -117,7 +117,7 @@ last_updated: 2026-10-22
 
 | Name | Day/Schedule | Venue | Status | Links | Map |
 |---|---|---|---|---|---|
-| Belfast Bitcoin Meetup | First Tuesday · 19:00 | The John Hewitt, Belfast | Active | [Website](https://nibitcoin.com) · [Twitter](https://x.com/nibitcoinnews) · [Telegram](https://t.me/joinchat/1q2NbDYB2qMxNmQ0) | 54.6015,-5.9270 |
+| Belfast Bitcoin Meetup | First Tuesday · 19:00 | The John Hewitt, Belfast | Paused | [Website](https://nibitcoin.com) · [Twitter](https://x.com/nibitcoinnews) · [Telegram](https://t.me/joinchat/1q2NbDYB2qMxNmQ0) | 54.6015,-5.9270 |
 | IOM Bitcoin Community | - | Isle of Man | Active | [Twitter](https://x.com/CoinCorner) · [Telegram](https://t.me/IOMBitcoiners) | 54.1508,-4.4818 |
 
 ---
@@ -126,7 +126,7 @@ last_updated: 2026-10-22
 
 | Name | Day/Schedule | Venue | Status | Links | Map |
 |---|---|---|---|---|---|
-| Dublin Bitcoiners | Second Saturday · 19:00 | The International Bar / Palace Bar | Paused | [Twitter](https://x.com/DublinBitcoiner) · [Nostr](nostr:npub1vhkkpayerx8vuyp36l6y4w07753xr6efgw8w3a4jg4kz0t4d2kqqd7cvxj) | 53.3450,-6.2640 |
+| Dublin Bitcoiners | Second Saturday · 19:00 | The International Bar / Palace Bar | Paused | [Twitter](https://x.com/dairebtc) · [Nostr](nostr:npub1vhkkpayerx8vuyp36l6y4w07753xr6efgw8w3a4jg4kz0t4d2kqqd7cvxj) | 53.3450,-6.2640 |
 | Limerick Bitcoin | Monthly | Limerick | Active | [Twitter](https://x.com/LimerickBitcoin) · [Telegram](https://t.me/LimerickBitcoin) | 52.6638,-8.6267 |
 | Bitcoin Hideaway | - | County Offaly | Remove | [Website](http://bitcoinhideaway.com) · [Twitter](https://x.com/bitcoinhideaway) · [Telegram](https://t.me/cultof21) | 53.2734,-7.4889 |
 | North West Bitcoin Hub | - | County Derry/Tyrone/Donegal | Active | [Twitter](https://x.com/nw_bitcoinhub) | 54.8274,-7.4633 |
