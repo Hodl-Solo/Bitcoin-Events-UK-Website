@@ -29,7 +29,7 @@ last_updated: 2026-10-22
 |---|---|---|---|---|---|
 | Battersea Bitcoiners | Monthly · 18:30 | Little Bianca, SW11 6QZ (Bitcoin accepted) | Active | [Website](https://batterseabitcoiners.co.uk/) | 51.4648,-0.1666 |
 | Cyphermunk House | Weekly · 18:30 | 9 Northington Street WC1N 2JF | Active | [Website](https://www.cyphermunkhouse.com/) · [Twitter](https://x.com/CyphermunkHouse) · [Nostr](nostr:npub1hvqhft3p5m9vrg9fez62cm4lmftvu5tqtsc4kxpyju9uya0hywdq3ny4jq) | 51.5219,-0.1178 |
-| Bitcoin Walk London | Saturdays · 12:00 | Hyde Park | Active | [Website](https://bitcoinwalk.org/london/) | 51.5073,-0.1657 |
+| Bitcoin Walk London | Saturdays · 11:00 | Hyde Park | Active | [Website](https://bitcoinwalk.org/london/) | 51.5073,-0.1657 |
 | City & Financial Bitcoiners | Quarterly · 17:30 | BRIX LDN | Active | [Eventbrite](https://www.eventbrite.co.uk/e/city-and-financial-bitcoiners-february-meetup-tickets-1980540528034) | 51.5036,-0.0967 |
 | Faith and Bitcoin | Monthly | St George the Martyr Church, Holborn | Active | [Twitter](https://x.com/faithandbitcoin) · [Telegram](https://t.me/FaithandBitcoin) | 51.5208,-0.1211 |
 | Women of Bitcoin UK | Quarterly | London | Active | [Twitter](https://x.com/BitcoinWomen21) · [Telegram](https://t.me/WomenofBitcoinUK) | 51.5074,-0.1278 |
@@ -117,7 +117,7 @@ last_updated: 2026-10-22
 
 | Name | Day/Schedule | Venue | Status | Links | Map |
 |---|---|---|---|---|---|
-| Belfast Bitcoin Meetup | First Tuesday · 19:00 | The John Hewitt, Belfast | Active | [Website](https://nibitcoin.com) · [Twitter](https://x.com/nibitcoinnews) · [Telegram](https://t.me/joinchat/1q2NbDYB2qMxNmQ0) | 54.6015,-5.9270 |
+| Belfast Bitcoin Meetup | First Tuesday · 19:00 | The John Hewitt, Belfast | Paused | [Website](https://nibitcoin.com) · [Twitter](https://x.com/nibitcoinnews) · [Telegram](https://t.me/joinchat/1q2NbDYB2qMxNmQ0) | 54.6015,-5.9270 |
 | IOM Bitcoin Community | - | Isle of Man | Active | [Twitter](https://x.com/CoinCorner) · [Telegram](https://t.me/IOMBitcoiners) | 54.1508,-4.4818 |
 
 ---
