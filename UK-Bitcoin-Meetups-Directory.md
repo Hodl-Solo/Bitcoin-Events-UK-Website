@@ -28,7 +28,7 @@ last_updated: 2026-10-22
 | Name | Day/Schedule | Venue | Status | Links | Map |
 |---|---|---|---|---|---|
 | Battersea Bitcoiners | Monthly · 18:30 | Little Bianca, SW11 6QZ (Bitcoin accepted) | Active | [Website](https://batterseabitcoiners.co.uk/) | 51.4648,-0.1666 |
-| Cyphermunk House | Weekly · 18:30 | 9 Northington Street WC1N 2JF | Active | [Website](https://www.cyphermunkhouse.com/) · [Twitter](https://x.com/CyphermunkHouse) · [Nostr](nostr:npub1hvqhft3p5m9vrg9fez62cm4lmftvu5tqtsc4kxpyju9uya0hywdq3ny4jq) | 51.5219,-0.1178 |
+| Cyphermunk House | Weekly · 18:30 | - | Active | [Website](https://www.cyphermunkhouse.com/) · [Twitter](https://x.com/CyphermunkHouse) · [Nostr](nostr:npub1hvqhft3p5m9vrg9fez62cm4lmftvu5tqtsc4kxpyju9uya0hywdq3ny4jq) | 51.5219,-0.1178 |
 | Bitcoin Walk London | Saturdays · 11:00 | Hyde Park | Active | [Website](https://bitcoinwalk.org/london/) | 51.5073,-0.1657 |
 | City & Financial Bitcoiners | Quarterly · 17:30 | BRIX LDN | Active | [Eventbrite](https://www.eventbrite.co.uk/e/city-and-financial-bitcoiners-february-meetup-tickets-1980540528034) | 51.5036,-0.0967 |
 | Faith and Bitcoin | Monthly | St George the Martyr Church, Holborn | Active | [Twitter](https://x.com/faithandbitcoin) · [Telegram](https://t.me/FaithandBitcoin) | 51.5208,-0.1211 |
@@ -48,11 +48,11 @@ last_updated: 2026-10-22
 | Bitcoin Essex | Quarterly · 19:00 | Ye Olde Smack, Southend-on-Sea, SS9 2EN | Active | [Twitter](https://x.com/aaronofessex) · [Satlantis](https://www.satlantis.io/c/1000145/bitcoin-essex-meetup?returnTo=%2Fp%2Fnpub1ztzpz9xepmxsry7jqdhjc32dh5wtktpnn9kjq5eupdwdq06gdn6s0d7zxv%23calendars) | 51.5418,0.6517 |
 | Chilterns Bitcoin Hub | Monthly · 19:00 | Various venues | Paused | [Website](https://www.chilternsbitcoinhub.co.uk/) · [Telegram](https://t.me/ChilternsBTC) | 51.6287,-0.7482 |
 | Kent Bitcoin | Monthly | Various venues | Paused | [Website](http://kentbitcoin.com) · [Nostr](nostr:npub1mmp6r97caxqc6n749kkek820efry78xzrs5pe4vlxazup75zwzfslgc9xh) | 51.2724,0.5227 |
-| Cambridge Bitcoin | Second Thursday · 19:00 | Cambridge | Active | [Twitter](https://x.com/CambridgeBTC) · [Meetup](https://www.meetup.com/cambridge-bitcoin/) · [Nostr](nostr:npub1cfuu8p6wqqkvepuhzcxj484qc8xvx55vjuj6fk6u4fneesknjjesz6uhv9) | 52.2053,0.1218 |
-| Cambs Bitcoin | Monthly | Cambridge | Active | [Twitter](https://x.com/cambsbtc) · [Telegram](https://t.me/CambsBitcoin) | 52.2080,0.1190 |
-| Canterbury Bitcoin | Monthly · 19:00 | Millers Arms | Active | [Meetup](https://www.meetup.com/canterbury-bitcoin-meetup-group) · [Telegram](https://t.me/+7q8u-X1eaSQ5NjRk) | 51.2817,1.0780 |
+| Cambridge Bitcoin | Second Thursday · 19:00 | Cambridge | Active | [Twitter](https://x.com/CambridgeBTC) · [Nostr](nostr:npub1cfuu8p6wqqkvepuhzcxj484qc8xvx55vjuj6fk6u4fneesknjjesz6uhv9) | 52.2053,0.1218 |
+| Cambs Bitcoin | Monthly | Cambridge | Active | [Twitter](https://x.com/cambsbtc) | 52.2080,0.1190 |
+| Canterbury Bitcoin | Monthly · 19:00 | Millers Arms | Active | [Meetup](https://www.meetup.com/canterbury-bitcoin-meetup-group) | 51.2817,1.0780 |
 | Bitcoin Surrey | Monthly | Various | Active | [Twitter](https://x.com/bitcoinsurrey) · [Telegram](https://t.me/bitcoinsurrey) | 51.2362,-0.5704 |
-| Portsmouth Bitcoin | Monthly | Panero Lounge | Active | [Twitter](https://x.com/btc_portsmouth) · [Telegram](https://t.me/+6bm49ocvWU5hNGM8) | 50.7848,-1.0892 |
+| Portsmouth Bitcoin | Monthly | Panero Lounge | Active | [Twitter](https://x.com/btc_portsmouth) | 50.7848,-1.0892 |
 | Wiltshire Bitcoin | Monthly | Salisbury area | Active | [Twitter](https://x.com/WiltsBtc) · [Telegram](https://t.me/WiltshireBTC) | 51.0688,-1.7945 |
 | Southampton Satoshi Society | Monthly | Southampton | Active | [Twitter](https://x.com/SatsSociety) · [Telegram](https://t.me/TheSatoshiSociety) · [Nostr](nostr:npub1t8k7fql0s4ced2nvkndg0gvax0yxnww6tu4yph7cwm92k305umcqgwuc36) | 50.9097,-1.4044 |
 | Bitcoin Bristol Beer Social | 21st of month | Rotating venues | Active | [Twitter](https://x.com/BitcoinBRS) · [Nostr](npub103a6vk43crw497dlaptwfmhctxqu22mwepshjcvvp29fzwrhtx4q675n6p) | 51.4545,-2.5879 |
@@ -80,10 +80,10 @@ last_updated: 2026-10-22
 
 | Name | Day/Schedule | Venue | Status | Links | Map |
 |---|---|---|---|---|---|
-| Leeds Bitcoin Network | First Sunday · 13:00 | Global Tribe Cafe | Active | [Twitter](https://x.com/leedsbtc) · [Telegram](https://t.me/LeedsBTC) · [Meetup](https://www.meetup.com/leeds-bitcoin-network/) · [Nostr](nostr:npub1rs38wtz4x4fh63ny079ltvneg46xyyjf5qt3qknparn4a8rlj8jq2gdzf6) | 53.7995,-1.5417 |
+| Leeds Bitcoin Network | First Sunday · 13:00 | Global Tribe Cafe | Active | [Twitter](https://x.com/leedsbtc) · [Telegram](https://t.me/LeedsBTC) · [Nostr](nostr:npub1rs38wtz4x4fh63ny079ltvneg46xyyjf5qt3qknparn4a8rlj8jq2gdzf6) | 53.7995,-1.5417 |
 | Newcastle Bitcoin Coffee | Friday · 10:00-12:00 | Pumphreys Coffee Centre | Active | [Meetup](https://meetu.ps/e/PqtTh/v822r/i) · [Twitter](https://x.com/bitcoinncl) · [Nostr](nostr:npub17ar5py60qggd7m6hkxn93le6uxhx5nqdfj82ahlup7sd2u635kqs0qas6a) | 54.9737,-1.6138 |
-| Manchester Bitcoin | Monthly · 19:00 | Joshua Brooks | Active | [Website](https://www.bitcoinmanchester.org.uk/) · [Twitter](https://x.com/bitcoin_mcr) · [Telegram](https://telegram.me/joinchat/C-JzxAqUBzsuN5MCNxV4dQ) · [Nostr](nostr:npub1w2d0xngltuuak23sty9xwnu6kwudswp86yn0jfdrhtxydwnhjslq60jesu) | 53.4741,-2.2378 |
-| Preston Bitcoin | Monthly · 19:00 | Various venues | Active | [Website](https://prestonbtc.co.uk) · [Telegram](https://t.me/+a4lufYtIwwBmOGE0) · [Nostr](nostr:npub16pxqu5dll5zjk5xezg40tmvcfz5t77p9czs50z9dwgpnn9m4fs9sxdftfe) | 53.7632,-2.7031 |
+| Manchester Bitcoin | Monthly · 19:00 | Joshua Brooks | Active | [Twitter](https://x.com/bitcoin_mcr) · [Telegram](https://telegram.me/joinchat/C-JzxAqUBzsuN5MCNxV4dQ) · [Nostr](nostr:npub1w2d0xngltuuak23sty9xwnu6kwudswp86yn0jfdrhtxydwnhjslq60jesu) | 53.4741,-2.2378 |
+| Preston Bitcoin | Monthly · 19:00 | Various venues | Active | [Website](https://prestonbtc.co.uk) · [Instagram](https://www.instagram.com/prestonbitcoin) · [Nostr](nostr:npub16pxqu5dll5zjk5xezg40tmvcfz5t77p9czs50z9dwgpnn9m4fs9sxdftfe) | 53.7632,-2.7031 |
 | Liverpool Bitcoin | Monthly · 18:30 | The Railway Pub | Active | [Twitter](https://x.com/bitcoinlpool) · [Telegram](https://t.me/BitcoinLiverpoolUK) | 53.4084,-2.9916 |
 | Sheffield Bitcoin | Monthly · 13:00 | The Deli, Kelham | Active | [Telegram](https://t.me/BitcoinSheffield) · [Nostr](nostr:npub13np9hssuwcl292aksayly9nutdfrsxpm0dwt8w85tdfd7mwpy5fsjp0lgp) | 53.3890,-1.4728 |
 | Bitcoin Derby | Monthly | Ye Olde Dolphin | Active | [Twitter](https://x.com/BTCDerby) · [Telegram](https://t.me/+Wv-hARcM3jExYjU0) · [Nostr](nostr:npub1f8vnjrtpc67yn3mj5fw3dpmnmselv8jgzysktpt60gsjs5h7wsvqqs5xev) | 52.9251,-1.4755 |
@@ -118,7 +118,7 @@ last_updated: 2026-10-22
 | Name | Day/Schedule | Venue | Status | Links | Map |
 |---|---|---|---|---|---|
 | Belfast Bitcoin Meetup | First Tuesday · 19:00 | The John Hewitt, Belfast | Paused | [Website](https://nibitcoin.com) · [Twitter](https://x.com/nibitcoinnews) · [Telegram](https://t.me/joinchat/1q2NbDYB2qMxNmQ0) | 54.6015,-5.9270 |
-| IOM Bitcoin Community | - | Isle of Man | Active | [Twitter](https://x.com/CoinCorner) · [Telegram](https://t.me/IOMBitcoiners) | 54.1508,-4.4818 |
+| IOM Bitcoin Community | - | Isle of Man | Paused | [Twitter](https://x.com/CoinCorner) · [Telegram](https://t.me/IOMBitcoiners) | 54.1508,-4.4818 |
 
 ---
 
@@ -127,10 +127,10 @@ last_updated: 2026-10-22
 | Name | Day/Schedule | Venue | Status | Links | Map |
 |---|---|---|---|---|---|
 | Dublin Bitcoiners | Second Saturday · 19:00 | The International Bar / Palace Bar | Paused | [Twitter](https://x.com/dairebtc) · [Nostr](nostr:npub1vhkkpayerx8vuyp36l6y4w07753xr6efgw8w3a4jg4kz0t4d2kqqd7cvxj) | 53.3450,-6.2640 |
-| Limerick Bitcoin | Monthly | Limerick | Active | [Twitter](https://x.com/LimerickBitcoin) · [Telegram](https://t.me/LimerickBitcoin) | 52.6638,-8.6267 |
+| Limerick Bitcoin | Monthly | Limerick | Paused | [Twitter](https://x.com/LimerickBitcoin) · [Telegram](https://t.me/LimerickBitcoin) | 52.6638,-8.6267 |
 | Bitcoin Hideaway | - | County Offaly | Remove | [Website](http://bitcoinhideaway.com) · [Twitter](https://x.com/bitcoinhideaway) · [Telegram](https://t.me/cultof21) | 53.2734,-7.4889 |
-| North West Bitcoin Hub | - | County Derry/Tyrone/Donegal | Active | [Twitter](https://x.com/nw_bitcoinhub) | 54.8274,-7.4633 |
-| Bitcoin Wexford | Monthly, last Thursday | Apt 7, St Peter's Square, Wexford, Y35 ER2F | Active | Find them on Club Orange | 52.3365,-6.4605 |
+| North West Bitcoin Hub | - | County Derry/Tyrone/Donegal | Paused | [Twitter](https://x.com/nw_bitcoinhub) | 54.8274,-7.4633 |
+| Bitcoin Wexford | Monthly, last Thursday | Apt 7, St Peter's Square, Wexford, Y35 ER2F | Paused | Find them on Club Orange | 52.3365,-6.4605 |
 
 ---
 
