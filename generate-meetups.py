@@ -35,7 +35,7 @@ LOGO_BY_NAME = {
     'Bitcoin Power - Ayrshire': 'assets/meetup-logos/bitcoin-power-ayrshire.webp',
     'Bitcoin Derby': 'assets/meetup-logos/bitcoin-derby.webp',
     'Dundee Bitcoin': 'assets/meetup-logos/dundee-bitcoin.webp',
-    'Glasgow Bitcoin': 'assets/meetup-logos/glasgow-bitcoin.webp',
+    'Glasgow Bitcoin Group': 'assets/meetup-logos/glasgow-bitcoin.webp',
     'Kent Bitcoin': 'assets/meetup-logos/kent-bitcoin.webp',
     'Lake District BTC': 'assets/meetup-logos/lake-district-btc.webp',
     'Limerick Bitcoin': 'assets/meetup-logos/limerick-bitcoin.webp',
