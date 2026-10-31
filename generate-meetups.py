@@ -77,7 +77,6 @@ LOGO_BY_NAME = {
     'IOM Bitcoin Community': 'assets/meetup-logos/isle-of-man-bitcoin.jpg',
     'Leicester Bitcoin Network': 'assets/meetup-logos/leicester-bitcoin.png',
     'Canterbury Bitcoin': 'assets/meetup-logos/canterbury-bitcoin.png',
-    'Bitcoin Wexford': 'assets/meetup-logos/wexford-bitcoin.png',
 }
 
 
