@@ -96,8 +96,8 @@ last_updated: 2026-10-22
 |---|---|---|---|---|---|
 | Bitcoin Walk Edinburgh | Saturday · 12:00 | Arthur's Seat | Paused | [Website](https://bitcoinwalk.org/) · [Twitter](https://x.com/bitcoinwalkorg) · [Telegram](https://t.me/+Av2MVsJqA802NzQ0) · [Nostr](nostr:npub1lqhpnuk64s35gaqr6hun7uwlxrhw3v7ys4wn32st33w58akskxfssclwed) | 55.9441,-3.1618 |
 | Bitcoin Edinburgh | Monthly | Edinburgh | Active | [Website](https://bitcoinedinburgh.com) · [Twitter](https://x.com/BTCedinburgh) · [Telegram](https://t.co/5chDMKtuV4) · [Nostr](nostr:npub1lqhpnuk64s35gaqr6hun7uwlxrhw3v7ys4wn32st33w58akskxfssclwed) | 55.9533,-3.1883 |
-| Glasgow Bitcoin | Monthly · 18:00 | The Piper Bar | Active | [Twitter](https://x.com/glasgowbitcoin) · [Telegram](https://t.me/+WTZQBjGXdME0MmJk) | 55.8612,-4.2501 |
-| Bitcoin Glasgow | Third Wednesday · 18:00 | Hope & Vincent, 140 St Vincent St, Glasgow G2 5LA (the Snug) | Active | [Twitter](https://x.com/glasgow_bitcoin) · [Telegram](https://t.me/+bx0VvoucPIpjNTY0) · [Meetup](https://meetu.ps/c/3zlZY/v822r/a) | 55.8619,-4.2586 |
+| Bitcoin Glasgow | Second Wednesday · 18:00 | The Piper Bar | Active | [Twitter](https://x.com/glasgowbitcoin) · [Telegram](https://t.me/+WTZQBjGXdME0MmJk) | 55.8612,-4.2501 |
+| Glasgow Bitcoin Group | Third Wednesday · 18:00 | Hope & Vincent, 140 St Vincent St, Glasgow G2 5LA (the Snug) | Active | [Twitter](https://x.com/glasgow_bitcoin) · [Telegram](https://t.me/+bx0VvoucPIpjNTY0) · [Meetup](https://meetu.ps/c/3zlZY/v822r/a) | 55.8619,-4.2586 |
 | Dundee Bitcoin | Second Monday · 17:30 | The Wine Press | Active | [Twitter](https://x.com/dundeebitcoin) | 56.4602,-2.9689 |
 | Aberdeen Bitcoin | Monthly | Aberdeen | Active | [Twitter](https://x.com/aberdeenbitcoin) | 57.1497,-2.0943 |
 | Bitcoin Power - Ayrshire | Monthly | Ayr | Active | [Meetup](https://www.meetup.com/bitcoin-power/events/311034050/) | 55.4586,-4.6292 |
