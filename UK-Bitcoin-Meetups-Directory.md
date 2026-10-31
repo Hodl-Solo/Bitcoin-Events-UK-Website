@@ -130,7 +130,6 @@ last_updated: 2026-10-22
 | Limerick Bitcoin | Monthly | Limerick | Paused | [Twitter](https://x.com/LimerickBitcoin) · [Telegram](https://t.me/LimerickBitcoin) | 52.6638,-8.6267 |
 | Bitcoin Hideaway | - | County Offaly | Remove | [Website](http://bitcoinhideaway.com) · [Twitter](https://x.com/bitcoinhideaway) · [Telegram](https://t.me/cultof21) | 53.2734,-7.4889 |
 | North West Bitcoin Hub | - | County Derry/Tyrone/Donegal | Paused | [Twitter](https://x.com/nw_bitcoinhub) | 54.8274,-7.4633 |
-| Bitcoin Wexford | Monthly, last Thursday | Apt 7, St Peter's Square, Wexford, Y35 ER2F | Paused | Find them on Club Orange | 52.3365,-6.4605 |
 
 ---
 
@@ -146,9 +145,9 @@ last_updated: 2026-10-22
 
 ## Notes
 
-- Total listings: 58
-- Active: 53
-- Paused: 5
+- Total listings: 54
+- Active: 44
+- Paused: 10
 - Map coordinates are approximate where a meetup uses rotating or unspecified venues.
 - Last synced from the live website: 2026-09-10
 - From this point forward, this Markdown file is the source of truth for the website meetup directory and map.
