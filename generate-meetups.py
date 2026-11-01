@@ -62,6 +62,7 @@ LOGO_BY_NAME = {
     'Bitcoin Bristol Beer Social': 'assets/meetup-logos/bristol-bitcoin.png',
     'Brum Bitcoin & Beer': 'assets/meetup-logos/brum-bitcoin-beer.jpg',
     'BTC Gloucestershire': 'assets/meetup-logos/btc-gloucestershire.jpg',
+    'Bury St Edmunds Bitcoin': 'assets/meetup-logos/bury-st-edmunds-bitcoin.webp',
     'Cambridge Bitcoin': 'assets/meetup-logos/cambridge-bitcoin.jpg',
     'Cambs Bitcoin': 'assets/meetup-logos/cambs-bitcoin.jpg',
     'Faith and Bitcoin': 'assets/meetup-logos/faith-and-bitcoin.jpg',

@@ -11,6 +11,7 @@ LOGOS = {
     'battersea-bitcoiners': 'Battersea Bitcoiners.JPG',
     'berkshire-bitcoiners': 'Berkshire Bitcoin Logo sq.png',
     'bitcoin-beach-bournemouth': 'Bournemouth Logo.png',
+    'bury-st-edmunds-bitcoin': 'bury st edmunds.png',
     'chilterns-bitcoin-hub': 'Chilterns logo.png',
     'city-financial-bitcoiners': 'city and financial.jpg',
     'cyphermunk-house': 'cyphermunk house.JPG',
