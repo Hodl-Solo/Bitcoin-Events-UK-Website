@@ -48,6 +48,7 @@ last_updated: 2026-10-22
 | Bitcoin Essex | Quarterly · 19:00 | Ye Olde Smack, Southend-on-Sea, SS9 2EN | Active | [Twitter](https://x.com/aaronofessex) · [Satlantis](https://www.satlantis.io/c/1000145/bitcoin-essex-meetup?returnTo=%2Fp%2Fnpub1ztzpz9xepmxsry7jqdhjc32dh5wtktpnn9kjq5eupdwdq06gdn6s0d7zxv%23calendars) | 51.5418,0.6517 |
 | Chilterns Bitcoin Hub | Monthly · 19:00 | Various venues | Paused | [Website](https://www.chilternsbitcoinhub.co.uk/) · [Telegram](https://t.me/ChilternsBTC) | 51.6287,-0.7482 |
 | Kent Bitcoin | Monthly | Various venues | Paused | [Website](http://kentbitcoin.com) · [Nostr](nostr:npub1mmp6r97caxqc6n749kkek820efry78xzrs5pe4vlxazup75zwzfslgc9xh) | 51.2724,0.5227 |
+| Bury St Edmunds Bitcoin | Ad hoc | Various venues, Bury St Edmunds | Active | [Twitter](https://x.com/BSEBTC) · [Website](https://bsebtc.co.uk) | 52.2458,0.7125 |
 | Cambridge Bitcoin | Second Thursday · 19:00 | Cambridge | Active | [Twitter](https://x.com/CambridgeBTC) · [Nostr](nostr:npub1cfuu8p6wqqkvepuhzcxj484qc8xvx55vjuj6fk6u4fneesknjjesz6uhv9) | 52.2053,0.1218 |
 | Cambs Bitcoin | Monthly | Cambridge | Active | [Twitter](https://x.com/cambsbtc) | 52.2080,0.1190 |
 | Canterbury Bitcoin | Monthly · 19:00 | Millers Arms | Active | [Meetup](https://www.meetup.com/canterbury-bitcoin-meetup-group) | 51.2817,1.0780 |
@@ -145,8 +146,8 @@ last_updated: 2026-10-22
 
 ## Notes
 
-- Total listings: 54
-- Active: 44
+- Total listings: 55
+- Active: 45
 - Paused: 10
 - Map coordinates are approximate where a meetup uses rotating or unspecified venues.
 - Last synced from the live website: 2026-09-10
