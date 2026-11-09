@@ -47,7 +47,7 @@ last_updated: 2026-10-22
 | Berkshire Bitcoiners | Monthly · 19:00 | The Volunteer, Theale | Active | [Twitter](https://x.com/bitcoinshire) · [Telegram](https://t.me/berkshirebitcoiners) · [Nostr](nostr:npub1l6mrna9fkchzpl82aa23ruus9z8wtgnqdv7pyjkezd85wgk7vg9s752fka) | 51.4366,-1.0758 |
 | Bitcoin Essex | Quarterly · 19:00 | Ye Olde Smack, Southend-on-Sea, SS9 2EN | Active | [Twitter](https://x.com/aaronofessex) · [Satlantis](https://www.satlantis.io/c/1000145/bitcoin-essex-meetup?returnTo=%2Fp%2Fnpub1ztzpz9xepmxsry7jqdhjc32dh5wtktpnn9kjq5eupdwdq06gdn6s0d7zxv%23calendars) | 51.5418,0.6517 |
 | Chilterns Bitcoin Hub | Monthly · 19:00 | Various venues | Paused | [Website](https://www.chilternsbitcoinhub.co.uk/) · [Telegram](https://t.me/ChilternsBTC) | 51.6287,-0.7482 |
-| St Albans Bitcoin | Dates announced · 19:00 | The Beehive, St Albans | Active | [Club Orange](https://app.cluborange.org/HE13QsvN) · [Telegram](https://t.me/+5NA9JmGSfvtkODE0) | 51.7496,-0.3359 |
+| St Albans Bitcoin | Dates announced · 19:00 | The Beehive, St Albans | Active | [Telegram](https://t.me/+5NA9JmGSfvtkODE0) | 51.7496,-0.3359 |
 | Kent Bitcoin | Monthly | Various venues | Paused | [Website](http://kentbitcoin.com) · [Nostr](nostr:npub1mmp6r97caxqc6n749kkek820efry78xzrs5pe4vlxazup75zwzfslgc9xh) | 51.2724,0.5227 |
 | Bury St Edmunds Bitcoin | Ad hoc | Various venues, Bury St Edmunds | Active | [Twitter](https://x.com/BSEBTC) · [Website](https://bsebtc.co.uk) | 52.2458,0.7125 |
 | Cambridge Bitcoin | Second Thursday · 19:00 | Cambridge | Active | [Twitter](https://x.com/CambridgeBTC) · [Nostr](nostr:npub1cfuu8p6wqqkvepuhzcxj484qc8xvx55vjuj6fk6u4fneesknjjesz6uhv9) | 52.2053,0.1218 |
