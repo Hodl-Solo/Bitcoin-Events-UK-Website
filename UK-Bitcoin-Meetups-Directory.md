@@ -47,12 +47,13 @@ last_updated: 2026-10-22
 | Berkshire Bitcoiners | Monthly · 19:00 | The Volunteer, Theale | Active | [Twitter](https://x.com/bitcoinshire) · [Telegram](https://t.me/berkshirebitcoiners) · [Nostr](nostr:npub1l6mrna9fkchzpl82aa23ruus9z8wtgnqdv7pyjkezd85wgk7vg9s752fka) | 51.4366,-1.0758 |
 | Bitcoin Essex | Quarterly · 19:00 | Ye Olde Smack, Southend-on-Sea, SS9 2EN | Active | [Twitter](https://x.com/aaronofessex) · [Satlantis](https://www.satlantis.io/c/1000145/bitcoin-essex-meetup?returnTo=%2Fp%2Fnpub1ztzpz9xepmxsry7jqdhjc32dh5wtktpnn9kjq5eupdwdq06gdn6s0d7zxv%23calendars) | 51.5418,0.6517 |
 | Chilterns Bitcoin Hub | Monthly · 19:00 | Various venues | Paused | [Website](https://www.chilternsbitcoinhub.co.uk/) · [Telegram](https://t.me/ChilternsBTC) | 51.6287,-0.7482 |
+| St Albans Bitcoin | Dates announced · 19:00 | The Beehive, St Albans | Active | [Club Orange](https://app.cluborange.org/HE13QsvN) · [Telegram](https://t.me/+5NA9JmGSfvtkODE0) | 51.7496,-0.3359 |
 | Kent Bitcoin | Monthly | Various venues | Paused | [Website](http://kentbitcoin.com) · [Nostr](nostr:npub1mmp6r97caxqc6n749kkek820efry78xzrs5pe4vlxazup75zwzfslgc9xh) | 51.2724,0.5227 |
 | Bury St Edmunds Bitcoin | Ad hoc | Various venues, Bury St Edmunds | Active | [Twitter](https://x.com/BSEBTC) · [Website](https://bsebtc.co.uk) | 52.2458,0.7125 |
 | Cambridge Bitcoin | Second Thursday · 19:00 | Cambridge | Active | [Twitter](https://x.com/CambridgeBTC) · [Nostr](nostr:npub1cfuu8p6wqqkvepuhzcxj484qc8xvx55vjuj6fk6u4fneesknjjesz6uhv9) | 52.2053,0.1218 |
 | Cambs Bitcoin | Monthly | Cambridge | Active | [Twitter](https://x.com/cambsbtc) | 52.2080,0.1190 |
 | Canterbury Bitcoin | Monthly · 19:00 | Millers Arms | Active | [Meetup](https://www.meetup.com/canterbury-bitcoin-meetup-group) | 51.2817,1.0780 |
-| Bitcoin Surrey | Monthly | Various | Active | [Twitter](https://x.com/bitcoinsurrey) · [Telegram](https://t.me/bitcoinsurrey) | 51.2362,-0.5704 |
+| Bitcoin Surrey | Second Tuesday · 18:00-22:00 | The Castle, 5 Castle St, Farnham, GU9 7HR | Active | [Twitter](https://x.com/bitcoinsurrey) · [Telegram](https://t.me/bitcoinsurrey) | 51.2154,-0.7995 |
 | Portsmouth Bitcoin | Monthly | Panero Lounge | Active | [Twitter](https://x.com/btc_portsmouth) | 50.7848,-1.0892 |
 | Wiltshire Bitcoin | Monthly | Salisbury area | Active | [Twitter](https://x.com/WiltsBtc) · [Telegram](https://t.me/WiltshireBTC) | 51.0688,-1.7945 |
 | Southampton Satoshi Society | Monthly | Southampton | Active | [Twitter](https://x.com/SatsSociety) · [Telegram](https://t.me/TheSatoshiSociety) · [Nostr](nostr:npub1t8k7fql0s4ced2nvkndg0gvax0yxnww6tu4yph7cwm92k305umcqgwuc36) | 50.9097,-1.4044 |
@@ -147,8 +148,8 @@ last_updated: 2026-10-22
 
 ## Notes
 
-- Total listings: 56
-- Active: 46
+- Total listings: 57
+- Active: 47
 - Paused: 10
 - Map coordinates are approximate where a meetup uses rotating or unspecified venues.
 - Last synced from the live website: 2026-09-10
