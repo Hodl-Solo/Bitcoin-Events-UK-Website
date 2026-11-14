@@ -46,7 +46,7 @@ LOGO_BY_NAME = {
     'Women of Bitcoin UK': 'assets/meetup-logos/women-of-bitcoin-uk.webp',
     'Brighton Bitcoin': 'assets/meetup-logos/brighton-bitcoin.jpg',
     'Bitcoin Essex': 'assets/meetup-logos/essex-bitcoin.png',
-    'Lincolnshire Bitcoin': 'assets/meetup-logos/lincolnshire-bitcoin.jpg',
+    'Lincs Bitcoin': 'assets/meetup-logos/lincolnshire-bitcoin.jpg',
     'Bitcoin Nottingham': 'assets/meetup-logos/nottingham-bitcoin.jpg',
     'Wiltshire Bitcoin': 'assets/meetup-logos/wiltshire-bitcoin.jpg',
     'Leeds Bitcoin Network': 'assets/meetup-logos/leeds-bitcoin.jpg',
