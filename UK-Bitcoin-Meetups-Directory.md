@@ -50,8 +50,8 @@ last_updated: 2026-10-22
 | St Albans Bitcoin | Dates announced · 19:00 | The Beehive, St Albans | Active | [Telegram](https://t.me/+5NA9JmGSfvtkODE0) | 51.7496,-0.3359 |
 | Kent Bitcoin | Monthly | Various venues | Paused | [Website](http://kentbitcoin.com) · [Nostr](nostr:npub1mmp6r97caxqc6n749kkek820efry78xzrs5pe4vlxazup75zwzfslgc9xh) | 51.2724,0.5227 |
 | Bury St Edmunds Bitcoin | Ad hoc | Various venues, Bury St Edmunds | Active | [Twitter](https://x.com/BSEBTC) · [Website](https://bsebtc.co.uk) | 52.2458,0.7125 |
-| Cambridge Bitcoin | Second Thursday · 19:00 | Cambridge | Active | [Twitter](https://x.com/CambridgeBTC) · [Nostr](nostr:npub1cfuu8p6wqqkvepuhzcxj484qc8xvx55vjuj6fk6u4fneesknjjesz6uhv9) | 52.2053,0.1218 |
-| Cambs Bitcoin | Monthly | Cambridge | Active | [Twitter](https://x.com/cambsbtc) | 52.2080,0.1190 |
+| Cambridge Bitcoin | Second Thursday · 19:00 | Cambridge | Paused | [Twitter](https://x.com/CambridgeBTC) · [Nostr](nostr:npub1cfuu8p6wqqkvepuhzcxj484qc8xvx55vjuj6fk6u4fneesknjjesz6uhv9) | 52.2053,0.1218 |
+| Cambs Bitcoin | Monthly | Cambridge | Paused | [Twitter](https://x.com/cambsbtc) | 52.2080,0.1190 |
 | Canterbury Bitcoin | Monthly · 19:00 | Millers Arms | Active | [Meetup](https://www.meetup.com/canterbury-bitcoin-meetup-group) | 51.2817,1.0780 |
 | Bitcoin Surrey | Second Tuesday · 18:00-22:00 | The Castle, 5 Castle St, Farnham, GU9 7HR | Active | [Twitter](https://x.com/bitcoinsurrey) · [Telegram](https://t.me/bitcoinsurrey) | 51.2154,-0.7995 |
 | Portsmouth Bitcoin | Monthly | Panero Lounge | Active | [Twitter](https://x.com/btc_portsmouth) | 50.7848,-1.0892 |
@@ -67,7 +67,7 @@ last_updated: 2026-10-22
 |---|---|---|---|---|---|
 | Brum Bitcoin & Beer | Third Thursday · 19:00 | The Anchor/The Wellington, Digbeth | Active | [Twitter](https://x.com/brumbitcoin) | 52.4749,-1.8849 |
 | Bitcoin Nottingham | Monthly · 18:30 | O'Connors Irish Bar, 33 Central Avenue, West Bridgford, Nottingham NG2 5GQ | Active | [Website](https://bitcoinnottingham.org/notts-bitcoin-meetups/) · [Twitter](https://x.com/NottmBitcoin) · [Nostr](nostr:npub1w4as69ddnfr8x5lul5nqzz9pf45073p4cdgdvlhcmzn8jk7szrdqlgzqm5) | 52.931657,-1.126167 |
-| Shropshire Bitcoiners | Third Wednesday · 19:00 | Tap n Can, Shrewsbury | Active | [Twitter](https://x.com/shropsbitcoin) · [Nostr](nostr:npub1u445qrpas8y58szt2unzu7wsvgsfg0llgf7y6sjz7pn76967mn5snh6mul) | 52.7100,-2.7495 |
+| Shropshire Bitcoiners | Third Wednesday · 19:00 | Admiral Benbow, Shrewsbury SY1 1NF | Active | [Twitter](https://x.com/shropsbitcoin) · [Nostr](nostr:npub1u445qrpas8y58szt2unzu7wsvgsfg0llgf7y6sjz7pn76967mn5snh6mul) | 52.706988,-2.755691 |
 | Lincs Bitcoin | Third Monday · 19:30 | Treaty of Commerce, Lincoln | Active | [Twitter](https://x.com/lincsbitcoin) · [Website](https://lincsbitcoin.com) - [Nostr](nostr:npub149yj20k9l2f23rzs4sp3qluuxxw86v4faumpaqk8k5f4zgqye54qc200n5) | 53.2263,-0.5407 |
 | Northamptonshire Bitcoin Network | Monthly · 19:30 | Various venues | Active | [Website](http://northantsbitcoin.com) · [Twitter](https://x.com/BTCNorthants) · [Nostr](nostr:npub1d6cnmzg9m4kpfxxnzvcgljg4jwk09tu2et3e72yx6ddgrkgmm7sj4jpwn) | 52.2405,-0.9027 |
 | Leamington Spa Bitcoin | Last Wednesday · 19:00 | The Star & Garter | Active | [Twitter](https://x.com/leambitcoin) · [Telegram](https://t.me/leambitcoin) | 52.2926,-1.5352 |
@@ -150,8 +150,8 @@ last_updated: 2026-10-22
 ## Notes
 
 - Total listings: 58
-- Active: 48
-- Paused: 10
+- Active: 46
+- Paused: 12
 - Map coordinates are approximate where a meetup uses rotating or unspecified venues.
 - Last synced from the live website: 2026-09-10
 - From this point forward, this Markdown file is the source of truth for the website meetup directory and map.
