@@ -74,7 +74,7 @@ last_updated: 2026-10-22
 | Leicester Bitcoin Network | Monthly | Various venues | Remove | [Twitter](https://x.com/leicester_btc) · [Telegram](https://t.me/LeicesterBitcoin) | 52.6369,-1.1398 |
 | Sutton Coldfield Bitcoin | Monthly | Sutton Coldfield | Remove | [Telegram](https://t.me/SuttonColdBTC) · [Twitter](https://x.com/BitcoinBoomer12) · [Nostr](nostr:npub1xmrl750a2deqehyu4zr8g6a75vwmgssdlcpx22gznp5vukuw48zs3c7yn6) | 52.5704,-1.8240 |
 | BTC Gloucestershire | Monthly | The Tall Ship pub | Active | [Twitter](https://x.com/BTCGlos) · [Telegram](https://t.me/btcGlos) | 51.8648,-2.2486 |
-| Oxford Bitcoin (OxBit) | Quarterly | Oxford | Active | [Twitter](https://x.com/OxBitMeetUp) | 51.7520,-1.2577 |
+| Oxford Bitcoin (OxBit) | 21st of month | Taste Tibet, Oxford | Active | [Twitter](https://x.com/OxBitMeetUp) | 51.7427,-1.2340 |
 
 ---
 
@@ -86,7 +86,7 @@ last_updated: 2026-10-22
 | York Bitcoin Meetup | First meetup Wed 18 Nov 2026, 7pm. Then every one to two months. All Bitcoin levels of experience welcome. Tourists in town outside meetup dates are welcome to get in touch. | Eagle & Child, High Petergate, York YO1 7EN | Active | [Twitter](https://x.com/YorkBitcoin) | 53.9624,-1.0847 |
 | Newcastle Bitcoin Coffee | Friday · 10:00-12:00 | Pumphreys Coffee Centre | Active | [Meetup](https://meetu.ps/e/PqtTh/v822r/i) · [Twitter](https://x.com/bitcoinncl) · [Nostr](nostr:npub17ar5py60qggd7m6hkxn93le6uxhx5nqdfj82ahlup7sd2u635kqs0qas6a) | 54.9737,-1.6138 |
 | Newcastle Bitcoin Meetup | Third Tuesday · 18:30 | The Town Wall, Pink Lane, Newcastle upon Tyne, NE1 5HX | Active | [Twitter](https://x.com/bitcoinncl) · [Nostr](nostr:npub17ar5py60qggd7m6hkxn93le6uxhx5nqdfj82ahlup7sd2u635kqs0qas6a) | 54.9694,-1.6185 |
-| Manchester Bitcoin | Monthly · 19:00 | Joshua Brooks | Active | [Twitter](https://x.com/bitcoin_mcr) · [Telegram](https://telegram.me/joinchat/C-JzxAqUBzsuN5MCNxV4dQ) · [Nostr](nostr:npub1w2d0xngltuuak23sty9xwnu6kwudswp86yn0jfdrhtxydwnhjslq60jesu) | 53.4741,-2.2378 |
+| Manchester Bitcoin | Monthly · 19:00 | Joshua Brooks | Active | [Twitter](https://x.com/bitcoin_mcr) · [Telegram](https://telegram.me/joinchat/C-JzxAqUBzsuN5MCNxV4dQ) · [Nostr](nostr:npub1w2d0xngltuu86yn0jfak23sty9xwnu6kwudswpdrhtxydwnhjslq60jesu) | 53.4741,-2.2378 |
 | Preston Bitcoin | Monthly · 19:00 | Various venues | Active | [Website](https://prestonbtc.co.uk) · [Instagram](https://www.instagram.com/prestonbitcoin) · [Nostr](nostr:npub16pxqu5dll5zjk5xezg40tmvcfz5t77p9czs50z9dwgpnn9m4fs9sxdftfe) | 53.7632,-2.7031 |
 | Liverpool Bitcoin | Monthly · 18:30 | The Railway Pub | Active | [Twitter](https://x.com/bitcoinlpool) · [Telegram](https://t.me/BitcoinLiverpoolUK) | 53.4084,-2.9916 |
 | Sheffield Bitcoin | Monthly · 13:00 | The Deli, Kelham | Active | [Telegram](https://t.me/BitcoinSheffield) · [Nostr](nostr:npub13np9hssuwcl292aksayly9nutdfrsxpm0dwt8w85tdfd7mwpy5fsjp0lgp) | 53.3890,-1.4728 |
