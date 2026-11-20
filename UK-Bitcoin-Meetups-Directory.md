@@ -87,7 +87,6 @@ last_updated: 2026-10-22
 | Newcastle Bitcoin Coffee | Friday · 10:00-12:00 | Pumphreys Coffee Centre | Active | [Meetup](https://meetu.ps/e/PqtTh/v822r/i) · [Twitter](https://x.com/bitcoinncl) · [Nostr](nostr:npub17ar5py60qggd7m6hkxn93le6uxhx5nqdfj82ahlup7sd2u635kqs0qas6a) | 54.9737,-1.6138 |
 | Newcastle Bitcoin Meetup | Third Tuesday · 18:30 | The Town Wall, Pink Lane, Newcastle upon Tyne, NE1 5HX | Active | [Twitter](https://x.com/bitcoinncl) · [Nostr](nostr:npub17ar5py60qggd7m6hkxn93le6uxhx5nqdfj82ahlup7sd2u635kqs0qas6a) | 54.9694,-1.6185 |
 | Manchester Bitcoin | Monthly · 19:00 | Joshua Brooks | Active | [Twitter](https://x.com/bitcoin_mcr) · [Telegram](https://telegram.me/joinchat/C-JzxAqUBzsuN5MCNxV4dQ) · [Nostr](nostr:npub1w2d0xngltuu86yn0jfak23sty9xwnu6kwudswpdrhtxydwnhjslq60jesu) | 53.4741,-2.2378 |
-| Preston Bitcoin | Monthly · 19:00 | Various venues | Active | [Website](https://prestonbtc.co.uk) · [Instagram](https://www.instagram.com/prestonbitcoin) · [Nostr](nostr:npub16pxqu5dll5zjk5xezg40tmvcfz5t77p9czs50z9dwgpnn9m4fs9sxdftfe) | 53.7632,-2.7031 |
 | Liverpool Bitcoin | Monthly · 18:30 | The Railway Pub | Active | [Twitter](https://x.com/bitcoinlpool) · [Telegram](https://t.me/BitcoinLiverpoolUK) | 53.4084,-2.9916 |
 | Sheffield Bitcoin | Monthly · 13:00 | The Deli, Kelham | Active | [Telegram](https://t.me/BitcoinSheffield) · [Nostr](nostr:npub13np9hssuwcl292aksayly9nutdfrsxpm0dwt8w85tdfd7mwpy5fsjp0lgp) | 53.3890,-1.4728 |
 | Bitcoin Derby | Monthly | Ye Olde Dolphin | Active | [Twitter](https://x.com/BTCDerby) · [Telegram](https://t.me/+Wv-hARcM3jExYjU0) · [Nostr](nostr:npub1f8vnjrtpc67yn3mj5fw3dpmnmselv8jgzysktpt60gsjs5h7wsvqqs5xev) | 52.9251,-1.4755 |
@@ -149,8 +148,8 @@ last_updated: 2026-10-22
 
 ## Notes
 
-- Total listings: 58
-- Active: 46
+- Total listings: 57
+- Active: 45
 - Paused: 12
 - Map coordinates are approximate where a meetup uses rotating or unspecified venues.
 - Last synced from the live website: 2026-09-10
