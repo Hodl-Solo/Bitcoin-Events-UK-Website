@@ -41,7 +41,6 @@ LOGO_BY_NAME = {
     'Limerick Bitcoin': 'assets/meetup-logos/limerick-bitcoin.webp',
     'Liverpool Bitcoin': 'assets/meetup-logos/liverpool-bitcoin.webp',
     'Newcastle Bitcoin Coffee': 'assets/meetup-logos/newcastle-bitcoin-coffee.webp',
-    'Preston Bitcoin': 'assets/meetup-logos/preston-bitcoin.webp',
     'Real Bedford FC': 'assets/meetup-logos/real-bedford-fc.webp',
     'Women of Bitcoin UK': 'assets/meetup-logos/women-of-bitcoin-uk.webp',
     'Brighton Bitcoin': 'assets/meetup-logos/brighton-bitcoin.jpg',
