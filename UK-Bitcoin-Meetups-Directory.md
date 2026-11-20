@@ -83,7 +83,7 @@ last_updated: 2026-10-22
 | Name | Day/Schedule | Venue | Status | Links | Map |
 |---|---|---|---|---|---|
 | Leeds Bitcoin Network | First Sunday · 13:00 | Global Tribe Cafe | Active | [Twitter](https://x.com/leedsbtc) · [Telegram](https://t.me/LeedsBTC) · [Nostr](nostr:npub1rs38wtz4x4fh63ny079ltvneg46xyyjf5qt3qknparn4a8rlj8jq2gdzf6) | 53.7995,-1.5417 |
-| York Bitcoin Meetup | First meetup Wed 18 Nov 2026, 7pm. Then every one to two months. All Bitcoin levels of experience welcome. Tourists in town outside meetup dates are welcome to get in touch. | Eagle & Child, High Petergate, York YO1 7EN | Active | [Twitter](https://x.com/YorkBitcoin) | 53.9624,-1.0847 |
+| York Bitcoin Meetup | Every one or two months · 19:00 | Eagle & Child, High Petergate, York YO1 7EN | Active | [Twitter](https://x.com/YorkBitcoin) | 53.9624,-1.0847 |
 | Newcastle Bitcoin Coffee | Friday · 10:00-12:00 | Pumphreys Coffee Centre | Active | [Meetup](https://meetu.ps/e/PqtTh/v822r/i) · [Twitter](https://x.com/bitcoinncl) · [Nostr](nostr:npub17ar5py60qggd7m6hkxn93le6uxhx5nqdfj82ahlup7sd2u635kqs0qas6a) | 54.9737,-1.6138 |
 | Newcastle Bitcoin Meetup | Third Tuesday · 18:30 | The Town Wall, Pink Lane, Newcastle upon Tyne, NE1 5HX | Active | [Twitter](https://x.com/bitcoinncl) · [Nostr](nostr:npub17ar5py60qggd7m6hkxn93le6uxhx5nqdfj82ahlup7sd2u635kqs0qas6a) | 54.9694,-1.6185 |
 | Manchester Bitcoin | Monthly · 19:00 | Joshua Brooks | Active | [Twitter](https://x.com/bitcoin_mcr) · [Telegram](https://telegram.me/joinchat/C-JzxAqUBzsuN5MCNxV4dQ) · [Nostr](nostr:npub1w2d0xngltuu86yn0jfak23sty9xwnu6kwudswpdrhtxydwnhjslq60jesu) | 53.4741,-2.2378 |
