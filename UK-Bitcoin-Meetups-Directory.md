@@ -43,7 +43,7 @@ last_updated: 2026-10-22
 | Name | Day/Schedule | Venue | Status | Links | Map |
 |---|---|---|---|---|---|
 | Brighton Bitcoin | Last Wednesday · 20:00 | Indian Summer (Bitcoin accepted) | Active | [Telegram](https://t.me/brighton_btc) · [Twitter](https://x.com/brighton_btc) | 50.8196,-0.1380 |
-| Bitcoin Beach Bournemouth | Thursday · 19:30 | Chaplins Cellar Bar (Bitcoin accepted) | Active | [Twitter](https://x.com/BtcBeachBmouth) · [Telegram](https://t.me/+vNXGbIGBTcxjMmRk) | 50.7278,-1.8408 |
+| Bitcoin Beach Bournemouth | Third Thursday · 19:30 (1-2-1 from 18:30) | Chaplins Cellar Bar (Bitcoin accepted) | Active | [Twitter](https://x.com/BtcBeachBmouth) · [Telegram](https://t.me/+vNXGbIGBTcxjMmRk) | 50.7278,-1.8408 |
 | Berkshire Bitcoiners | Monthly · 19:00 | The Volunteer, Theale | Active | [Twitter](https://x.com/bitcoinshire) · [Telegram](https://t.me/berkshirebitcoiners) · [Nostr](nostr:npub1l6mrna9fkchzpl82aa23ruus9z8wtgnqdv7pyjkezd85wgk7vg9s752fka) | 51.4366,-1.0758 |
 | Bitcoin Essex | Quarterly · 19:00 | Ye Olde Smack, Southend-on-Sea, SS9 2EN | Active | [Twitter](https://x.com/aaronofessex) · [Satlantis](https://www.satlantis.io/c/1000145/bitcoin-essex-meetup?returnTo=%2Fp%2Fnpub1ztzpz9xepmxsry7jqdhjc32dh5wtktpnn9kjq5eupdwdq06gdn6s0d7zxv%23calendars) | 51.5418,0.6517 |
 | Chilterns Bitcoin Hub | Monthly · 19:00 | Various venues | Paused | [Website](https://www.chilternsbitcoinhub.co.uk/) · [Telegram](https://t.me/ChilternsBTC) | 51.6287,-0.7482 |
