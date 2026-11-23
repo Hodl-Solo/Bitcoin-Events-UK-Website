@@ -103,7 +103,7 @@ last_updated: 2026-10-22
 | Glasgow Bitcoin Group | Third Wednesday · 18:00 | Hope & Vincent, 140 St Vincent St, Glasgow G2 5LA (the Snug) | Active | [Twitter](https://x.com/glasgow_bitcoin) · [Telegram](https://t.me/+bx0VvoucPIpjNTY0) · [Meetup](https://meetu.ps/c/3zlZY/v822r/a) | 55.8619,-4.2586 |
 | Dundee Bitcoin | Second Monday · 17:30 | The Wine Press | Active | [Twitter](https://x.com/dundeebitcoin) | 56.4602,-2.9689 |
 | Aberdeen Bitcoin | Monthly | Aberdeen | Active | [Twitter](https://x.com/aberdeenbitcoin) | 57.1497,-2.0943 |
-| Bitcoin Power - Ayrshire | Monthly | Ayr | Active | [Meetup](https://www.meetup.com/bitcoin-power/events/311034050/) | 55.4586,-4.6292 |
+| Bitcoin Power - Ayrshire | Monthly | Ayr | Paused | [Meetup](https://www.meetup.com/bitcoin-power/events/311034050/) | 55.4586,-4.6292 |
 
 ---
 
@@ -149,8 +149,8 @@ last_updated: 2026-10-22
 ## Notes
 
 - Total listings: 57
-- Active: 45
-- Paused: 12
+- Active: 44
+- Paused: 13
 - Map coordinates are approximate where a meetup uses rotating or unspecified venues.
 - Last synced from the live website: 2026-09-10
 - From this point forward, this Markdown file is the source of truth for the website meetup directory and map.
