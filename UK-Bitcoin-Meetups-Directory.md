@@ -43,7 +43,7 @@ last_updated: 2026-10-22
 | Name | Day/Schedule | Venue | Status | Links | Map |
 |---|---|---|---|---|---|
 | Brighton Bitcoin | Last Wednesday · 20:00 | Indian Summer (Bitcoin accepted) | Active | [Telegram](https://t.me/brighton_btc) · [Twitter](https://x.com/brighton_btc) | 50.8196,-0.1380 |
-| Bitcoin Beach Bournemouth | Thursday · 19:30 | Chaplins Cellar Bar (Bitcoin accepted) | Active | [Twitter](https://x.com/BtcBeachBmouth) · [Telegram](https://t.me/+vNXGbIGBTcxjMmRk) | 50.7278,-1.8408 |
+| Bitcoin Beach Bournemouth | Third Thursday · 19:30 (1-2-1 from 18:30) | Chaplins Cellar Bar (Bitcoin accepted) | Active | [Twitter](https://x.com/BtcBeachBmouth) · [Telegram](https://t.me/+vNXGbIGBTcxjMmRk) | 50.7278,-1.8408 |
 | Berkshire Bitcoiners | Monthly · 19:00 | The Volunteer, Theale | Active | [Twitter](https://x.com/bitcoinshire) · [Telegram](https://t.me/berkshirebitcoiners) · [Nostr](nostr:npub1l6mrna9fkchzpl82aa23ruus9z8wtgnqdv7pyjkezd85wgk7vg9s752fka) | 51.4366,-1.0758 |
 | Bitcoin Essex | Quarterly · 19:00 | Ye Olde Smack, Southend-on-Sea, SS9 2EN | Active | [Twitter](https://x.com/aaronofessex) · [Satlantis](https://www.satlantis.io/c/1000145/bitcoin-essex-meetup?returnTo=%2Fp%2Fnpub1ztzpz9xepmxsry7jqdhjc32dh5wtktpnn9kjq5eupdwdq06gdn6s0d7zxv%23calendars) | 51.5418,0.6517 |
 | Chilterns Bitcoin Hub | Monthly · 19:00 | Various venues | Paused | [Website](https://www.chilternsbitcoinhub.co.uk/) · [Telegram](https://t.me/ChilternsBTC) | 51.6287,-0.7482 |
@@ -103,7 +103,7 @@ last_updated: 2026-10-22
 | Glasgow Bitcoin Group | Third Wednesday · 18:00 | Hope & Vincent, 140 St Vincent St, Glasgow G2 5LA (the Snug) | Active | [Twitter](https://x.com/glasgow_bitcoin) · [Telegram](https://t.me/+bx0VvoucPIpjNTY0) · [Meetup](https://meetu.ps/c/3zlZY/v822r/a) | 55.8619,-4.2586 |
 | Dundee Bitcoin | Second Monday · 17:30 | The Wine Press | Active | [Twitter](https://x.com/dundeebitcoin) | 56.4602,-2.9689 |
 | Aberdeen Bitcoin | Monthly | Aberdeen | Active | [Twitter](https://x.com/aberdeenbitcoin) | 57.1497,-2.0943 |
-| Bitcoin Power - Ayrshire | Monthly | Ayr | Active | [Meetup](https://www.meetup.com/bitcoin-power/events/311034050/) | 55.4586,-4.6292 |
+| Bitcoin Power - Ayrshire | Monthly | Ayr | Paused | [Meetup](https://www.meetup.com/bitcoin-power/events/311034050/) | 55.4586,-4.6292 |
 
 ---
 
@@ -149,8 +149,8 @@ last_updated: 2026-10-22
 ## Notes
 
 - Total listings: 57
-- Active: 45
-- Paused: 12
+- Active: 44
+- Paused: 13
 - Map coordinates are approximate where a meetup uses rotating or unspecified venues.
 - Last synced from the live website: 2026-09-10
 - From this point forward, this Markdown file is the source of truth for the website meetup directory and map.
